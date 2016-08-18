@@ -8,7 +8,7 @@
 
 import UIKit
 
-final internal class FavoritesFactory
+internal struct FavoritesFactory
 {
     private let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
     private let favoritesVCIdentifier = "FavoritesViewController"
