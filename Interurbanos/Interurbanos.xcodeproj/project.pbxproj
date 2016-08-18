@@ -22,6 +22,8 @@
 		220126711D65D02F00B6884D /* FavoritesRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220126701D65D02F00B6884D /* FavoritesRouting.swift */; };
 		220126731D65D03D00B6884D /* FavoritesRoutingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220126721D65D03D00B6884D /* FavoritesRoutingProtocol.swift */; };
 		220126761D65D0BF00B6884D /* FavoritesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220126751D65D0BF00B6884D /* FavoritesFactory.swift */; };
+		22D1BE3D1D663CC400D567CC /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D1BE3C1D663CC400D567CC /* Resource.swift */; };
+		22D1BE411D663E0400D567CC /* BusStopAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D1BE401D663E0400D567CC /* BusStopAO.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +65,8 @@
 		220126701D65D02F00B6884D /* FavoritesRouting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesRouting.swift; sourceTree = "<group>"; };
 		220126721D65D03D00B6884D /* FavoritesRoutingProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesRoutingProtocol.swift; sourceTree = "<group>"; };
 		220126751D65D0BF00B6884D /* FavoritesFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesFactory.swift; sourceTree = "<group>"; };
+		22D1BE3C1D663CC400D567CC /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
+		22D1BE401D663E0400D567CC /* BusStopAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStopAO.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,7 +117,8 @@
 		2201262F1D65CD4E00B6884D /* Interurbanos */ = {
 			isa = PBXGroup;
 			children = (
-				2201265E1D65CE2D00B6884D /* Favorites */,
+				22D1BE3B1D663C3200D567CC /* Modules */,
+				22D1BE3A1D663C2D00D567CC /* Services */,
 				220126301D65CD4E00B6884D /* AppDelegate.swift */,
 				220126341D65CD4E00B6884D /* Main.storyboard */,
 				220126371D65CD4E00B6884D /* Assets.xcassets */,
@@ -195,6 +200,39 @@
 				220126721D65D03D00B6884D /* FavoritesRoutingProtocol.swift */,
 			);
 			name = Routing;
+			sourceTree = "<group>";
+		};
+		22D1BE3A1D663C2D00D567CC /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				22D1BE3F1D663DF000D567CC /* Api Objects */,
+				22D1BE3E1D663DE900D567CC /* Resource */,
+				22D1BE3C1D663CC400D567CC /* Resource.swift */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
+		22D1BE3B1D663C3200D567CC /* Modules */ = {
+			isa = PBXGroup;
+			children = (
+				2201265E1D65CE2D00B6884D /* Favorites */,
+			);
+			name = Modules;
+			sourceTree = "<group>";
+		};
+		22D1BE3E1D663DE900D567CC /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Resource;
+			sourceTree = "<group>";
+		};
+		22D1BE3F1D663DF000D567CC /* Api Objects */ = {
+			isa = PBXGroup;
+			children = (
+				22D1BE401D663E0400D567CC /* BusStopAO.swift */,
+			);
+			name = "Api Objects";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -334,12 +372,14 @@
 				2201266B1D65CFAE00B6884D /* FavoritesInteractor.swift in Sources */,
 				220126691D65CFA300B6884D /* FavoritesPresenterInterface.swift in Sources */,
 				2201266D1D65CFB700B6884D /* FavoritesInteractorIO.swift in Sources */,
+				22D1BE3D1D663CC400D567CC /* Resource.swift in Sources */,
 				220126601D65CE5200B6884D /* FavoritesViewController.swift in Sources */,
 				220126731D65D03D00B6884D /* FavoritesRoutingProtocol.swift in Sources */,
 				220126711D65D02F00B6884D /* FavoritesRouting.swift in Sources */,
 				220126761D65D0BF00B6884D /* FavoritesFactory.swift in Sources */,
 				220126311D65CD4E00B6884D /* AppDelegate.swift in Sources */,
 				2201266F1D65D00700B6884D /* FavoritesViewInterface.swift in Sources */,
+				22D1BE411D663E0400D567CC /* BusStopAO.swift in Sources */,
 				220126671D65CF9600B6884D /* FavoritesPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
