@@ -8,12 +8,12 @@
 
 /* Begin PBXBuildFile section */
 		220126311D65CD4E00B6884D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220126301D65CD4E00B6884D /* AppDelegate.swift */; };
-		220126331D65CD4E00B6884D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220126321D65CD4E00B6884D /* ViewController.swift */; };
 		220126361D65CD4E00B6884D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220126341D65CD4E00B6884D /* Main.storyboard */; };
 		220126381D65CD4E00B6884D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 220126371D65CD4E00B6884D /* Assets.xcassets */; };
 		2201263B1D65CD4E00B6884D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 220126391D65CD4E00B6884D /* LaunchScreen.storyboard */; };
 		220126461D65CD4F00B6884D /* InterurbanosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220126451D65CD4F00B6884D /* InterurbanosTests.swift */; };
 		220126511D65CD4F00B6884D /* InterurbanosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220126501D65CD4F00B6884D /* InterurbanosUITests.swift */; };
+		220126601D65CE5200B6884D /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2201265F1D65CE5200B6884D /* FavoritesViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +36,6 @@
 /* Begin PBXFileReference section */
 		2201262D1D65CD4E00B6884D /* Interurbanos.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Interurbanos.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		220126301D65CD4E00B6884D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		220126321D65CD4E00B6884D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		220126351D65CD4E00B6884D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		220126371D65CD4E00B6884D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2201263A1D65CD4E00B6884D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +46,7 @@
 		2201264C1D65CD4F00B6884D /* InterurbanosUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = InterurbanosUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		220126501D65CD4F00B6884D /* InterurbanosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterurbanosUITests.swift; sourceTree = "<group>"; };
 		220126521D65CD4F00B6884D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2201265F1D65CE5200B6884D /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,8 +97,8 @@
 		2201262F1D65CD4E00B6884D /* Interurbanos */ = {
 			isa = PBXGroup;
 			children = (
+				2201265E1D65CE2D00B6884D /* Favorites */,
 				220126301D65CD4E00B6884D /* AppDelegate.swift */,
-				220126321D65CD4E00B6884D /* ViewController.swift */,
 				220126341D65CD4E00B6884D /* Main.storyboard */,
 				220126371D65CD4E00B6884D /* Assets.xcassets */,
 				220126391D65CD4E00B6884D /* LaunchScreen.storyboard */,
@@ -123,6 +123,14 @@
 				220126521D65CD4F00B6884D /* Info.plist */,
 			);
 			path = InterurbanosUITests;
+			sourceTree = "<group>";
+		};
+		2201265E1D65CE2D00B6884D /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				2201265F1D65CE5200B6884D /* FavoritesViewController.swift */,
+			);
+			name = Favorites;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -259,7 +267,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				220126331D65CD4E00B6884D /* ViewController.swift in Sources */,
+				220126601D65CE5200B6884D /* FavoritesViewController.swift in Sources */,
 				220126311D65CD4E00B6884D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,7 +363,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -399,7 +407,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
