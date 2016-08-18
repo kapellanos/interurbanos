@@ -10,4 +10,10 @@ import UIKit
 
 class FavoritesViewController: UIViewController
 {
+    var eventHandler: FavoritesPresenterInterface?
+}
+
+extension FavoritesViewController: FavoritesViewInterface
+{
+    
 }

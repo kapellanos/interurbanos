@@ -14,6 +14,14 @@
 		220126461D65CD4F00B6884D /* InterurbanosTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220126451D65CD4F00B6884D /* InterurbanosTests.swift */; };
 		220126511D65CD4F00B6884D /* InterurbanosUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220126501D65CD4F00B6884D /* InterurbanosUITests.swift */; };
 		220126601D65CE5200B6884D /* FavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2201265F1D65CE5200B6884D /* FavoritesViewController.swift */; };
+		220126671D65CF9600B6884D /* FavoritesPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220126661D65CF9600B6884D /* FavoritesPresenter.swift */; };
+		220126691D65CFA300B6884D /* FavoritesPresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220126681D65CFA300B6884D /* FavoritesPresenterInterface.swift */; };
+		2201266B1D65CFAE00B6884D /* FavoritesInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2201266A1D65CFAE00B6884D /* FavoritesInteractor.swift */; };
+		2201266D1D65CFB700B6884D /* FavoritesInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2201266C1D65CFB700B6884D /* FavoritesInteractorIO.swift */; };
+		2201266F1D65D00700B6884D /* FavoritesViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2201266E1D65D00700B6884D /* FavoritesViewInterface.swift */; };
+		220126711D65D02F00B6884D /* FavoritesRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220126701D65D02F00B6884D /* FavoritesRouting.swift */; };
+		220126731D65D03D00B6884D /* FavoritesRoutingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220126721D65D03D00B6884D /* FavoritesRoutingProtocol.swift */; };
+		220126761D65D0BF00B6884D /* FavoritesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220126751D65D0BF00B6884D /* FavoritesFactory.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +55,14 @@
 		220126501D65CD4F00B6884D /* InterurbanosUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InterurbanosUITests.swift; sourceTree = "<group>"; };
 		220126521D65CD4F00B6884D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2201265F1D65CE5200B6884D /* FavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewController.swift; sourceTree = "<group>"; };
+		220126661D65CF9600B6884D /* FavoritesPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesPresenter.swift; sourceTree = "<group>"; };
+		220126681D65CFA300B6884D /* FavoritesPresenterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesPresenterInterface.swift; sourceTree = "<group>"; };
+		2201266A1D65CFAE00B6884D /* FavoritesInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesInteractor.swift; sourceTree = "<group>"; };
+		2201266C1D65CFB700B6884D /* FavoritesInteractorIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesInteractorIO.swift; sourceTree = "<group>"; };
+		2201266E1D65D00700B6884D /* FavoritesViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesViewInterface.swift; sourceTree = "<group>"; };
+		220126701D65D02F00B6884D /* FavoritesRouting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesRouting.swift; sourceTree = "<group>"; };
+		220126721D65D03D00B6884D /* FavoritesRoutingProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesRoutingProtocol.swift; sourceTree = "<group>"; };
+		220126751D65D0BF00B6884D /* FavoritesFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesFactory.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,9 +144,57 @@
 		2201265E1D65CE2D00B6884D /* Favorites */ = {
 			isa = PBXGroup;
 			children = (
-				2201265F1D65CE5200B6884D /* FavoritesViewController.swift */,
+				220126751D65D0BF00B6884D /* FavoritesFactory.swift */,
+				220126611D65CF6A00B6884D /* View */,
+				220126641D65CF7B00B6884D /* Presenter */,
+				220126621D65CF7000B6884D /* Application Logic */,
+				220126651D65CF8000B6884D /* Routing */,
 			);
 			name = Favorites;
+			sourceTree = "<group>";
+		};
+		220126611D65CF6A00B6884D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2201265F1D65CE5200B6884D /* FavoritesViewController.swift */,
+				2201266E1D65D00700B6884D /* FavoritesViewInterface.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		220126621D65CF7000B6884D /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				220126631D65CF7700B6884D /* Interactor */,
+			);
+			name = "Application Logic";
+			sourceTree = "<group>";
+		};
+		220126631D65CF7700B6884D /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				2201266A1D65CFAE00B6884D /* FavoritesInteractor.swift */,
+				2201266C1D65CFB700B6884D /* FavoritesInteractorIO.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		220126641D65CF7B00B6884D /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				220126661D65CF9600B6884D /* FavoritesPresenter.swift */,
+				220126681D65CFA300B6884D /* FavoritesPresenterInterface.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		220126651D65CF8000B6884D /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				220126701D65D02F00B6884D /* FavoritesRouting.swift */,
+				220126721D65D03D00B6884D /* FavoritesRoutingProtocol.swift */,
+			);
+			name = Routing;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -267,8 +331,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2201266B1D65CFAE00B6884D /* FavoritesInteractor.swift in Sources */,
+				220126691D65CFA300B6884D /* FavoritesPresenterInterface.swift in Sources */,
+				2201266D1D65CFB700B6884D /* FavoritesInteractorIO.swift in Sources */,
 				220126601D65CE5200B6884D /* FavoritesViewController.swift in Sources */,
+				220126731D65D03D00B6884D /* FavoritesRoutingProtocol.swift in Sources */,
+				220126711D65D02F00B6884D /* FavoritesRouting.swift in Sources */,
+				220126761D65D0BF00B6884D /* FavoritesFactory.swift in Sources */,
 				220126311D65CD4E00B6884D /* AppDelegate.swift in Sources */,
+				2201266F1D65D00700B6884D /* FavoritesViewInterface.swift in Sources */,
+				220126671D65CF9600B6884D /* FavoritesPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
