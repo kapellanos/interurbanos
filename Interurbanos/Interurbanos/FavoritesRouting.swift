@@ -6,7 +6,12 @@
 //  Copyright © 2016 molmedo. All rights reserved.
 //
 
-final internal class FavoritesRouting {}
+import UIKit
+
+final internal class FavoritesRouting
+{
+    var viewController: UIViewController?
+}
 
 extension FavoritesRouting: FavoritesRoutingProtocol
 {
