@@ -8,14 +8,16 @@
 
 import Foundation
 
+typealias JSONDictionary = [String: AnyObject]
+
 struct Resource<A> {
-    let url: NSURL
+    let url: URL
     let parse: (Data) -> A?
 }
 
 extension Resource
 {
-    init(url: NSURL, parseJSON: @escaping (Any) -> A?)
+    init(url: URL, parseJSON: @escaping (Any) -> A?)
     {
         self.url = url
         parse = { data in
