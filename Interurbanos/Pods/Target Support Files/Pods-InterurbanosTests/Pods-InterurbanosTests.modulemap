@@ -1,0 +1,6 @@
+framework module Pods_InterurbanosTests {
+  umbrella header "Pods-InterurbanosTests-umbrella.h"
+
+  export *
+  module * { export * }
+}
