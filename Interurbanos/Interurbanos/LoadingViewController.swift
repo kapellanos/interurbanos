@@ -12,6 +12,8 @@ final internal class LoadingViewController: UIViewController
 {
     let spinner = UIActivityIndicatorView(activityIndicatorStyle: .gray)
     
+    // MARK: - Init
+    
     init<A>(resource: Resource<A>, build: @escaping (A) -> UIViewController)
     {
         super.init(nibName: nil, bundle: nil)
@@ -27,7 +29,22 @@ final internal class LoadingViewController: UIViewController
     
     required init?(coder aDecoder: NSCoder) { return nil }
     
-    func add(content: UIViewController) {
+    // MARK: - VC lifecycle
+    
+    override func viewDidLoad()
+    {
+        super.viewDidLoad()
+        view.backgroundColor = .whiteColor()
+        spinner.hidesWhenStopped = true
+        spinner.translatesAutoresizingMaskIntoConstraints = false
+        view.addSubview(spinner)
+        spinner.center(inView: view)
+    }
+    
+    // MARK: - Private
+    
+    private func add(content: UIViewController)
+    {
         addChildViewController(content)
         view.addSubview(content.view)
         content.view.translatesAutoresizingMaskIntoConstraints = false
