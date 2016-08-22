@@ -31,7 +31,7 @@ final internal class LoadingViewController: UIViewController
         addChildViewController(content)
         view.addSubview(content.view)
         content.view.translatesAutoresizingMaskIntoConstraints = false
-//        content.view.constrainEdges(toMarginOf: view)
+        content.view.constrainEdges(toMarginOf: view)
         content.didMoveToParentViewController(self)
     }
 }
