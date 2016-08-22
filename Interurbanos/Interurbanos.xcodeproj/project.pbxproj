@@ -258,6 +258,45 @@
 			name = Providers;
 			sourceTree = "<group>";
 		};
+		22442FDE1D6B7E0D00879DD1 /* Search  */ = {
+			isa = PBXGroup;
+			children = (
+				22442FE21D6B7E7C00879DD1 /* View */,
+				22442FE11D6B7E7A00879DD1 /* Presenter */,
+				22442FE01D6B7E6900879DD1 /* Application Logic */,
+				22442FDF1D6B7E6600879DD1 /* Routing */,
+			);
+			name = "Search ";
+			sourceTree = "<group>";
+		};
+		22442FDF1D6B7E6600879DD1 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Routing;
+			sourceTree = "<group>";
+		};
+		22442FE01D6B7E6900879DD1 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "Application Logic";
+			sourceTree = "<group>";
+		};
+		22442FE11D6B7E7A00879DD1 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		22442FE21D6B7E7C00879DD1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		22AB16D61D6AD69C007C33E5 /* Loading Protocol */ = {
 			isa = PBXGroup;
 			children = (
@@ -289,6 +328,7 @@
 		22D1BE3B1D663C3200D567CC /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				22442FDE1D6B7E0D00879DD1 /* Search  */,
 				2201265E1D65CE2D00B6884D /* Favorites */,
 			);
 			name = Modules;

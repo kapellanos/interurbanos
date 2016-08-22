@@ -33,5 +33,53 @@
             </objects>
             <point key="canvasLocation" x="-390" y="3"/>
         </scene>
+        <!--Table View Controller-->
+        <scene sceneID="19m-Pg-SUx">
+            <objects>
+                <tableViewController id="lF6-oe-P0d" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="Jjf-KP-SGd">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <searchBar key="tableHeaderView" contentMode="redraw" id="l3s-a2-525">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                            <textInputTraits key="textInputTraits"/>
+                            <connections>
+                                <outlet property="delegate" destination="lF6-oe-P0d" id="FoU-fn-iDA"/>
+                            </connections>
+                        </searchBar>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="crF-Jg-Ao3">
+                                <rect key="frame" x="0.0" y="72" width="375" height="44"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="crF-Jg-Ao3" id="ggK-yr-kUm">
+                                    <frame key="frameInset" width="375" height="43"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                </tableViewCellContentView>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="lF6-oe-P0d" id="rsm-Kf-L7k"/>
+                            <outlet property="delegate" destination="lF6-oe-P0d" id="hWS-W2-bPw"/>
+                        </connections>
+                    </tableView>
+                    <connections>
+                        <outlet property="searchDisplayController" destination="mss-wx-8XQ" id="l01-P5-DEe"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="6UJ-VF-Z94" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <searchDisplayController id="mss-wx-8XQ">
+                    <connections>
+                        <outlet property="delegate" destination="lF6-oe-P0d" id="ts8-KS-csd"/>
+                        <outlet property="searchBar" destination="l3s-a2-525" id="UXf-fc-S5m"/>
+                        <outlet property="searchContentsController" destination="lF6-oe-P0d" id="0PB-Zq-SnI"/>
+                        <outlet property="searchResultsDataSource" destination="lF6-oe-P0d" id="6YI-hi-cKf"/>
+                        <outlet property="searchResultsDelegate" destination="lF6-oe-P0d" id="m0s-fl-qnP"/>
+                    </connections>
+                </searchDisplayController>
+            </objects>
+            <point key="canvasLocation" x="-386" y="641"/>
+        </scene>
     </scenes>
 </document>

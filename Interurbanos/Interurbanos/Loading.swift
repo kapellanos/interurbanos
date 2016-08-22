@@ -13,7 +13,7 @@ internal protocol Loading
 	associatedtype ResourceType
     var spinner: UIActivityIndicatorView { get }
     
-    func configure(value: ResourceType)
+    func configure(_ value: ResourceType)
 }
 
 extension Loading where Self: UIViewController
@@ -21,9 +21,9 @@ extension Loading where Self: UIViewController
     func load(resource: Resource<ResourceType>)
     {
         spinner.startAnimating()
-        Webservice().load(resource) { [weak self] result in
+        Webservice().load(resource: resource) { [weak self] result in
             self?.spinner.stopAnimating()
-            guard let value = result.value else { return }
+            guard let value = result else { return }
             self?.configure(value)
         }
     }
