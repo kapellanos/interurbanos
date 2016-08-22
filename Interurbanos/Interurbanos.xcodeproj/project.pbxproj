@@ -27,6 +27,7 @@
 		223479D41D6A05730000FB2D /* BusStopsProviders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223479D31D6A05730000FB2D /* BusStopsProviders.swift */; };
 		22AB16D81D6AD6AD007C33E5 /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AB16D71D6AD6AD007C33E5 /* Loading.swift */; };
 		22AB16DB1D6AD824007C33E5 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AB16DA1D6AD824007C33E5 /* LoadingViewController.swift */; };
+		22B79E911D6AF441002D7954 /* Constraints+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B79E901D6AF441002D7954 /* Constraints+Utils.swift */; };
 		22D1BE3D1D663CC400D567CC /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D1BE3C1D663CC400D567CC /* Resource.swift */; };
 		22D1BE411D663E0400D567CC /* BusStopAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D1BE401D663E0400D567CC /* BusStopAO.swift */; };
 		B800E4D34CE998FFA061BA72 /* Pods_InterurbanosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD2A12E40F2E91A2A9C4B41F /* Pods_InterurbanosUITests.framework */; };
@@ -79,6 +80,7 @@
 		223479D31D6A05730000FB2D /* BusStopsProviders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStopsProviders.swift; sourceTree = "<group>"; };
 		22AB16D71D6AD6AD007C33E5 /* Loading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
 		22AB16DA1D6AD824007C33E5 /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
+		22B79E901D6AF441002D7954 /* Constraints+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Constraints+Utils.swift"; sourceTree = "<group>"; };
 		22D1BE3C1D663CC400D567CC /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 		22D1BE401D663E0400D567CC /* BusStopAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStopAO.swift; sourceTree = "<group>"; };
 		4CD246FDBEB99774D17BD46A /* Pods-InterurbanosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterurbanosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InterurbanosTests/Pods-InterurbanosTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -243,6 +245,7 @@
 			isa = PBXGroup;
 			children = (
 				223479D01D6A02560000FB2D /* SequenceType+Utils.swift */,
+				22B79E901D6AF441002D7954 /* Constraints+Utils.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -609,6 +612,7 @@
 				220126761D65D0BF00B6884D /* FavoritesFactory.swift in Sources */,
 				220126311D65CD4E00B6884D /* AppDelegate.swift in Sources */,
 				2201266F1D65D00700B6884D /* FavoritesViewInterface.swift in Sources */,
+				22B79E911D6AF441002D7954 /* Constraints+Utils.swift in Sources */,
 				22D1BE411D663E0400D567CC /* BusStopAO.swift in Sources */,
 				223479D11D6A02560000FB2D /* SequenceType+Utils.swift in Sources */,
 				220126671D65CF9600B6884D /* FavoritesPresenter.swift in Sources */,
