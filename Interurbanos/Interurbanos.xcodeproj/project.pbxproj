@@ -25,6 +25,7 @@
 		223479CE1D69FFE20000FB2D /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223479CD1D69FFE20000FB2D /* WebService.swift */; };
 		223479D11D6A02560000FB2D /* SequenceType+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223479D01D6A02560000FB2D /* SequenceType+Utils.swift */; };
 		223479D41D6A05730000FB2D /* BusStopsProviders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223479D31D6A05730000FB2D /* BusStopsProviders.swift */; };
+		22AB16D81D6AD6AD007C33E5 /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AB16D71D6AD6AD007C33E5 /* Loading.swift */; };
 		22D1BE3D1D663CC400D567CC /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D1BE3C1D663CC400D567CC /* Resource.swift */; };
 		22D1BE411D663E0400D567CC /* BusStopAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D1BE401D663E0400D567CC /* BusStopAO.swift */; };
 		B800E4D34CE998FFA061BA72 /* Pods_InterurbanosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD2A12E40F2E91A2A9C4B41F /* Pods_InterurbanosUITests.framework */; };
@@ -75,6 +76,7 @@
 		223479CD1D69FFE20000FB2D /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		223479D01D6A02560000FB2D /* SequenceType+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SequenceType+Utils.swift"; sourceTree = "<group>"; };
 		223479D31D6A05730000FB2D /* BusStopsProviders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStopsProviders.swift; sourceTree = "<group>"; };
+		22AB16D71D6AD6AD007C33E5 /* Loading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
 		22D1BE3C1D663CC400D567CC /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 		22D1BE401D663E0400D567CC /* BusStopAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStopAO.swift; sourceTree = "<group>"; };
 		4CD246FDBEB99774D17BD46A /* Pods-InterurbanosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterurbanosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InterurbanosTests/Pods-InterurbanosTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -250,9 +252,18 @@
 			name = Providers;
 			sourceTree = "<group>";
 		};
+		22AB16D61D6AD69C007C33E5 /* Loading Protocol */ = {
+			isa = PBXGroup;
+			children = (
+				22AB16D71D6AD6AD007C33E5 /* Loading.swift */,
+			);
+			name = "Loading Protocol";
+			sourceTree = "<group>";
+		};
 		22D1BE3A1D663C2D00D567CC /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				22AB16D61D6AD69C007C33E5 /* Loading Protocol */,
 				223479D21D6A04DF0000FB2D /* Providers */,
 				22D1BE3F1D663DF000D567CC /* Api Objects */,
 				223479CC1D69FFD00000FB2D /* Web Service */,
@@ -579,6 +590,7 @@
 				220126691D65CFA300B6884D /* FavoritesPresenterInterface.swift in Sources */,
 				2201266D1D65CFB700B6884D /* FavoritesInteractorIO.swift in Sources */,
 				22D1BE3D1D663CC400D567CC /* Resource.swift in Sources */,
+				22AB16D81D6AD6AD007C33E5 /* Loading.swift in Sources */,
 				220126601D65CE5200B6884D /* FavoritesViewController.swift in Sources */,
 				220126731D65D03D00B6884D /* FavoritesRoutingProtocol.swift in Sources */,
 				220126711D65D02F00B6884D /* FavoritesRouting.swift in Sources */,
