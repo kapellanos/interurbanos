@@ -29,6 +29,7 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
         let window = UIWindow(frame: UIScreen.main.bounds)
         
         let favoritesVC = FavoritesFactory().favoritesVC()
+        let tabBarController = UITabBarController()
         window.rootViewController = favoritesVC
         
         return window

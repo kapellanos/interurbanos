@@ -25,9 +25,20 @@
 		223479CE1D69FFE20000FB2D /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223479CD1D69FFE20000FB2D /* WebService.swift */; };
 		223479D11D6A02560000FB2D /* SequenceType+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223479D01D6A02560000FB2D /* SequenceType+Utils.swift */; };
 		223479D41D6A05730000FB2D /* BusStopsProviders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223479D31D6A05730000FB2D /* BusStopsProviders.swift */; };
+		22442FE41D6CCAF500879DD1 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22442FE31D6CCAF500879DD1 /* SearchTableViewController.swift */; };
+		22442FE71D6CCBFD00879DD1 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22442FE61D6CCBFD00879DD1 /* MainTabBarController.swift */; };
+		226507B31D6CCE0C0017D3EB /* MainTabBarFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226507B21D6CCE0C0017D3EB /* MainTabBarFactory.swift */; };
+		226507B61D6CCE460017D3EB /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226507B51D6CCE460017D3EB /* App.swift */; };
 		22AB16D81D6AD6AD007C33E5 /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AB16D71D6AD6AD007C33E5 /* Loading.swift */; };
 		22AB16DB1D6AD824007C33E5 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AB16DA1D6AD824007C33E5 /* LoadingViewController.swift */; };
 		22B79E911D6AF441002D7954 /* Constraints+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22B79E901D6AF441002D7954 /* Constraints+Utils.swift */; };
+		22CC2BAC1D78CC7700B8EA57 /* SearchViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CC2BAB1D78CC7700B8EA57 /* SearchViewInterface.swift */; };
+		22CC2BAE1D78CC9500B8EA57 /* SearchPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CC2BAD1D78CC9500B8EA57 /* SearchPresenter.swift */; };
+		22CC2BB01D78CC9F00B8EA57 /* SearchPresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CC2BAF1D78CC9F00B8EA57 /* SearchPresenterInterface.swift */; };
+		22CC2BB21D78CCA800B8EA57 /* SearchInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CC2BB11D78CCA800B8EA57 /* SearchInteractor.swift */; };
+		22CC2BB41D78CCAF00B8EA57 /* SearchInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CC2BB31D78CCAF00B8EA57 /* SearchInteractorIO.swift */; };
+		22CC2BB61D78CCCE00B8EA57 /* SearchRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CC2BB51D78CCCE00B8EA57 /* SearchRouting.swift */; };
+		22CC2BB81D78CCD700B8EA57 /* SearchRoutingInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CC2BB71D78CCD700B8EA57 /* SearchRoutingInterface.swift */; };
 		22D1BE3D1D663CC400D567CC /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D1BE3C1D663CC400D567CC /* Resource.swift */; };
 		22D1BE411D663E0400D567CC /* BusStopAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D1BE401D663E0400D567CC /* BusStopAO.swift */; };
 		B800E4D34CE998FFA061BA72 /* Pods_InterurbanosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD2A12E40F2E91A2A9C4B41F /* Pods_InterurbanosUITests.framework */; };
@@ -78,9 +89,20 @@
 		223479CD1D69FFE20000FB2D /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		223479D01D6A02560000FB2D /* SequenceType+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SequenceType+Utils.swift"; sourceTree = "<group>"; };
 		223479D31D6A05730000FB2D /* BusStopsProviders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStopsProviders.swift; sourceTree = "<group>"; };
+		22442FE31D6CCAF500879DD1 /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		22442FE61D6CCBFD00879DD1 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		226507B21D6CCE0C0017D3EB /* MainTabBarFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarFactory.swift; sourceTree = "<group>"; };
+		226507B51D6CCE460017D3EB /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		22AB16D71D6AD6AD007C33E5 /* Loading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
 		22AB16DA1D6AD824007C33E5 /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
 		22B79E901D6AF441002D7954 /* Constraints+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Constraints+Utils.swift"; sourceTree = "<group>"; };
+		22CC2BAB1D78CC7700B8EA57 /* SearchViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchViewInterface.swift; sourceTree = "<group>"; };
+		22CC2BAD1D78CC9500B8EA57 /* SearchPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchPresenter.swift; sourceTree = "<group>"; };
+		22CC2BAF1D78CC9F00B8EA57 /* SearchPresenterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchPresenterInterface.swift; sourceTree = "<group>"; };
+		22CC2BB11D78CCA800B8EA57 /* SearchInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchInteractor.swift; sourceTree = "<group>"; };
+		22CC2BB31D78CCAF00B8EA57 /* SearchInteractorIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchInteractorIO.swift; sourceTree = "<group>"; };
+		22CC2BB51D78CCCE00B8EA57 /* SearchRouting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRouting.swift; sourceTree = "<group>"; };
+		22CC2BB71D78CCD700B8EA57 /* SearchRoutingInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRoutingInterface.swift; sourceTree = "<group>"; };
 		22D1BE3C1D663CC400D567CC /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 		22D1BE401D663E0400D567CC /* BusStopAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStopAO.swift; sourceTree = "<group>"; };
 		4CD246FDBEB99774D17BD46A /* Pods-InterurbanosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterurbanosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InterurbanosTests/Pods-InterurbanosTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -146,6 +168,7 @@
 		2201262F1D65CD4E00B6884D /* Interurbanos */ = {
 			isa = PBXGroup;
 			children = (
+				226507B41D6CCE3C0017D3EB /* App */,
 				22AB16D91D6AD814007C33E5 /* Loading View Controller */,
 				22D1BE3B1D663C3200D567CC /* Modules */,
 				22D1BE3A1D663C2D00D567CC /* Services */,
@@ -272,6 +295,8 @@
 		22442FDF1D6B7E6600879DD1 /* Routing */ = {
 			isa = PBXGroup;
 			children = (
+				22CC2BB51D78CCCE00B8EA57 /* SearchRouting.swift */,
+				22CC2BB71D78CCD700B8EA57 /* SearchRoutingInterface.swift */,
 			);
 			name = Routing;
 			sourceTree = "<group>";
@@ -279,6 +304,8 @@
 		22442FE01D6B7E6900879DD1 /* Application Logic */ = {
 			isa = PBXGroup;
 			children = (
+				22CC2BB11D78CCA800B8EA57 /* SearchInteractor.swift */,
+				22CC2BB31D78CCAF00B8EA57 /* SearchInteractorIO.swift */,
 			);
 			name = "Application Logic";
 			sourceTree = "<group>";
@@ -286,6 +313,8 @@
 		22442FE11D6B7E7A00879DD1 /* Presenter */ = {
 			isa = PBXGroup;
 			children = (
+				22CC2BAD1D78CC9500B8EA57 /* SearchPresenter.swift */,
+				22CC2BAF1D78CC9F00B8EA57 /* SearchPresenterInterface.swift */,
 			);
 			name = Presenter;
 			sourceTree = "<group>";
@@ -293,8 +322,27 @@
 		22442FE21D6B7E7C00879DD1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				22442FE31D6CCAF500879DD1 /* SearchTableViewController.swift */,
+				22CC2BAB1D78CC7700B8EA57 /* SearchViewInterface.swift */,
 			);
 			name = View;
+			sourceTree = "<group>";
+		};
+		22442FE51D6CCBF300879DD1 /* Tab Bar */ = {
+			isa = PBXGroup;
+			children = (
+				22442FE61D6CCBFD00879DD1 /* MainTabBarController.swift */,
+				226507B21D6CCE0C0017D3EB /* MainTabBarFactory.swift */,
+			);
+			name = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		226507B41D6CCE3C0017D3EB /* App */ = {
+			isa = PBXGroup;
+			children = (
+				226507B51D6CCE460017D3EB /* App.swift */,
+			);
+			name = App;
 			sourceTree = "<group>";
 		};
 		22AB16D61D6AD69C007C33E5 /* Loading Protocol */ = {
@@ -328,6 +376,7 @@
 		22D1BE3B1D663C3200D567CC /* Modules */ = {
 			isa = PBXGroup;
 			children = (
+				22442FE51D6CCBF300879DD1 /* Tab Bar */,
 				22442FDE1D6B7E0D00879DD1 /* Search  */,
 				2201265E1D65CE2D00B6884D /* Favorites */,
 			);
@@ -640,21 +689,32 @@
 			files = (
 				223479CE1D69FFE20000FB2D /* WebService.swift in Sources */,
 				223479D41D6A05730000FB2D /* BusStopsProviders.swift in Sources */,
+				22CC2BB01D78CC9F00B8EA57 /* SearchPresenterInterface.swift in Sources */,
 				22AB16DB1D6AD824007C33E5 /* LoadingViewController.swift in Sources */,
+				22CC2BAC1D78CC7700B8EA57 /* SearchViewInterface.swift in Sources */,
 				2201266B1D65CFAE00B6884D /* FavoritesInteractor.swift in Sources */,
 				220126691D65CFA300B6884D /* FavoritesPresenterInterface.swift in Sources */,
+				22442FE71D6CCBFD00879DD1 /* MainTabBarController.swift in Sources */,
+				22CC2BB61D78CCCE00B8EA57 /* SearchRouting.swift in Sources */,
+				22442FE41D6CCAF500879DD1 /* SearchTableViewController.swift in Sources */,
 				2201266D1D65CFB700B6884D /* FavoritesInteractorIO.swift in Sources */,
 				22D1BE3D1D663CC400D567CC /* Resource.swift in Sources */,
 				22AB16D81D6AD6AD007C33E5 /* Loading.swift in Sources */,
 				220126601D65CE5200B6884D /* FavoritesViewController.swift in Sources */,
+				22CC2BB41D78CCAF00B8EA57 /* SearchInteractorIO.swift in Sources */,
 				220126731D65D03D00B6884D /* FavoritesRoutingProtocol.swift in Sources */,
 				220126711D65D02F00B6884D /* FavoritesRouting.swift in Sources */,
+				22CC2BAE1D78CC9500B8EA57 /* SearchPresenter.swift in Sources */,
+				22CC2BB21D78CCA800B8EA57 /* SearchInteractor.swift in Sources */,
+				226507B61D6CCE460017D3EB /* App.swift in Sources */,
 				220126761D65D0BF00B6884D /* FavoritesFactory.swift in Sources */,
 				220126311D65CD4E00B6884D /* AppDelegate.swift in Sources */,
 				2201266F1D65D00700B6884D /* FavoritesViewInterface.swift in Sources */,
 				22B79E911D6AF441002D7954 /* Constraints+Utils.swift in Sources */,
+				22CC2BB81D78CCD700B8EA57 /* SearchRoutingInterface.swift in Sources */,
 				22D1BE411D663E0400D567CC /* BusStopAO.swift in Sources */,
 				223479D11D6A02560000FB2D /* SequenceType+Utils.swift in Sources */,
+				226507B31D6CCE0C0017D3EB /* MainTabBarFactory.swift in Sources */,
 				220126671D65CF9600B6884D /* FavoritesPresenter.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -728,6 +788,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -778,6 +839,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
