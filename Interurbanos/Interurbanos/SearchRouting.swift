@@ -6,9 +6,11 @@
 //  Copyright © 2016 molmedo. All rights reserved.
 //
 
+import UIKit
+
 class SearchRouting
 {
-    
+    var viewController: UIViewController?
 }
 
 extension SearchRouting: SearchRoutingInterface

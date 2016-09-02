@@ -16,23 +16,11 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplicationLaunchOptionsKey: Any]?) -> Bool
     {
-        window = createInitialViewController()
-        window?.makeKeyAndVisible()
+        window = UIWindow(frame: UIScreen.main.bounds)
+        
+        _ = App(window: window!)
         
         return true
-    }
-    
-    // MARK: Private
-    
-    private func createInitialViewController() -> UIWindow
-    {
-        let window = UIWindow(frame: UIScreen.main.bounds)
-        
-        let favoritesVC = FavoritesFactory().favoritesVC()
-        let tabBarController = UITabBarController()
-        window.rootViewController = favoritesVC
-        
-        return window
     }
 }
 

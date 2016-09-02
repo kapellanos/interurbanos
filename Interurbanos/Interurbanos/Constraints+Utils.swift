@@ -32,17 +32,18 @@ extension UIView
     
     public func center(inView view: UIView)
     {
-        centerXAnchor.constrainEqual(view.centerXAnchor)
-        centerYAnchor.constrainEqual(view.centerYAnchor)
+//        centerXAnchor.constrainEadasdasqual(anchor: view.centerXAnchor)
+//        centerYAnchor.constrainEadasdasqual(anchor: view.centerYAnchor)
     }
 }
 
 extension NSLayoutAnchor
 {
-    public func constrainEqual(_ anchor: NSLayoutAnchor, constant: CGFloat = 0) {
-        let newConstraint = constraint(equalTo: anchor, constant: constant)
-        newConstraint.isActive = true
-    }
+//    public func constrainEadasdasqual(anchor: NSLayoutAnchor, constant: CGFloat = 0) {
+//        let theconstraint = constraint(equalTo: anchor, constant: constant)
+//        theconstraint.isActive = true
+////        newConstraint.isActive = true
+//    }
 }
 
 public func mainQueue(block: @escaping () -> ())

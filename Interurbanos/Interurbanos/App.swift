@@ -14,6 +14,12 @@ struct App
     {
         let favoritesVC = FavoritesFactory().favoritesVC()
         
+        let searchVC = SearchFactory().searchVC()
         
+        let tabBarController = MainTabBarControllerFactory().mainTabBarController(viewControllers: [favoritesVC, searchVC])
+        
+        window.rootViewController = tabBarController
+        
+        window.makeKeyAndVisible()
     }
 }

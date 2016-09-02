@@ -8,10 +8,4 @@
 
 import UIKit
 
-class MainTabBarViewController: UITabBarController
-{
-    func addViewControllers(viewControllers: [UIViewController])
-    {
-        self.viewControllers = viewControllers
-    }
-}
+class MainTabBarViewController: UITabBarController {}

@@ -11,7 +11,7 @@ class SearchInteractor
     weak var presenter: SearchPresenterInterface?
 }
 
-extension SearchInteractorInput
+extension SearchInteractor: SearchInteractorInput
 {
     
 }
