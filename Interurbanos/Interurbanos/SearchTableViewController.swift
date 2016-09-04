@@ -11,9 +11,23 @@ import UIKit
 class SearchTableViewController: UITableViewController
 {
     var eventHandler: SearchPresenterInterface?
+    
+    var searchController: UISearchController?
+    
+    
 }
 
 extension SearchTableViewController: SearchViewInterface
+{
+    func addSearchController(searchViewController: UISearchController)
+    {
+        searchController = searchViewController
+        searchViewController.delegate = self
+        tableView.tableHeaderView = searchController?.searchBar
+    }
+}
+
+extension SearchTableViewController: UISearchControllerDelegate
 {
     
 }

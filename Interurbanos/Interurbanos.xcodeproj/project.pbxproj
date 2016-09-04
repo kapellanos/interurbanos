@@ -27,6 +27,12 @@
 		223479D41D6A05730000FB2D /* BusStopsProviders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223479D31D6A05730000FB2D /* BusStopsProviders.swift */; };
 		22442FE41D6CCAF500879DD1 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22442FE31D6CCAF500879DD1 /* SearchTableViewController.swift */; };
 		22442FE71D6CCBFD00879DD1 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22442FE61D6CCBFD00879DD1 /* MainTabBarController.swift */; };
+		225FE9101D7C430700F1B5FE /* SearchResultsSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225FE90F1D7C430700F1B5FE /* SearchResultsSearchController.swift */; };
+		225FE9121D7C43BD00F1B5FE /* SearchResultsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225FE9111D7C43BD00F1B5FE /* SearchResultsPresenter.swift */; };
+		225FE9141D7C43C700F1B5FE /* SearchResultsPresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225FE9131D7C43C700F1B5FE /* SearchResultsPresenterInterface.swift */; };
+		225FE9161D7C441800F1B5FE /* SearchResultsInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225FE9151D7C441800F1B5FE /* SearchResultsInteractorIO.swift */; };
+		225FE9181D7C444100F1B5FE /* SearchResultsViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225FE9171D7C444100F1B5FE /* SearchResultsViewInterface.swift */; };
+		225FE91A1D7C44ED00F1B5FE /* SearchResultsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225FE9191D7C44ED00F1B5FE /* SearchResultsInteractor.swift */; };
 		226507B61D6CCE460017D3EB /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226507B51D6CCE460017D3EB /* App.swift */; };
 		22AB16D81D6AD6AD007C33E5 /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AB16D71D6AD6AD007C33E5 /* Loading.swift */; };
 		22AB16DB1D6AD824007C33E5 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AB16DA1D6AD824007C33E5 /* LoadingViewController.swift */; };
@@ -92,6 +98,12 @@
 		223479D31D6A05730000FB2D /* BusStopsProviders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStopsProviders.swift; sourceTree = "<group>"; };
 		22442FE31D6CCAF500879DD1 /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
 		22442FE61D6CCBFD00879DD1 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		225FE90F1D7C430700F1B5FE /* SearchResultsSearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsSearchController.swift; sourceTree = "<group>"; };
+		225FE9111D7C43BD00F1B5FE /* SearchResultsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsPresenter.swift; sourceTree = "<group>"; };
+		225FE9131D7C43C700F1B5FE /* SearchResultsPresenterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsPresenterInterface.swift; sourceTree = "<group>"; };
+		225FE9151D7C441800F1B5FE /* SearchResultsInteractorIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsInteractorIO.swift; sourceTree = "<group>"; };
+		225FE9171D7C444100F1B5FE /* SearchResultsViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsViewInterface.swift; sourceTree = "<group>"; };
+		225FE9191D7C44ED00F1B5FE /* SearchResultsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsInteractor.swift; sourceTree = "<group>"; };
 		226507B51D6CCE460017D3EB /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 		22AB16D71D6AD6AD007C33E5 /* Loading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
 		22AB16DA1D6AD824007C33E5 /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
@@ -286,11 +298,8 @@
 		22442FDE1D6B7E0D00879DD1 /* Search  */ = {
 			isa = PBXGroup;
 			children = (
-				22B47D391D79E1F700B2CCF7 /* Factory */,
-				22442FE21D6B7E7C00879DD1 /* View */,
-				22442FE11D6B7E7A00879DD1 /* Presenter */,
-				22442FE01D6B7E6900879DD1 /* Application Logic */,
-				22442FDF1D6B7E6600879DD1 /* Routing */,
+				225FE9091D7C41D100F1B5FE /* Main Controller */,
+				225FE90A1D7C41DF00F1B5FE /* Search Controller */,
 			);
 			name = "Search ";
 			sourceTree = "<group>";
@@ -338,6 +347,63 @@
 				22B47D3C1D79E37F00B2CCF7 /* MainTabBarControllerFactory.swift */,
 			);
 			name = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		225FE9091D7C41D100F1B5FE /* Main Controller */ = {
+			isa = PBXGroup;
+			children = (
+				22B47D391D79E1F700B2CCF7 /* Factory */,
+				22442FE21D6B7E7C00879DD1 /* View */,
+				22442FE11D6B7E7A00879DD1 /* Presenter */,
+				22442FE01D6B7E6900879DD1 /* Application Logic */,
+				22442FDF1D6B7E6600879DD1 /* Routing */,
+			);
+			name = "Main Controller";
+			sourceTree = "<group>";
+		};
+		225FE90A1D7C41DF00F1B5FE /* Search Controller */ = {
+			isa = PBXGroup;
+			children = (
+				225FE90E1D7C428800F1B5FE /* Routing */,
+				225FE90D1D7C425500F1B5FE /* Interactor */,
+				225FE90C1D7C424600F1B5FE /* Presenter */,
+				225FE90B1D7C422400F1B5FE /* View */,
+			);
+			name = "Search Controller";
+			sourceTree = "<group>";
+		};
+		225FE90B1D7C422400F1B5FE /* View */ = {
+			isa = PBXGroup;
+			children = (
+				225FE90F1D7C430700F1B5FE /* SearchResultsSearchController.swift */,
+				225FE9171D7C444100F1B5FE /* SearchResultsViewInterface.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		225FE90C1D7C424600F1B5FE /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				225FE9111D7C43BD00F1B5FE /* SearchResultsPresenter.swift */,
+				225FE9131D7C43C700F1B5FE /* SearchResultsPresenterInterface.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		225FE90D1D7C425500F1B5FE /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				225FE9151D7C441800F1B5FE /* SearchResultsInteractorIO.swift */,
+				225FE9191D7C44ED00F1B5FE /* SearchResultsInteractor.swift */,
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		225FE90E1D7C428800F1B5FE /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Routing;
 			sourceTree = "<group>";
 		};
 		226507B41D6CCE3C0017D3EB /* App */ = {
@@ -703,25 +769,31 @@
 				22CC2BB01D78CC9F00B8EA57 /* SearchPresenterInterface.swift in Sources */,
 				22AB16DB1D6AD824007C33E5 /* LoadingViewController.swift in Sources */,
 				22CC2BAC1D78CC7700B8EA57 /* SearchViewInterface.swift in Sources */,
+				225FE9181D7C444100F1B5FE /* SearchResultsViewInterface.swift in Sources */,
 				2201266B1D65CFAE00B6884D /* FavoritesInteractor.swift in Sources */,
 				220126691D65CFA300B6884D /* FavoritesPresenterInterface.swift in Sources */,
+				225FE9101D7C430700F1B5FE /* SearchResultsSearchController.swift in Sources */,
 				22442FE71D6CCBFD00879DD1 /* MainTabBarController.swift in Sources */,
 				22CC2BB61D78CCCE00B8EA57 /* SearchRouting.swift in Sources */,
 				22442FE41D6CCAF500879DD1 /* SearchTableViewController.swift in Sources */,
 				2201266D1D65CFB700B6884D /* FavoritesInteractorIO.swift in Sources */,
 				22D1BE3D1D663CC400D567CC /* Resource.swift in Sources */,
 				22AB16D81D6AD6AD007C33E5 /* Loading.swift in Sources */,
+				225FE91A1D7C44ED00F1B5FE /* SearchResultsInteractor.swift in Sources */,
 				220126601D65CE5200B6884D /* FavoritesViewController.swift in Sources */,
 				22CC2BB41D78CCAF00B8EA57 /* SearchInteractorIO.swift in Sources */,
 				220126731D65D03D00B6884D /* FavoritesRoutingProtocol.swift in Sources */,
 				220126711D65D02F00B6884D /* FavoritesRouting.swift in Sources */,
 				22CC2BAE1D78CC9500B8EA57 /* SearchPresenter.swift in Sources */,
 				22CC2BB21D78CCA800B8EA57 /* SearchInteractor.swift in Sources */,
+				225FE9141D7C43C700F1B5FE /* SearchResultsPresenterInterface.swift in Sources */,
 				226507B61D6CCE460017D3EB /* App.swift in Sources */,
 				220126761D65D0BF00B6884D /* FavoritesFactory.swift in Sources */,
 				220126311D65CD4E00B6884D /* AppDelegate.swift in Sources */,
+				225FE9121D7C43BD00F1B5FE /* SearchResultsPresenter.swift in Sources */,
 				22B47D3B1D79E20500B2CCF7 /* SearchFactory.swift in Sources */,
 				22B47D3D1D79E37F00B2CCF7 /* MainTabBarControllerFactory.swift in Sources */,
+				225FE9161D7C441800F1B5FE /* SearchResultsInteractorIO.swift in Sources */,
 				2201266F1D65D00700B6884D /* FavoritesViewInterface.swift in Sources */,
 				22B79E911D6AF441002D7954 /* Constraints+Utils.swift in Sources */,
 				22CC2BB81D78CCD700B8EA57 /* SearchRoutingInterface.swift in Sources */,

@@ -6,7 +6,10 @@
 //  Copyright © 2016 molmedo. All rights reserved.
 //
 
+import UIKit
+
 protocol SearchViewInterface: class
 {
+    func addSearchController(searchViewController: UISearchController)
     
 }
