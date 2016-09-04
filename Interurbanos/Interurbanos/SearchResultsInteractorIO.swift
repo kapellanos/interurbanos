@@ -8,7 +8,7 @@
 
 protocol SearchResultsInteractorInput
 {
-    
+    func searchStop(stop: String)
 }
 
 protocol SearchResultsInteractorOutput: class

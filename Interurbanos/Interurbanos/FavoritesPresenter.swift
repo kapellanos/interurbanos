@@ -13,6 +13,8 @@ final internal class FavoritesPresenter
     weak var view: FavoritesViewInterface?
     var interactor: FavoritesInteractorInput?
     var routing: FavoritesRoutingProtocol?
+    
+    var dataSource: FavoritesDataSource?
 }
 
 extension FavoritesPresenter: FavoritesPresenterInterface

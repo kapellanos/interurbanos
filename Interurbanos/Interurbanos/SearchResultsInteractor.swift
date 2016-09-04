@@ -13,5 +13,12 @@ class SearchResultsInteractor
 
 extension SearchResultsInteractor: SearchResultsInteractorInput
 {
-    
+    func searchStop(stop: String)
+    {
+        let resource = BusStopAO.all
+        
+        Webservice().load(resource: resource) { _ in
+            
+        }
+    }
 }

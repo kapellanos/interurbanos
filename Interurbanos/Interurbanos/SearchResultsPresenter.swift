@@ -16,7 +16,7 @@ extension SearchResultsPresenter: SearchResultsPresenterInterface
 {
     func searchStop(stop: String)
     {
-        
+        interactor?.searchStop(stop: stop)
     }
 }
 
