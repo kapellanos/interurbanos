@@ -8,7 +8,6 @@
         <!--Search Results Search Controller-->
         <scene sceneID="yPE-Uy-rgB">
             <objects>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="cCJ-5q-Iw1" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController storyboardIdentifier="SearchResultsSearchController" id="UcR-gu-j72" customClass="SearchResultsSearchController" customModule="Interurbanos" customModuleProvider="target" sceneMemberID="viewController">
                     <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="CAV-bD-sLz">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
@@ -19,6 +18,7 @@
                         <outlet property="tableView" destination="CAV-bD-sLz" id="9QE-92-dqz"/>
                     </connections>
                 </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cCJ-5q-Iw1" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="-1225" y="-602"/>
         </scene>
@@ -36,34 +36,45 @@
             </objects>
             <point key="canvasLocation" x="-1255" y="201"/>
         </scene>
-        <!--Item-->
-        <scene sceneID="amt-Cq-jQr">
+        <!--Favorites View Controller-->
+        <scene sceneID="upo-Qd-Txa">
             <objects>
-                <tableViewController storyboardIdentifier="FavoritesViewController" id="5qT-Df-YF5" customClass="FavoritesViewController" customModule="Interurbanos" customModuleProvider="target" sceneMemberID="viewController">
-                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="9VK-H6-LAf">
+                <viewController storyboardIdentifier="FavoritesViewController" id="Jrz-wk-WCh" customClass="FavoritesViewController" customModule="Interurbanos" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="gXw-eL-gPV"/>
+                        <viewControllerLayoutGuide type="bottom" id="udT-v0-y3C"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="xoB-58-heD">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="NN4-KA-ipa">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </view>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="P3i-mr-2iD">
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                            </tableView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <prototypes>
-                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="xjk-Km-X0f">
-                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
-                                <autoresizingMask key="autoresizingMask"/>
-                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="xjk-Km-X0f" id="wpt-bN-LB8">
-                                    <frame key="frameInset" width="375" height="44"/>
-                                    <autoresizingMask key="autoresizingMask"/>
-                                </tableViewCellContentView>
-                            </tableViewCell>
-                        </prototypes>
-                        <connections>
-                            <outlet property="dataSource" destination="5qT-Df-YF5" id="ooe-16-oAl"/>
-                            <outlet property="delegate" destination="5qT-Df-YF5" id="Gaa-Jk-4AF"/>
-                        </connections>
-                    </tableView>
-                    <tabBarItem key="tabBarItem" title="Item" id="JL7-1r-CMq"/>
-                </tableViewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="0sq-Np-EQo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <constraints>
+                            <constraint firstItem="NN4-KA-ipa" firstAttribute="leading" secondItem="xoB-58-heD" secondAttribute="leading" id="1cR-db-apg"/>
+                            <constraint firstAttribute="trailing" secondItem="P3i-mr-2iD" secondAttribute="trailing" id="BUS-gY-rCX"/>
+                            <constraint firstItem="udT-v0-y3C" firstAttribute="top" secondItem="NN4-KA-ipa" secondAttribute="bottom" id="Bs0-Ic-TWg"/>
+                            <constraint firstItem="P3i-mr-2iD" firstAttribute="top" secondItem="gXw-eL-gPV" secondAttribute="bottom" id="GgB-2H-H5h"/>
+                            <constraint firstItem="NN4-KA-ipa" firstAttribute="top" secondItem="gXw-eL-gPV" secondAttribute="bottom" id="Mtp-mN-ayd"/>
+                            <constraint firstItem="udT-v0-y3C" firstAttribute="top" secondItem="P3i-mr-2iD" secondAttribute="bottom" id="PkA-Mg-MsL"/>
+                            <constraint firstItem="P3i-mr-2iD" firstAttribute="leading" secondItem="xoB-58-heD" secondAttribute="leading" id="RRi-E0-juz"/>
+                            <constraint firstAttribute="trailing" secondItem="NN4-KA-ipa" secondAttribute="trailing" id="pdl-Re-Ihj"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="notResults" destination="NN4-KA-ipa" id="qjx-L6-uIL"/>
+                        <outlet property="tableView" destination="P3i-mr-2iD" id="9y8-Oe-NLy"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="haj-Mj-wii" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="-390" y="3"/>
+            <point key="canvasLocation" x="-404" y="-149"/>
         </scene>
         <!--Item-->
         <scene sceneID="19m-Pg-SUx">

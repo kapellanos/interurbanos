@@ -8,9 +8,13 @@
 
 import UIKit
 
-class FavoritesViewController: UITableViewController
+class FavoritesViewController: UIViewController
 {
     var eventHandler: FavoritesPresenterInterface?
+    
+    @IBOutlet weak var notResults: UIView!
+    @IBOutlet weak var tableView: UITableView!
+    
     
     override func viewDidLoad()
     {
