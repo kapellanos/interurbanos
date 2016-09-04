@@ -33,6 +33,9 @@ internal struct FavoritesFactory
         interactor.presenter = presenter
         routing.viewController = favoritesVC
         
-        return favoritesVC
+        let navigationViewController = UINavigationController(rootViewController: favoritesVC)
+        navigationViewController.tabBarItem = tabBarItem
+        
+        return navigationViewController
     }
 }

@@ -20,7 +20,6 @@ struct SearchFactory
     func searchVC() -> UIViewController
     {
         let searchVC = mainStoryboard.instantiateViewController(withIdentifier: searchVCIdentifier) as! SearchTableViewController
-        searchVC.tabBarItem = tabBarItem
         
         let presenter = SearchPresenter()
         let interactor = SearchInteractor()
@@ -33,6 +32,9 @@ struct SearchFactory
         interactor.presenter = presenter
         routing.viewController = searchVC
         
-        return searchVC
+        let navigationViewController = UINavigationController(rootViewController: searchVC)
+        navigationViewController.tabBarItem = tabBarItem
+        
+        return navigationViewController
     }
 }
