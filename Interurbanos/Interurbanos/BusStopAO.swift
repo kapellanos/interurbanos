@@ -10,12 +10,16 @@ import Foundation
 
 struct BusStopAO
 {
-    private static let url = URL(string: "")!
-    
-    static let all = Resource<[BusStopAO]>(url: url, parseJSON: { json in
-        guard let dictionaries = json as? [JSONDictionary] else { return nil }
-        return dictionaries.flatMap(BusStopAO.init)
-    })
+    static func all(stopNumber: String) -> Resource<[BusStopAO]>
+    {
+        let url = URL(string: String(format: "http://api.interurbanos.welbits.com/v1/stop/%@", stopNumber))!
+        
+        return Resource<[BusStopAO]>(url: url, parseJSON:({ json in
+            guard let dictionaries = json as? JSONDictionary else { return nil }
+            let lines = dictionaries["lines"] as! [JSONDictionary]
+            return lines.flatMap(BusStopAO.init)
+        }))
+    }
 }
 
 extension BusStopAO
