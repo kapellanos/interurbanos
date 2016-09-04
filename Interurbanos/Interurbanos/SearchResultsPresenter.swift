@@ -14,7 +14,10 @@ class SearchResultsPresenter
 
 extension SearchResultsPresenter: SearchResultsPresenterInterface
 {
-    
+    func searchStop(stop: String)
+    {
+        
+    }
 }
 
 extension SearchResultsPresenter: SearchResultsInteractorOutput

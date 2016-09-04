@@ -6,6 +6,8 @@
 //  Copyright © 2016 molmedo. All rights reserved.
 //
 
+import Foundation
+
 final internal class FavoritesPresenter
 {
     weak var view: FavoritesViewInterface?
@@ -15,7 +17,10 @@ final internal class FavoritesPresenter
 
 extension FavoritesPresenter: FavoritesPresenterInterface
 {
-    
+    func viewLoaded()
+    {
+        view?.setupTitle(title: NSLocalizedString("Favoritos", comment: ""))
+    }
 }
 
 extension FavoritesPresenter: FavoritesInteractorOutput

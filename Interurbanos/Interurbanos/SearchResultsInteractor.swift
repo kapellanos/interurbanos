@@ -8,7 +8,7 @@
 
 class SearchResultsInteractor
 {
-    
+    weak var output: SearchResultsInteractorOutput?
 }
 
 extension SearchResultsInteractor: SearchResultsInteractorInput

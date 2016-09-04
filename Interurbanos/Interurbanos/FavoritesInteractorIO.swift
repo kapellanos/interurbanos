@@ -10,6 +10,6 @@ internal protocol FavoritesInteractorInput
 {
 }
 
-internal protocol FavoritesInteractorOutput
+internal protocol FavoritesInteractorOutput: class
 {
 }

@@ -11,9 +11,19 @@ import UIKit
 class FavoritesViewController: UITableViewController
 {
     var eventHandler: FavoritesPresenterInterface?
+    
+    override func viewDidLoad()
+    {
+        super.viewDidLoad()
+        
+        eventHandler?.viewLoaded()
+    }
 }
 
 extension FavoritesViewController: FavoritesViewInterface
 {
-    
+    func setupTitle(title: String)
+    {
+        navigationItem.title = NSLocalizedString("Favoritos", comment: "")
+    }
 }

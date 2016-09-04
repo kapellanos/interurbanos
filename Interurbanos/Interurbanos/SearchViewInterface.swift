@@ -10,6 +10,7 @@ import UIKit
 
 protocol SearchViewInterface: class
 {
+    func setupTitle(title: String)
     func addSearchController(searchViewController: UISearchController)
     
 }

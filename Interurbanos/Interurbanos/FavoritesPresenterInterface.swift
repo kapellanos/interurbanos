@@ -6,4 +6,7 @@
 //  Copyright © 2016 molmedo. All rights reserved.
 //
 
-internal protocol FavoritesPresenterInterface: class { }
+internal protocol FavoritesPresenterInterface
+{
+    func viewLoaded()
+}

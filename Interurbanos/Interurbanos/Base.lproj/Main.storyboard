@@ -5,6 +5,23 @@
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
+        <!--Search Results Search Controller-->
+        <scene sceneID="yPE-Uy-rgB">
+            <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="cCJ-5q-Iw1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <viewController storyboardIdentifier="SearchResultsSearchController" id="UcR-gu-j72" customClass="SearchResultsSearchController" customModule="Interurbanos" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" id="CAV-bD-sLz">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </tableView>
+                    <connections>
+                        <outlet property="tableView" destination="CAV-bD-sLz" id="9QE-92-dqz"/>
+                    </connections>
+                </viewController>
+            </objects>
+            <point key="canvasLocation" x="-1225" y="-602"/>
+        </scene>
         <!--Tab Bar Controller-->
         <scene sceneID="2WK-es-kmT">
             <objects>
@@ -56,17 +73,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                        <searchBar key="tableHeaderView" contentMode="redraw" id="l3s-a2-525">
-                            <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
-                            <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
-                            <textInputTraits key="textInputTraits"/>
-                            <connections>
-                                <outlet property="delegate" destination="lF6-oe-P0d" id="FoU-fn-iDA"/>
-                            </connections>
-                        </searchBar>
                         <prototypes>
                             <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" id="crF-Jg-Ao3">
-                                <rect key="frame" x="0.0" y="72" width="375" height="44"/>
+                                <rect key="frame" x="0.0" y="28" width="375" height="44"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="crF-Jg-Ao3" id="ggK-yr-kUm">
                                     <frame key="frameInset" width="375" height="44"/>
@@ -88,7 +97,6 @@
                 <searchDisplayController id="mss-wx-8XQ">
                     <connections>
                         <outlet property="delegate" destination="lF6-oe-P0d" id="ts8-KS-csd"/>
-                        <outlet property="searchBar" destination="l3s-a2-525" id="UXf-fc-S5m"/>
                         <outlet property="searchContentsController" destination="lF6-oe-P0d" id="0PB-Zq-SnI"/>
                         <outlet property="searchResultsDataSource" destination="lF6-oe-P0d" id="6YI-hi-cKf"/>
                         <outlet property="searchResultsDelegate" destination="lF6-oe-P0d" id="m0s-fl-qnP"/>

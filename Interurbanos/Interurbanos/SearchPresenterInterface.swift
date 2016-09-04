@@ -6,7 +6,7 @@
 //  Copyright © 2016 molmedo. All rights reserved.
 //
 
-protocol SearchPresenterInterface: class
+protocol SearchPresenterInterface
 {
-    
+    func viewLoaded()
 }

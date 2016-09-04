@@ -13,7 +13,7 @@ protocol SearchInteractorInput
     
 }
 
-protocol SearchInteractorOutput
+protocol SearchInteractorOutput: class
 {
     
 }

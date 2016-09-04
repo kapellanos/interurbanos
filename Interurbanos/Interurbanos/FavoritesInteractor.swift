@@ -8,7 +8,7 @@
 
 final internal class FavoritesInteractor
 {
-    weak var presenter: FavoritesPresenterInterface?
+    weak var presenter: FavoritesInteractorOutput?
 }
 
 extension FavoritesInteractor: FavoritesInteractorInput

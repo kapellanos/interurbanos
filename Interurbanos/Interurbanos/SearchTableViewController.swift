@@ -14,7 +14,12 @@ class SearchTableViewController: UITableViewController
     
     var searchController: UISearchController?
     
-    
+    override func viewDidLoad()
+    {
+        super.viewDidLoad()
+        
+        eventHandler?.viewLoaded()
+    }
 }
 
 extension SearchTableViewController: SearchViewInterface
@@ -24,6 +29,11 @@ extension SearchTableViewController: SearchViewInterface
         searchController = searchViewController
         searchViewController.delegate = self
         tableView.tableHeaderView = searchController?.searchBar
+    }
+    
+    func setupTitle(title: String)
+    {
+        navigationItem.title = title
     }
 }
 

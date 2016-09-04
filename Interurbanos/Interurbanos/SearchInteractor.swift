@@ -8,7 +8,7 @@
 
 class SearchInteractor
 {
-    weak var presenter: SearchPresenterInterface?
+    weak var presenter: SearchInteractorOutput?
 }
 
 extension SearchInteractor: SearchInteractorInput

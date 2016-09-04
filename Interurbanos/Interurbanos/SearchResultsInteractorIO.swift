@@ -6,12 +6,12 @@
 //  Copyright © 2016 molmedo. All rights reserved.
 //
 
-protocol SearchResultsInteractorOutput
+protocol SearchResultsInteractorInput
 {
     
 }
 
-protocol SearchResultsInteractorInput
+protocol SearchResultsInteractorOutput: class
 {
     
 }

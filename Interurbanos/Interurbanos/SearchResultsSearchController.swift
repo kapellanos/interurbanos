@@ -10,12 +10,41 @@ import UIKit
 
 class SearchResultsSearchController: UIViewController
 {
+    @IBOutlet var tableView: UITableView!
+    
     var searchBar: UISearchBar?
     
-    var eventHandler: SearchResultsPresenter?
+    var eventHandler: SearchResultsPresenterInterface?
 }
 
 extension SearchResultsSearchController: SearchResultsViewInterface
 {
     
+}
+
+extension SearchResultsSearchController: UISearchBarDelegate
+{
+    
+    func searchBarTextDidBeginEditing(_ searchBar: UISearchBar)
+    {
+//        eventHandler?.searchBeginEditing()
+    }
+    
+    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String)
+    {
+//        showStatus()
+//        changeNoResultsText()
+    }
+    
+    func searchBarCancelButtonClicked(_ searchBar: UISearchBar)
+    {
+//        eventHandler?.didCancelSearch()
+    }
+    
+    func searchBarSearchButtonClicked(_ searchBar: UISearchBar)
+    {
+        guard let text = searchBar.text, !text.isEmpty else { return }
+        
+        eventHandler?.searchStop(stop: text)
+    }
 }

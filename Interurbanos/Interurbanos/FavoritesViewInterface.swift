@@ -6,4 +6,7 @@
 //  Copyright © 2016 molmedo. All rights reserved.
 //
 
-internal protocol FavoritesViewInterface: class {}
+internal protocol FavoritesViewInterface: class
+{
+    func setupTitle(title: String)
+}
