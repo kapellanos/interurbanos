@@ -7,8 +7,19 @@
 //
 
 import Foundation
+import JASON
 
 struct BusStopAO
+{
+    let number: String
+    let waitTime: String
+    let source: String
+    let lineBound: String
+    let isNightLine: Bool
+    
+}
+
+extension BusStopAO
 {
     static func all(stopNumber: String) -> Resource<[BusStopAO]>
     {
@@ -16,7 +27,7 @@ struct BusStopAO
         
         return Resource<[BusStopAO]>(url: url, parseJSON:({ json in
             guard let dictionaries = json as? JSONDictionary else { return nil }
-            let lines = dictionaries["lines"] as! [JSONDictionary]
+            let lines = JSON(dictionaries["lines"] as! [JSONDictionary])
             return lines.flatMap(BusStopAO.init)
         }))
     }
@@ -24,8 +35,14 @@ struct BusStopAO
 
 extension BusStopAO
 {
-    init?(dictionary: JSONDictionary)
+    init?(json: JSON)
     {
+        guard let number = json["lineNumber"].string, let waitTime = json["waitTime"].string, let source = json["source"].string, let lineBound = json["lineBound"].string, let isNightLine = json["isNightLine"].bool else { return nil }
         
+        self.number = number
+        self.waitTime = waitTime
+        self.source = source
+        self.lineBound = lineBound
+        self.isNightLine = isNightLine
     }
 }

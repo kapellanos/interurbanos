@@ -1,3 +1,22 @@
-PODFILE CHECKSUM: 1bb3fd9044caf6a4691b2da6bbe49247e95d9b82
+PODS:
+  - JASON (2.2.1)
+
+DEPENDENCIES:
+  - JASON (from `https://github.com/delba/JASON.git`, branch `swift-3.0`)
+
+EXTERNAL SOURCES:
+  JASON:
+    :branch: swift-3.0
+    :git: https://github.com/delba/JASON.git
+
+CHECKOUT OPTIONS:
+  JASON:
+    :commit: 88d5b5de70f6284375f58027acc18a7b9b5d6ce4
+    :git: https://github.com/delba/JASON.git
+
+SPEC CHECKSUMS:
+  JASON: 2fdba956dfbf8663369b81a8176e6fcb225ebf10
+
+PODFILE CHECKSUM: eb00acda9950b296752f7a3d63be35fabb2ca036
 
 COCOAPODS: 1.0.1
