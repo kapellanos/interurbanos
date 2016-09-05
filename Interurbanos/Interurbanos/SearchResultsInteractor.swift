@@ -18,7 +18,9 @@ extension SearchResultsInteractor: SearchResultsInteractorInput
         let resource = BusStopAO.all(stopNumber: stop)
         
         Webservice().load(resource: resource) { 
-            print($0)
+            guard let stops = $0 else { return }
+            
+            
         }
     }
 }
