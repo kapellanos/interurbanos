@@ -22,5 +22,8 @@ extension SearchResultsPresenter: SearchResultsPresenterInterface
 
 extension SearchResultsPresenter: SearchResultsInteractorOutput
 {
-    
+    func stopObtained(busStop: BusStopAO)
+    {
+        
+    }
 }

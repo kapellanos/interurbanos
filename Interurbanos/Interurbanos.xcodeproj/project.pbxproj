@@ -27,6 +27,7 @@
 		223479D41D6A05730000FB2D /* BusStopsProviders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223479D31D6A05730000FB2D /* BusStopsProviders.swift */; };
 		22442FE41D6CCAF500879DD1 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22442FE31D6CCAF500879DD1 /* SearchTableViewController.swift */; };
 		22442FE71D6CCBFD00879DD1 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22442FE61D6CCBFD00879DD1 /* MainTabBarController.swift */; };
+		224AE2E41D7DEC460039BD14 /* BusStopsAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224AE2E31D7DEC460039BD14 /* BusStopsAO.swift */; };
 		225FE9101D7C430700F1B5FE /* SearchResultsSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225FE90F1D7C430700F1B5FE /* SearchResultsSearchController.swift */; };
 		225FE9121D7C43BD00F1B5FE /* SearchResultsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225FE9111D7C43BD00F1B5FE /* SearchResultsPresenter.swift */; };
 		225FE9141D7C43C700F1B5FE /* SearchResultsPresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225FE9131D7C43C700F1B5FE /* SearchResultsPresenterInterface.swift */; };
@@ -49,7 +50,7 @@
 		22CC2BB61D78CCCE00B8EA57 /* SearchRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CC2BB51D78CCCE00B8EA57 /* SearchRouting.swift */; };
 		22CC2BB81D78CCD700B8EA57 /* SearchRoutingInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CC2BB71D78CCD700B8EA57 /* SearchRoutingInterface.swift */; };
 		22D1BE3D1D663CC400D567CC /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D1BE3C1D663CC400D567CC /* Resource.swift */; };
-		22D1BE411D663E0400D567CC /* BusStopAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D1BE401D663E0400D567CC /* BusStopAO.swift */; };
+		22D1BE411D663E0400D567CC /* BusAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D1BE401D663E0400D567CC /* BusAO.swift */; };
 		B800E4D34CE998FFA061BA72 /* Pods_InterurbanosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD2A12E40F2E91A2A9C4B41F /* Pods_InterurbanosUITests.framework */; };
 		D519375B68BED67CFCC11B06 /* Pods_Interurbanos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A5828E33F7F983F644E256 /* Pods_Interurbanos.framework */; };
 		DE1FEAF119E19A29791EC793 /* Pods_InterurbanosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09553A2D79DC66A3E2035E63 /* Pods_InterurbanosTests.framework */; };
@@ -100,6 +101,7 @@
 		223479D31D6A05730000FB2D /* BusStopsProviders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStopsProviders.swift; sourceTree = "<group>"; };
 		22442FE31D6CCAF500879DD1 /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
 		22442FE61D6CCBFD00879DD1 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
+		224AE2E31D7DEC460039BD14 /* BusStopsAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStopsAO.swift; sourceTree = "<group>"; };
 		225FE90F1D7C430700F1B5FE /* SearchResultsSearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsSearchController.swift; sourceTree = "<group>"; };
 		225FE9111D7C43BD00F1B5FE /* SearchResultsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsPresenter.swift; sourceTree = "<group>"; };
 		225FE9131D7C43C700F1B5FE /* SearchResultsPresenterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsPresenterInterface.swift; sourceTree = "<group>"; };
@@ -122,7 +124,7 @@
 		22CC2BB51D78CCCE00B8EA57 /* SearchRouting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRouting.swift; sourceTree = "<group>"; };
 		22CC2BB71D78CCD700B8EA57 /* SearchRoutingInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRoutingInterface.swift; sourceTree = "<group>"; };
 		22D1BE3C1D663CC400D567CC /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
-		22D1BE401D663E0400D567CC /* BusStopAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStopAO.swift; sourceTree = "<group>"; };
+		22D1BE401D663E0400D567CC /* BusAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusAO.swift; sourceTree = "<group>"; };
 		4CD246FDBEB99774D17BD46A /* Pods-InterurbanosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterurbanosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InterurbanosTests/Pods-InterurbanosTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5E80A81251585C1CC04B30EA /* Pods-Interurbanos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Interurbanos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Interurbanos/Pods-Interurbanos.debug.xcconfig"; sourceTree = "<group>"; };
 		7C2DF0C95031DD0E79D4E68E /* Pods-InterurbanosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterurbanosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InterurbanosUITests/Pods-InterurbanosUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -501,7 +503,8 @@
 		22D1BE3F1D663DF000D567CC /* Api Objects */ = {
 			isa = PBXGroup;
 			children = (
-				22D1BE401D663E0400D567CC /* BusStopAO.swift */,
+				22D1BE401D663E0400D567CC /* BusAO.swift */,
+				224AE2E31D7DEC460039BD14 /* BusStopsAO.swift */,
 			);
 			name = "Api Objects";
 			sourceTree = "<group>";
@@ -806,6 +809,7 @@
 				22442FE71D6CCBFD00879DD1 /* MainTabBarController.swift in Sources */,
 				22CC2BB61D78CCCE00B8EA57 /* SearchRouting.swift in Sources */,
 				22442FE41D6CCAF500879DD1 /* SearchTableViewController.swift in Sources */,
+				224AE2E41D7DEC460039BD14 /* BusStopsAO.swift in Sources */,
 				2201266D1D65CFB700B6884D /* FavoritesInteractorIO.swift in Sources */,
 				22D1BE3D1D663CC400D567CC /* Resource.swift in Sources */,
 				22AB16D81D6AD6AD007C33E5 /* Loading.swift in Sources */,
@@ -829,7 +833,7 @@
 				22B79E911D6AF441002D7954 /* Constraints+Utils.swift in Sources */,
 				225FE91D1D7C464000F1B5FE /* SearchResultsFactory.swift in Sources */,
 				22CC2BB81D78CCD700B8EA57 /* SearchRoutingInterface.swift in Sources */,
-				22D1BE411D663E0400D567CC /* BusStopAO.swift in Sources */,
+				22D1BE411D663E0400D567CC /* BusAO.swift in Sources */,
 				223479D11D6A02560000FB2D /* SequenceType+Utils.swift in Sources */,
 				220126671D65CF9600B6884D /* FavoritesPresenter.swift in Sources */,
 			);
@@ -985,6 +989,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 5E80A81251585C1CC04B30EA /* Pods-Interurbanos.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Interurbanos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -998,6 +1003,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B8C5B7CF17E367A19D8AD9DC /* Pods-Interurbanos.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Interurbanos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

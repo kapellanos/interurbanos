@@ -1,5 +1,5 @@
 //
-//  BusStopAO.swift
+//  BusAO.swift
 //  Interurbanos
 //
 //  Created by Miguel Olmedo on 18/08/2016.
@@ -9,7 +9,7 @@
 import Foundation
 import JASON
 
-struct BusStopAO
+struct BusAO
 {
     let number: String
     let waitTime: String
@@ -19,21 +19,7 @@ struct BusStopAO
     
 }
 
-extension BusStopAO
-{
-    static func all(stopNumber: String) -> Resource<[BusStopAO]>
-    {
-        let url = URL(string: String(format: "http://api.interurbanos.welbits.com/v1/stop/%@", stopNumber))!
-        
-        return Resource<[BusStopAO]>(url: url, parseJSON:({ json in
-            guard let dictionaries = json as? JSONDictionary else { return nil }
-            let lines = JSON(dictionaries["lines"] as! [JSONDictionary])
-            return lines.flatMap(BusStopAO.init)
-        }))
-    }
-}
-
-extension BusStopAO
+extension BusAO
 {
     init?(json: JSON)
     {

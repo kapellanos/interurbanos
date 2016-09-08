@@ -15,10 +15,10 @@ extension SearchResultsInteractor: SearchResultsInteractorInput
 {
     func searchStop(stop: String)
     {
-        let resource = BusStopAO.all(stopNumber: stop)
+        let resource = BusStopAO.one(stopNumber: stop)
         
         Webservice().load(resource: resource) { 
-            guard let stops = $0 else { return }
+            guard $0 != nil else { return }
             
             
         }
