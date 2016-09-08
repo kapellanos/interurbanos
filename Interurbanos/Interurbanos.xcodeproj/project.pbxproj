@@ -26,6 +26,8 @@
 		223479D11D6A02560000FB2D /* SequenceType+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223479D01D6A02560000FB2D /* SequenceType+Utils.swift */; };
 		223479D41D6A05730000FB2D /* BusStopsProviders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223479D31D6A05730000FB2D /* BusStopsProviders.swift */; };
 		223A31711D8210E300E0A7F9 /* SearchResultsDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223A31701D8210E300E0A7F9 /* SearchResultsDataSource.swift */; };
+		223A31741D8211FD00E0A7F9 /* BusStopVM.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223A31731D8211FD00E0A7F9 /* BusStopVM.swift */; };
+		223A31771D82121200E0A7F9 /* BusStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223A31761D82121200E0A7F9 /* BusStop.swift */; };
 		22442FE41D6CCAF500879DD1 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22442FE31D6CCAF500879DD1 /* SearchTableViewController.swift */; };
 		22442FE71D6CCBFD00879DD1 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22442FE61D6CCBFD00879DD1 /* MainTabBarController.swift */; };
 		224AE2E41D7DEC460039BD14 /* BusStopsAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224AE2E31D7DEC460039BD14 /* BusStopsAO.swift */; };
@@ -101,6 +103,8 @@
 		223479D01D6A02560000FB2D /* SequenceType+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SequenceType+Utils.swift"; sourceTree = "<group>"; };
 		223479D31D6A05730000FB2D /* BusStopsProviders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStopsProviders.swift; sourceTree = "<group>"; };
 		223A31701D8210E300E0A7F9 /* SearchResultsDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsDataSource.swift; sourceTree = "<group>"; };
+		223A31731D8211FD00E0A7F9 /* BusStopVM.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStopVM.swift; sourceTree = "<group>"; };
+		223A31761D82121200E0A7F9 /* BusStop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStop.swift; sourceTree = "<group>"; };
 		22442FE31D6CCAF500879DD1 /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
 		22442FE61D6CCBFD00879DD1 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		224AE2E31D7DEC460039BD14 /* BusStopsAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStopsAO.swift; sourceTree = "<group>"; };
@@ -190,6 +194,8 @@
 		2201262F1D65CD4E00B6884D /* Interurbanos */ = {
 			isa = PBXGroup;
 			children = (
+				223A31751D82120900E0A7F9 /* Model */,
+				223A31721D8211E200E0A7F9 /* View Models */,
 				226507B41D6CCE3C0017D3EB /* App */,
 				22AB16D91D6AD814007C33E5 /* Loading View Controller */,
 				22D1BE3B1D663C3200D567CC /* Modules */,
@@ -302,6 +308,22 @@
 				223479D31D6A05730000FB2D /* BusStopsProviders.swift */,
 			);
 			name = Providers;
+			sourceTree = "<group>";
+		};
+		223A31721D8211E200E0A7F9 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				223A31731D8211FD00E0A7F9 /* BusStopVM.swift */,
+			);
+			name = "View Models";
+			sourceTree = "<group>";
+		};
+		223A31751D82120900E0A7F9 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				223A31761D82121200E0A7F9 /* BusStop.swift */,
+			);
+			name = Model;
 			sourceTree = "<group>";
 		};
 		22442FDE1D6B7E0D00879DD1 /* Search  */ = {
@@ -823,6 +845,8 @@
 				220126731D65D03D00B6884D /* FavoritesRoutingProtocol.swift in Sources */,
 				220126711D65D02F00B6884D /* FavoritesRouting.swift in Sources */,
 				22CC2BAE1D78CC9500B8EA57 /* SearchPresenter.swift in Sources */,
+				223A31741D8211FD00E0A7F9 /* BusStopVM.swift in Sources */,
+				223A31771D82121200E0A7F9 /* BusStop.swift in Sources */,
 				22CC2BB21D78CCA800B8EA57 /* SearchInteractor.swift in Sources */,
 				225FE9141D7C43C700F1B5FE /* SearchResultsPresenterInterface.swift in Sources */,
 				226507B61D6CCE460017D3EB /* App.swift in Sources */,
