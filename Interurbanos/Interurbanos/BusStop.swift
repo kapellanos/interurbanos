@@ -8,5 +8,8 @@
 
 struct BusStop
 {
-    
+    let stopNumber: String
+    let stopName: String
+    let stopType: String
+    let stopLines: [Bus]
 }
