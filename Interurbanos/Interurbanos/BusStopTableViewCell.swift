@@ -12,13 +12,14 @@ class BusStopTableViewCell: UITableViewCell
 {
     @IBOutlet weak var stopNumber: UILabel! {
         didSet {
-            //            stopNumber.textColor =
+            stopNumber.textColor = .greenBus
+            stopNumber.font = .defaultFont
         }
     }
     
     @IBOutlet weak var nextBusLineBounds: UILabel! {
         didSet {
-            //            stopNumber.textColor =
+            nextBusLineBounds.textColor = 
         }
     }
     

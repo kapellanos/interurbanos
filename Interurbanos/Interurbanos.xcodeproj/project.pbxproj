@@ -33,6 +33,8 @@
 		223A317E1D8333CF00E0A7F9 /* BusMapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223A317D1D8333CF00E0A7F9 /* BusMapper.swift */; };
 		223A31811D83350200E0A7F9 /* BusStopTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223A31801D83350200E0A7F9 /* BusStopTableViewCell.swift */; };
 		223A31831D83351400E0A7F9 /* BusStopTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 223A31821D83351400E0A7F9 /* BusStopTableViewCell.xib */; };
+		223A31851D84117500E0A7F9 /* CustomColors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223A31841D84117500E0A7F9 /* CustomColors.swift */; };
+		223A31871D84122000E0A7F9 /* CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223A31861D84122000E0A7F9 /* CustomFonts.swift */; };
 		22442FE41D6CCAF500879DD1 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22442FE31D6CCAF500879DD1 /* SearchTableViewController.swift */; };
 		22442FE71D6CCBFD00879DD1 /* MainTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22442FE61D6CCBFD00879DD1 /* MainTabBarController.swift */; };
 		224AE2E41D7DEC460039BD14 /* BusStopsAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224AE2E31D7DEC460039BD14 /* BusStopsAO.swift */; };
@@ -115,6 +117,8 @@
 		223A317D1D8333CF00E0A7F9 /* BusMapper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusMapper.swift; sourceTree = "<group>"; };
 		223A31801D83350200E0A7F9 /* BusStopTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStopTableViewCell.swift; sourceTree = "<group>"; };
 		223A31821D83351400E0A7F9 /* BusStopTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = BusStopTableViewCell.xib; sourceTree = "<group>"; };
+		223A31841D84117500E0A7F9 /* CustomColors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomColors.swift; sourceTree = "<group>"; };
+		223A31861D84122000E0A7F9 /* CustomFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFonts.swift; sourceTree = "<group>"; };
 		22442FE31D6CCAF500879DD1 /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
 		22442FE61D6CCBFD00879DD1 /* MainTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTabBarController.swift; sourceTree = "<group>"; };
 		224AE2E31D7DEC460039BD14 /* BusStopsAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStopsAO.swift; sourceTree = "<group>"; };
@@ -308,6 +312,8 @@
 			children = (
 				223479D01D6A02560000FB2D /* SequenceType+Utils.swift */,
 				22B79E901D6AF441002D7954 /* Constraints+Utils.swift */,
+				223A31841D84117500E0A7F9 /* CustomColors.swift */,
+				223A31861D84122000E0A7F9 /* CustomFonts.swift */,
 			);
 			name = Utils;
 			sourceTree = "<group>";
@@ -869,6 +875,7 @@
 				22CC2BB61D78CCCE00B8EA57 /* SearchRouting.swift in Sources */,
 				22442FE41D6CCAF500879DD1 /* SearchTableViewController.swift in Sources */,
 				224AE2E41D7DEC460039BD14 /* BusStopsAO.swift in Sources */,
+				223A31851D84117500E0A7F9 /* CustomColors.swift in Sources */,
 				2201266D1D65CFB700B6884D /* FavoritesInteractorIO.swift in Sources */,
 				22D1BE3D1D663CC400D567CC /* Resource.swift in Sources */,
 				22AB16D81D6AD6AD007C33E5 /* Loading.swift in Sources */,
@@ -886,6 +893,7 @@
 				225FE9141D7C43C700F1B5FE /* SearchResultsPresenterInterface.swift in Sources */,
 				226507B61D6CCE460017D3EB /* App.swift in Sources */,
 				220126761D65D0BF00B6884D /* FavoritesFactory.swift in Sources */,
+				223A31871D84122000E0A7F9 /* CustomFonts.swift in Sources */,
 				223A31711D8210E300E0A7F9 /* SearchResultsDataSource.swift in Sources */,
 				223A317E1D8333CF00E0A7F9 /* BusMapper.swift in Sources */,
 				220126311D65CD4E00B6884D /* AppDelegate.swift in Sources */,
