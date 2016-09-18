@@ -18,9 +18,12 @@ extension SearchResultsInteractor: SearchResultsInteractorInput
         let resource = BusStopAO.one(stopNumber: stop)
         
         Webservice().load(resource: resource) { 
-            guard $0 != nil else { return }
-            
-            
+            guard let stop = $0 else {
+                self.output?.stopNotExist()
+                return
+            }
+
+            self.output?.stopObtained(busStop: BusStopMapper().transform(fromBusStopAO: stop))
         }
     }
 }

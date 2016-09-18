@@ -13,14 +13,6 @@ class SearchPresenter
     weak var view: SearchViewInterface?
     var interactor: SearchInteractorInput?
     var routing: SearchRoutingInterface?
-    
-    // MARK: - Private
-    
-    fileprivate func addSearchController()
-    {
-        let searchController = SearchResultsFactory().searchResultsController()
-        view?.addSearchController(searchViewController: searchController)
-    }
 }
 
 extension SearchPresenter: SearchPresenterInterface
@@ -28,12 +20,20 @@ extension SearchPresenter: SearchPresenterInterface
     func viewLoaded()
     {
         addSearchController()
-        
+
         view?.setupTitle(title: NSLocalizedString("Paradas", comment: ""))
+    }
+
+    // MARK: - Private
+
+    private func addSearchController()
+    {
+        let searchController = SearchResultsFactory().searchResultsController()
+        view?.addSearchController(searchViewController: searchController)
     }
 }
 
 extension SearchPresenter: SearchInteractorOutput
 {
-    
+
 }

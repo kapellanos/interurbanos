@@ -10,6 +10,6 @@ struct BusStopMapper
 {
     func transform(fromBusStopAO busStopAO: BusStopAO) -> BusStop
     {
-        return BusStop(stopNumber: busStopAO.stopNumber, stopName: busStopAO.stopName, stopType: busStopAO.stopType, stopLines: busStopAO.stopLines.map(BusMapper().transform))
+        return BusStopBuilder.builder().stopNumber(busStopAO.stopNumber).stopName(busStopAO.stopName).stopType(busStopAO.stopType).stopLines(busStopAO.stopLines.map(BusMapper().transform)).build()
     }
 }

@@ -12,14 +12,20 @@ struct App
 {
     init(window: UIWindow)
     {
+        configureAppearance()
+
         let favoritesVC = FavoritesFactory().favoritesVC()
-        
         let searchVC = SearchFactory().searchVC()
-        
         let tabBarController = MainTabBarControllerFactory().mainTabBarController(viewControllers: [favoritesVC, searchVC])
         
         window.rootViewController = tabBarController
-        
         window.makeKeyAndVisible()
+    }
+
+    // MARK: - Private
+
+    private func configureAppearance()
+    {
+        UINavigationBar.appearance().barTintColor = .mainColor
     }
 }

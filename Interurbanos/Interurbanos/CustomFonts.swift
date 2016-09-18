@@ -10,6 +10,11 @@ import UIKit
 
 extension UIFont
 {
-    static let titleFont = UIFont.boldSystemFont(ofSize: 18.0)
-    static let defaultFont = UIFont.systemFont(ofSize: 16.0)
+    static var titleFont: UIFont {
+        return UIFont.boldSystemFont(ofSize: 18.0)
+    }
+    
+    static var defaultFont: UIFont {
+        return UIFont.systemFont(ofSize: 16.0)
+    }
 }

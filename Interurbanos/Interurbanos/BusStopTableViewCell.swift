@@ -19,13 +19,22 @@ class BusStopTableViewCell: UITableViewCell
     
     @IBOutlet weak var nextBusLineBounds: UILabel! {
         didSet {
-            nextBusLineBounds.textColor = 
+            nextBusLineBounds.textColor = .colorGrayBlack
+            nextBusLineBounds.font = .defaultFont
         }
     }
     
     @IBOutlet weak var nextBusStopTime: UILabel! {
         didSet {
-            //            stopNumber.textColor =
+            nextBusStopTime.textColor = .colorGray
+            nextBusStopTime.font = .defaultFont
+        }
+    }
+
+    var viewModel: BusStopVM? {
+        didSet {
+            guard let viewModel = viewModel else { return }
+            stopNumber.text = viewModel.leftLabel
         }
     }
 }

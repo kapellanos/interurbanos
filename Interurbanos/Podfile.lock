@@ -2,21 +2,11 @@ PODS:
   - JASON (2.2.1)
 
 DEPENDENCIES:
-  - JASON (from `https://github.com/delba/JASON.git`, branch `swift-3.0`)
-
-EXTERNAL SOURCES:
-  JASON:
-    :branch: swift-3.0
-    :git: https://github.com/delba/JASON.git
-
-CHECKOUT OPTIONS:
-  JASON:
-    :commit: 88d5b5de70f6284375f58027acc18a7b9b5d6ce4
-    :git: https://github.com/delba/JASON.git
+  - JASON
 
 SPEC CHECKSUMS:
   JASON: 2fdba956dfbf8663369b81a8176e6fcb225ebf10
 
-PODFILE CHECKSUM: eb00acda9950b296752f7a3d63be35fabb2ca036
+PODFILE CHECKSUM: 0f664a5e584126b1c45078e07cd5f2867be86208
 
 COCOAPODS: 1.0.1

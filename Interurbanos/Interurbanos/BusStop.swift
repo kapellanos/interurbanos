@@ -12,4 +12,12 @@ struct BusStop
     let stopName: String
     let stopType: String
     let stopLines: [Bus]
+    
+    init(builder: BusStopBuilder)
+    {
+        stopNumber = builder.stopNumber
+        stopName = builder.stopName
+        stopType = builder.stopType
+        stopLines = builder.stopLines
+    }
 }

@@ -19,7 +19,10 @@ class SearchResultsSearchController: UIViewController
 
 extension SearchResultsSearchController: SearchResultsViewInterface
 {
-    
+    func showError()
+    {
+        let alert = UIAlertController(title: NSLocalizedString(key: "Lo sentimo", comment: <#T##String##Swift.String#>), message: <#T##String?##Swift.String?#>, preferredStyle: <#T##UIAlertControllerStyle##UIKit.UIAlertControllerStyle#>)
+    }
 }
 
 extension SearchResultsSearchController: UISearchBarDelegate

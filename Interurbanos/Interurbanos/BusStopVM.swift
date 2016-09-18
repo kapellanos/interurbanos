@@ -8,5 +8,14 @@
 
 struct BusStopVM
 {
-    
+    private let busStop: BusStop
+
+    init(busStop: BusStop)
+    {
+        self.busStop = busStop
+    }
+
+    var leftLabel: String {
+        return busStop.stopNumber
+    }
 }

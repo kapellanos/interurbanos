@@ -8,5 +8,5 @@
 
 protocol SearchResultsViewInterface: class
 {
-    
+    func showError(errorString: String)
 }

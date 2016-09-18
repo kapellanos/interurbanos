@@ -13,5 +13,6 @@ protocol SearchResultsInteractorInput
 
 protocol SearchResultsInteractorOutput: class
 {
-    func stopObtained(busStop: BusStopAO)
+    func stopObtained(busStop: BusStop)
+    func stopNotExist()
 }
