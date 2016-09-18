@@ -10,18 +10,34 @@ import UIKit
 
 class SearchResultsDataSource: NSObject
 {
+    fileprivate var results = [BusStopVM]()
+
+    // MARK: - Public
+
+    func resetResults(results: [BusStopVM])
+    {
+        self.results = results
+    }
 }
 
 extension SearchResultsDataSource: UITableViewDataSource
 {
     func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int
     {
-        return 0
+        return results.count
     }
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
-        return UITableViewCell()
+        var cell = tableView.dequeueReusableCell(withIdentifier: "BusStopTableViewCell") as? BusStopTableViewCell
+
+        if cell == nil {
+            cell = Bundle.main.loadNibNamed("BusStopTableViewCell", owner: nil)?.first as! BusStopTableViewCell
+        }
+
+        cell!.viewModel = results[indexPath.row]
+
+        return cell!
     }
 }
 
