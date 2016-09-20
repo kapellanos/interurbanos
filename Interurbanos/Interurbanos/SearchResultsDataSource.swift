@@ -32,7 +32,7 @@ extension SearchResultsDataSource: UITableViewDataSource
         var cell = tableView.dequeueReusableCell(withIdentifier: "BusStopTableViewCell") as? BusStopTableViewCell
 
         if cell == nil {
-            cell = Bundle.main.loadNibNamed("BusStopTableViewCell", owner: nil)?.first as! BusStopTableViewCell
+            cell = Bundle.main.loadNibNamed("BusStopTableViewCell", owner: nil)?.first as? BusStopTableViewCell
         }
 
         cell!.viewModel = results[indexPath.row]

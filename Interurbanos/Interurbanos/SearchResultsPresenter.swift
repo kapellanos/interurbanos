@@ -23,8 +23,16 @@ class SearchResultsPresenter
 
 extension SearchResultsPresenter: SearchResultsPresenterInterface
 {
+    func viewLoaded()
+    {
+        guard let dataSource = dataSource else { return }
+        
+        view?.setupDataSource(dataSource: dataSource)
+    }
+    
     func searchStop(stop: String)
     {
+        view?.closeKeyboard()
         view?.startAnimatingLoading()
         interactor?.searchStop(stop: stop)
     }
@@ -34,8 +42,12 @@ extension SearchResultsPresenter: SearchResultsInteractorOutput
 {
     func stopObtained(busStop: BusStop)
     {
+        view?.stopAnimatingLoading()
+        
         let busStopVM = [BusStopVM(busStop: busStop)]
         dataSource?.resetResults(results: busStopVM)
+        
+        view?.reloadData()
     }
 
     func stopNotExist()

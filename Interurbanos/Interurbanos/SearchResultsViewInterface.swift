@@ -6,8 +6,13 @@
 //  Copyright © 2016 molmedo. All rights reserved.
 //
 
+import UIKit
+
 protocol SearchResultsViewInterface: class
 {
+    func closeKeyboard()
+    func setupDataSource(dataSource: UITableViewDataSource & UITableViewDelegate)
     func startAnimatingLoading()
     func stopAnimatingLoading()
+    func reloadData()
 }

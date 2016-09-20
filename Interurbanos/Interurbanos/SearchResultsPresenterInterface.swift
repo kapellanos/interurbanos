@@ -8,5 +8,6 @@
 
 protocol SearchResultsPresenterInterface
 {
+    func viewLoaded()
     func searchStop(stop: String)
 }

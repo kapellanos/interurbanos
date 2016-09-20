@@ -17,10 +17,28 @@ class SearchResultsSearchController: UIViewController
     var searchBar: UISearchBar?
     
     var eventHandler: SearchResultsPresenterInterface?
+    
+    override func viewDidLoad()
+    {
+        super.viewDidLoad()
+        
+        eventHandler?.viewLoaded()
+    }
 }
 
 extension SearchResultsSearchController: SearchResultsViewInterface
 {
+    func closeKeyboard()
+    {
+        searchBar?.resignFirstResponder()
+    }
+    
+    func setupDataSource(dataSource: UITableViewDataSource & UITableViewDelegate)
+    {
+        tableView.dataSource = dataSource
+        tableView.delegate = dataSource
+    }
+    
     func startAnimatingLoading()
     {
         SwiftSpinner.show(NSLocalizedString("buscando...", comment: ""))
@@ -29,6 +47,11 @@ extension SearchResultsSearchController: SearchResultsViewInterface
     func stopAnimatingLoading()
     {
         SwiftSpinner.hide()
+    }
+    
+    func reloadData()
+    {
+        tableView.reloadData()
     }
 }
 
