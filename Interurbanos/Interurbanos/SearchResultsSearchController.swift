@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import SwiftSpinner
+
 
 class SearchResultsSearchController: UIViewController
 {
@@ -19,9 +21,14 @@ class SearchResultsSearchController: UIViewController
 
 extension SearchResultsSearchController: SearchResultsViewInterface
 {
-    func showError()
+    func startAnimatingLoading()
     {
-        let alert = UIAlertController(title: NSLocalizedString(key: "Lo sentimo", comment: <#T##String##Swift.String#>), message: <#T##String?##Swift.String?#>, preferredStyle: <#T##UIAlertControllerStyle##UIKit.UIAlertControllerStyle#>)
+        SwiftSpinner.show(NSLocalizedString("buscando...", comment: ""))
+    }
+    
+    func stopAnimatingLoading()
+    {
+        SwiftSpinner.hide()
     }
 }
 

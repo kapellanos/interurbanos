@@ -24,11 +24,14 @@ struct SearchResultsFactory
         
         let presenter = SearchResultsPresenter()
         let interactor = SearchResultsInteractor()
+        let routing = SearchResultsRouting()
         
         searchInternalResultsVC.eventHandler = presenter
+        routing.presentedViewController = searchInternalResultsVC
         presenter.view = searchInternalResultsVC
         presenter.interactor = interactor
         interactor.output = presenter
+        presenter.routing = routing
         
         return searchController
     }

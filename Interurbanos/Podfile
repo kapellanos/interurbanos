@@ -6,7 +6,7 @@ target 'Interurbanos' do
   use_frameworks!
 
     pod 'JASON'
-
+pod 'SwiftSpinner'
   target 'InterurbanosTests' do
     inherit! :search_paths
     # Pods for testing

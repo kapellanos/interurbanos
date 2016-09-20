@@ -14,10 +14,12 @@
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchPresenter.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusStopVM.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SequenceType+Utils.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchResultsRouting.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesInteractor.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchResultsInteractor.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesFactory.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchTableViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchResultsRoutingProtocol.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchInteractor.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesRouting.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusStopTableViewCell.xib" isTestSource="false" />

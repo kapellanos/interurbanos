@@ -8,5 +8,6 @@
 
 protocol SearchResultsViewInterface: class
 {
-    func showError(errorString: String)
+    func startAnimatingLoading()
+    func stopAnimatingLoading()
 }

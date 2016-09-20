@@ -13,6 +13,7 @@ class SearchResultsPresenter
     weak var view: SearchResultsViewInterface?
     var interactor: SearchResultsInteractorInput?
     var dataSource: SearchResultsDataSource?
+    var routing: SearchResultsRoutingProtocol?
 
     init()
     {
@@ -24,6 +25,7 @@ extension SearchResultsPresenter: SearchResultsPresenterInterface
 {
     func searchStop(stop: String)
     {
+        view?.startAnimatingLoading()
         interactor?.searchStop(stop: stop)
     }
 }
@@ -38,6 +40,7 @@ extension SearchResultsPresenter: SearchResultsInteractorOutput
 
     func stopNotExist()
     {
-        view?.showError(NSLocalizedString("Esa parada no existe, ¿seguro que la has escrito bien?", comment: ""))
+        view?.stopAnimatingLoading()
+        routing?.showNoBusStopsFoundsAlert()
     }
 }

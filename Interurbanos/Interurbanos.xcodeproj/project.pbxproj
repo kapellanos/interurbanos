@@ -62,6 +62,8 @@
 		22CC2BB81D78CCD700B8EA57 /* SearchRoutingInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CC2BB71D78CCD700B8EA57 /* SearchRoutingInterface.swift */; };
 		22D1BE3D1D663CC400D567CC /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D1BE3C1D663CC400D567CC /* Resource.swift */; };
 		22D1BE411D663E0400D567CC /* BusAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D1BE401D663E0400D567CC /* BusAO.swift */; };
+		49962E9F8CAE59FB7EC2CF08 /* SearchResultsRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49962BA8164090366012FE74 /* SearchResultsRouting.swift */; };
+		49962F7786B6EA61F3FF18B5 /* SearchResultsRoutingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4996275B66A827E39BDE391D /* SearchResultsRoutingProtocol.swift */; };
 		B800E4D34CE998FFA061BA72 /* Pods_InterurbanosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD2A12E40F2E91A2A9C4B41F /* Pods_InterurbanosUITests.framework */; };
 		D519375B68BED67CFCC11B06 /* Pods_Interurbanos.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A3A5828E33F7F983F644E256 /* Pods_Interurbanos.framework */; };
 		DE1FEAF119E19A29791EC793 /* Pods_InterurbanosTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 09553A2D79DC66A3E2035E63 /* Pods_InterurbanosTests.framework */; };
@@ -147,6 +149,8 @@
 		22CC2BB71D78CCD700B8EA57 /* SearchRoutingInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRoutingInterface.swift; sourceTree = "<group>"; };
 		22D1BE3C1D663CC400D567CC /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 		22D1BE401D663E0400D567CC /* BusAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusAO.swift; sourceTree = "<group>"; };
+		4996275B66A827E39BDE391D /* SearchResultsRoutingProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsRoutingProtocol.swift; sourceTree = "<group>"; };
+		49962BA8164090366012FE74 /* SearchResultsRouting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsRouting.swift; sourceTree = "<group>"; };
 		4CD246FDBEB99774D17BD46A /* Pods-InterurbanosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterurbanosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InterurbanosTests/Pods-InterurbanosTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5E80A81251585C1CC04B30EA /* Pods-Interurbanos.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Interurbanos.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Interurbanos/Pods-Interurbanos.debug.xcconfig"; sourceTree = "<group>"; };
 		7C2DF0C95031DD0E79D4E68E /* Pods-InterurbanosUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterurbanosUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InterurbanosUITests/Pods-InterurbanosUITests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -482,6 +486,8 @@
 		225FE90E1D7C428800F1B5FE /* Routing */ = {
 			isa = PBXGroup;
 			children = (
+				49962BA8164090366012FE74 /* SearchResultsRouting.swift */,
+				4996275B66A827E39BDE391D /* SearchResultsRoutingProtocol.swift */,
 			);
 			name = Routing;
 			sourceTree = "<group>";
@@ -920,6 +926,8 @@
 				22D1BE411D663E0400D567CC /* BusAO.swift in Sources */,
 				223479D11D6A02560000FB2D /* SequenceType+Utils.swift in Sources */,
 				220126671D65CF9600B6884D /* FavoritesPresenter.swift in Sources */,
+				49962E9F8CAE59FB7EC2CF08 /* SearchResultsRouting.swift in Sources */,
+				49962F7786B6EA61F3FF18B5 /* SearchResultsRoutingProtocol.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
