@@ -22,6 +22,8 @@
 		220126711D65D02F00B6884D /* FavoritesRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220126701D65D02F00B6884D /* FavoritesRouting.swift */; };
 		220126731D65D03D00B6884D /* FavoritesRoutingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220126721D65D03D00B6884D /* FavoritesRoutingProtocol.swift */; };
 		220126761D65D0BF00B6884D /* FavoritesFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 220126751D65D0BF00B6884D /* FavoritesFactory.swift */; };
+		221405EF1D944B9400514C4C /* LoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221405EE1D944B9400514C4C /* LoadingView.swift */; };
+		221405F21D944BB200514C4C /* LoadingViewImp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 221405F11D944BB200514C4C /* LoadingViewImp.swift */; };
 		223479CE1D69FFE20000FB2D /* WebService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223479CD1D69FFE20000FB2D /* WebService.swift */; };
 		223479D11D6A02560000FB2D /* SequenceType+Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223479D01D6A02560000FB2D /* SequenceType+Utils.swift */; };
 		223479D41D6A05730000FB2D /* BusStopsProviders.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223479D31D6A05730000FB2D /* BusStopsProviders.swift */; };
@@ -109,6 +111,8 @@
 		220126701D65D02F00B6884D /* FavoritesRouting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesRouting.swift; sourceTree = "<group>"; };
 		220126721D65D03D00B6884D /* FavoritesRoutingProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesRoutingProtocol.swift; sourceTree = "<group>"; };
 		220126751D65D0BF00B6884D /* FavoritesFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesFactory.swift; sourceTree = "<group>"; };
+		221405EE1D944B9400514C4C /* LoadingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingView.swift; sourceTree = "<group>"; };
+		221405F11D944BB200514C4C /* LoadingViewImp.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewImp.swift; sourceTree = "<group>"; };
 		223479CD1D69FFE20000FB2D /* WebService.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WebService.swift; sourceTree = "<group>"; };
 		223479D01D6A02560000FB2D /* SequenceType+Utils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "SequenceType+Utils.swift"; sourceTree = "<group>"; };
 		223479D31D6A05730000FB2D /* BusStopsProviders.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStopsProviders.swift; sourceTree = "<group>"; };
@@ -214,6 +218,7 @@
 		2201262F1D65CD4E00B6884D /* Interurbanos */ = {
 			isa = PBXGroup;
 			children = (
+				221405ED1D940F7F00514C4C /* Assets */,
 				223A31751D82120900E0A7F9 /* Model */,
 				223A31721D8211E200E0A7F9 /* View Models */,
 				226507B41D6CCE3C0017D3EB /* App */,
@@ -305,6 +310,22 @@
 			name = Routing;
 			sourceTree = "<group>";
 		};
+		221405ED1D940F7F00514C4C /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Assets;
+			sourceTree = "<group>";
+		};
+		221405F01D944BA000514C4C /* Loading View */ = {
+			isa = PBXGroup;
+			children = (
+				221405EE1D944B9400514C4C /* LoadingView.swift */,
+				221405F11D944BB200514C4C /* LoadingViewImp.swift */,
+			);
+			name = "Loading View";
+			sourceTree = "<group>";
+		};
 		223479CC1D69FFD00000FB2D /* Web Service */ = {
 			isa = PBXGroup;
 			children = (
@@ -316,6 +337,7 @@
 		223479CF1D6A02390000FB2D /* Utils */ = {
 			isa = PBXGroup;
 			children = (
+				221405F01D944BA000514C4C /* Loading View */,
 				223479D01D6A02560000FB2D /* SequenceType+Utils.swift */,
 				22B79E901D6AF441002D7954 /* Constraints+Utils.swift */,
 				223A31841D84117500E0A7F9 /* CustomColors.swift */,
@@ -687,6 +709,7 @@
 				TargetAttributes = {
 					2201262C1D65CD4E00B6884D = {
 						CreatedOnToolsVersion = 8.0;
+						DevelopmentTeam = VPQ4PLGXV9;
 						ProvisioningStyle = Automatic;
 					};
 					220126401D65CD4F00B6884D = {
@@ -914,6 +937,7 @@
 				223A31871D84122000E0A7F9 /* CustomFonts.swift in Sources */,
 				223A31711D8210E300E0A7F9 /* SearchResultsDataSource.swift in Sources */,
 				223A317E1D8333CF00E0A7F9 /* BusMapper.swift in Sources */,
+				221405EF1D944B9400514C4C /* LoadingView.swift in Sources */,
 				220126311D65CD4E00B6884D /* AppDelegate.swift in Sources */,
 				225FE9121D7C43BD00F1B5FE /* SearchResultsPresenter.swift in Sources */,
 				22B47D3B1D79E20500B2CCF7 /* SearchFactory.swift in Sources */,
@@ -926,6 +950,7 @@
 				22D1BE411D663E0400D567CC /* BusAO.swift in Sources */,
 				223479D11D6A02560000FB2D /* SequenceType+Utils.swift in Sources */,
 				220126671D65CF9600B6884D /* FavoritesPresenter.swift in Sources */,
+				221405F21D944BB200514C4C /* LoadingViewImp.swift in Sources */,
 				49962E9F8CAE59FB7EC2CF08 /* SearchResultsRouting.swift in Sources */,
 				49962F7786B6EA61F3FF18B5 /* SearchResultsRoutingProtocol.swift in Sources */,
 			);
@@ -1083,6 +1108,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VPQ4PLGXV9;
 				INFOPLIST_FILE = Interurbanos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.molmedo.Interurbanos;
@@ -1097,6 +1123,7 @@
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = VPQ4PLGXV9;
 				INFOPLIST_FILE = Interurbanos/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.molmedo.Interurbanos;

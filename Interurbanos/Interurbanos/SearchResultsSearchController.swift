@@ -7,8 +7,6 @@
 //
 
 import UIKit
-import SwiftSpinner
-
 
 class SearchResultsSearchController: UIViewController
 {
@@ -17,6 +15,8 @@ class SearchResultsSearchController: UIViewController
     var searchBar: UISearchBar?
     
     var eventHandler: SearchResultsPresenterInterface?
+    
+    var loadingView: LoadingViewImp? = LoadingViewImp()
     
     override func viewDidLoad()
     {
@@ -39,14 +39,19 @@ extension SearchResultsSearchController: SearchResultsViewInterface
         tableView.delegate = dataSource
     }
     
+    func addLoadingView()
+    {
+        addView()
+    }
+    
     func startAnimatingLoading()
     {
-        SwiftSpinner.show(NSLocalizedString("buscando...", comment: ""))
+        loadingView?.startAnimating()
     }
     
     func stopAnimatingLoading()
     {
-        SwiftSpinner.hide()
+        loadingView?.stopAnimating()
     }
     
     func reloadData()
@@ -81,3 +86,5 @@ extension SearchResultsSearchController: UISearchBarDelegate
         eventHandler?.searchStop(stop: text)
     }
 }
+
+extension SearchResultsSearchController: LoadingView {}

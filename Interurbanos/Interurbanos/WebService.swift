@@ -13,8 +13,12 @@ final class Webservice
     func load<A>(resource: Resource<A>, completion: @escaping (A?) -> ())
     {
         URLSession.shared.dataTask(with: resource.url as URL) { (data, _, _) in
-            let result = data.flatMap(resource.parse)
-            completion(result)
+            
+            DispatchQueue.main.async {
+                let result = data.flatMap(resource.parse)
+                completion(result)
+            }
+            
         }.resume()
     }
 }

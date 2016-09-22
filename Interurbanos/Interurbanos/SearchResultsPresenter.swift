@@ -28,6 +28,8 @@ extension SearchResultsPresenter: SearchResultsPresenterInterface
         guard let dataSource = dataSource else { return }
         
         view?.setupDataSource(dataSource: dataSource)
+        
+        view?.addLoadingView()
     }
     
     func searchStop(stop: String)

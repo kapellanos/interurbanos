@@ -12,6 +12,7 @@ protocol SearchResultsViewInterface: class
 {
     func closeKeyboard()
     func setupDataSource(dataSource: UITableViewDataSource & UITableViewDelegate)
+    func addLoadingView()
     func startAnimatingLoading()
     func stopAnimatingLoading()
     func reloadData()

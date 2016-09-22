@@ -15,7 +15,6 @@ class FavoritesViewController: UIViewController
     @IBOutlet weak var notResults: UIView!
     @IBOutlet weak var tableView: UITableView!
     
-    
     override func viewDidLoad()
     {
         super.viewDidLoad()
