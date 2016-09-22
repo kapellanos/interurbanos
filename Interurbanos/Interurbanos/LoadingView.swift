@@ -26,7 +26,9 @@ extension LoadingView where Self: UIViewController
         loadingView.widthAnchor.constraint(equalToConstant: 100.0).isActive = true
         loadingView.heightAnchor.constraint(equalToConstant: 100.0).isActive = true
         
-        loadingView.center(inView: view)
+//        loadingView.topAnchor.constraint(equalTo: view.topAnchor, constant: 0.0).isActive = true
+        loadingView.centerXAnchor.constraint(equalTo: view.centerXAnchor).isActive = true
+        loadingView.centerYAnchor.constraint(equalTo: view.centerYAnchor).isActive = true
     }
     
     func showLoading()
