@@ -10,16 +10,13 @@ import UIKit
 
 internal struct FavoritesFactory
 {
-    private let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
-    private let favoritesVCIdentifier = "FavoritesViewController"
-    
     var tabBarItem: UITabBarItem {
         return UITabBarItem(title: NSLocalizedString("Favoritos", comment: ""), image: nil, selectedImage: nil)
     }
     
     func favoritesVC() -> UIViewController
     {
-        let favoritesVC = mainStoryboard.instantiateViewController(withIdentifier: favoritesVCIdentifier) as!FavoritesViewController
+        let favoritesVC = FavoritesViewController()
         favoritesVC.tabBarItem = tabBarItem
         
         let presenter = FavoritesPresenter()

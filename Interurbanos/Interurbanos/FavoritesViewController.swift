@@ -13,13 +13,35 @@ class FavoritesViewController: UIViewController
     var eventHandler: FavoritesPresenterInterface?
     
     @IBOutlet weak var notResults: UIView!
-    @IBOutlet weak var tableView: UITableView!
+    
+    var tableView: UITableView!
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
         
         eventHandler?.viewLoaded()
+    }
+    
+    override func viewDidAppear(_ animated: Bool)
+    {
+        super.viewDidAppear(animated)
+        
+        tableView.constrainEdges(toMarginOf: view)
+        
+//        view.setNeedsLayout()
+//        view.layoutIfNeeded()
+    }
+    
+    override func loadView()
+    {
+        view = UIView(frame: UIScreen.main.bounds)
+        view.backgroundColor = .gray
+        
+        tableView = UITableView(frame: CGRect.zero)
+        tableView.translatesAutoresizingMaskIntoConstraints = false
+        
+        view.addSubview(tableView)
     }
 }
 

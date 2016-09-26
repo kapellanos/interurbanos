@@ -16,11 +16,12 @@ struct SearchResultsFactory
     func searchResultsController() -> UISearchController
     {
         let searchInternalResultsVC = mainStoryboard.instantiateViewController(withIdentifier: searchVCIdentifier) as! SearchResultsSearchController
-        let searchController = UISearchController(searchResultsController: searchInternalResultsVC)
+        let searchController = UISearchController(searchResultsController: nil)
         
-        searchInternalResultsVC.searchBar = searchController.searchBar
-        searchController.searchBar.placeholder = NSLocalizedString("Número de la parada", comment: "")
-        searchController.searchBar.delegate = searchInternalResultsVC
+        searchController.dimsBackgroundDuringPresentation = false
+        
+        searchController.searchBar.placeholder = NSLocalizedString("Número de la parada", comment: "")        
+        searchController.dimsBackgroundDuringPresentation = false
         
         let presenter = SearchResultsPresenter()
         let interactor = SearchResultsInteractor()
