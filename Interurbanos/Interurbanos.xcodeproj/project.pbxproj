@@ -42,6 +42,13 @@
 		224554AB1D9C3CCC004895A3 /* FavoritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224554AA1D9C3CCC004895A3 /* FavoritesViewController.xib */; };
 		224554B11D9C3E21004895A3 /* FavoritesContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224554AF1D9C3E21004895A3 /* FavoritesContainerViewController.swift */; };
 		224554B21D9C3E21004895A3 /* FavoritesContainerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224554B01D9C3E21004895A3 /* FavoritesContainerViewController.xib */; };
+		224554B91D9C3F10004895A3 /* FavoritesContainerViewInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224554B81D9C3F10004895A3 /* FavoritesContainerViewInterface.swift */; };
+		224554BB1D9C3F3B004895A3 /* FavoritesContainerPresenterInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224554BA1D9C3F3B004895A3 /* FavoritesContainerPresenterInterface.swift */; };
+		224554BD1D9C3F48004895A3 /* FavoritesContainerPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224554BC1D9C3F48004895A3 /* FavoritesContainerPresenter.swift */; };
+		224554C01D9C3FD8004895A3 /* FavoritesContainerInteractorIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224554BF1D9C3FD8004895A3 /* FavoritesContainerInteractorIO.swift */; };
+		224554C21D9C3FF3004895A3 /* FavoritesContainerRoutingInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224554C11D9C3FF3004895A3 /* FavoritesContainerRoutingInterface.swift */; };
+		224554C71D9C4044004895A3 /* FavoritesContainerRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224554C61D9C4044004895A3 /* FavoritesContainerRouting.swift */; };
+		224554C91D9C405E004895A3 /* FavoritesContainerFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224554C81D9C405E004895A3 /* FavoritesContainerFactory.swift */; };
 		224AE2E41D7DEC460039BD14 /* BusStopsAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224AE2E31D7DEC460039BD14 /* BusStopsAO.swift */; };
 		225FE9101D7C430700F1B5FE /* SearchResultsSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225FE90F1D7C430700F1B5FE /* SearchResultsSearchController.swift */; };
 		225FE9121D7C43BD00F1B5FE /* SearchResultsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225FE9111D7C43BD00F1B5FE /* SearchResultsPresenter.swift */; };
@@ -133,6 +140,13 @@
 		224554AA1D9C3CCC004895A3 /* FavoritesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FavoritesViewController.xib; sourceTree = "<group>"; };
 		224554AF1D9C3E21004895A3 /* FavoritesContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesContainerViewController.swift; sourceTree = "<group>"; };
 		224554B01D9C3E21004895A3 /* FavoritesContainerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FavoritesContainerViewController.xib; sourceTree = "<group>"; };
+		224554B81D9C3F10004895A3 /* FavoritesContainerViewInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesContainerViewInterface.swift; sourceTree = "<group>"; };
+		224554BA1D9C3F3B004895A3 /* FavoritesContainerPresenterInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesContainerPresenterInterface.swift; sourceTree = "<group>"; };
+		224554BC1D9C3F48004895A3 /* FavoritesContainerPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesContainerPresenter.swift; sourceTree = "<group>"; };
+		224554BF1D9C3FD8004895A3 /* FavoritesContainerInteractorIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesContainerInteractorIO.swift; sourceTree = "<group>"; };
+		224554C11D9C3FF3004895A3 /* FavoritesContainerRoutingInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesContainerRoutingInterface.swift; sourceTree = "<group>"; };
+		224554C61D9C4044004895A3 /* FavoritesContainerRouting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesContainerRouting.swift; sourceTree = "<group>"; };
+		224554C81D9C405E004895A3 /* FavoritesContainerFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesContainerFactory.swift; sourceTree = "<group>"; };
 		224AE2E31D7DEC460039BD14 /* BusStopsAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStopsAO.swift; sourceTree = "<group>"; };
 		225FE90F1D7C430700F1B5FE /* SearchResultsSearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsSearchController.swift; sourceTree = "<group>"; };
 		225FE9111D7C43BD00F1B5FE /* SearchResultsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsPresenter.swift; sourceTree = "<group>"; };
@@ -262,12 +276,6 @@
 				224554AE1D9C3E05004895A3 /* No Favorites */,
 				224554AD1D9C3E00004895A3 /* Favorites */,
 				224554AC1D9C3DF0004895A3 /* Favorites Container */,
-				22A4E8C31D7C7B590053EAC2 /* Factory */,
-				22A4E8C21D7C7B4E0053EAC2 /* Data Source */,
-				220126611D65CF6A00B6884D /* View */,
-				220126641D65CF7B00B6884D /* Presenter */,
-				220126621D65CF7000B6884D /* Application Logic */,
-				220126651D65CF8000B6884D /* Routing */,
 			);
 			name = Favorites;
 			sourceTree = "<group>";
@@ -275,9 +283,6 @@
 		220126611D65CF6A00B6884D /* View */ = {
 			isa = PBXGroup;
 			children = (
-				2201265F1D65CE5200B6884D /* FavoritesViewController.swift */,
-				2201266E1D65D00700B6884D /* FavoritesViewInterface.swift */,
-				224554AA1D9C3CCC004895A3 /* FavoritesViewController.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -464,8 +469,11 @@
 		224554AC1D9C3DF0004895A3 /* Favorites Container */ = {
 			isa = PBXGroup;
 			children = (
-				224554AF1D9C3E21004895A3 /* FavoritesContainerViewController.swift */,
-				224554B01D9C3E21004895A3 /* FavoritesContainerViewController.xib */,
+				224554B71D9C3EC3004895A3 /* Routing */,
+				224554B61D9C3EB7004895A3 /* Application Logic */,
+				224554B51D9C3EB1004895A3 /* Presenter */,
+				224554B41D9C3EA9004895A3 /* View */,
+				224554B31D9C3EA4004895A3 /* Factory */,
 			);
 			name = "Favorites Container";
 			sourceTree = "<group>";
@@ -473,6 +481,15 @@
 		224554AD1D9C3E00004895A3 /* Favorites */ = {
 			isa = PBXGroup;
 			children = (
+				22A4E8C31D7C7B590053EAC2 /* Factory */,
+				22A4E8C21D7C7B4E0053EAC2 /* Data Source */,
+				220126611D65CF6A00B6884D /* View */,
+				2201265F1D65CE5200B6884D /* FavoritesViewController.swift */,
+				2201266E1D65D00700B6884D /* FavoritesViewInterface.swift */,
+				224554AA1D9C3CCC004895A3 /* FavoritesViewController.xib */,
+				220126641D65CF7B00B6884D /* Presenter */,
+				220126621D65CF7000B6884D /* Application Logic */,
+				220126651D65CF8000B6884D /* Routing */,
 			);
 			name = Favorites;
 			sourceTree = "<group>";
@@ -482,6 +499,58 @@
 			children = (
 			);
 			name = "No Favorites";
+			sourceTree = "<group>";
+		};
+		224554B31D9C3EA4004895A3 /* Factory */ = {
+			isa = PBXGroup;
+			children = (
+				224554C81D9C405E004895A3 /* FavoritesContainerFactory.swift */,
+			);
+			name = Factory;
+			sourceTree = "<group>";
+		};
+		224554B41D9C3EA9004895A3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				224554AF1D9C3E21004895A3 /* FavoritesContainerViewController.swift */,
+				224554B81D9C3F10004895A3 /* FavoritesContainerViewInterface.swift */,
+				224554B01D9C3E21004895A3 /* FavoritesContainerViewController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		224554B51D9C3EB1004895A3 /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+				224554BA1D9C3F3B004895A3 /* FavoritesContainerPresenterInterface.swift */,
+				224554BC1D9C3F48004895A3 /* FavoritesContainerPresenter.swift */,
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		224554B61D9C3EB7004895A3 /* Application Logic */ = {
+			isa = PBXGroup;
+			children = (
+				224554BE1D9C3F5A004895A3 /* Interactor */,
+			);
+			name = "Application Logic";
+			sourceTree = "<group>";
+		};
+		224554B71D9C3EC3004895A3 /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+				224554C11D9C3FF3004895A3 /* FavoritesContainerRoutingInterface.swift */,
+				224554C61D9C4044004895A3 /* FavoritesContainerRouting.swift */,
+			);
+			name = Routing;
+			sourceTree = "<group>";
+		};
+		224554BE1D9C3F5A004895A3 /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+				224554BF1D9C3FD8004895A3 /* FavoritesContainerInteractorIO.swift */,
+			);
+			name = Interactor;
 			sourceTree = "<group>";
 		};
 		225FE9091D7C41D100F1B5FE /* Main Controller */ = {
@@ -938,11 +1007,13 @@
 				22CC2BB01D78CC9F00B8EA57 /* SearchPresenterInterface.swift in Sources */,
 				22AB16DB1D6AD824007C33E5 /* LoadingViewController.swift in Sources */,
 				223A318A1D87288E00E0A7F9 /* BusStopBuilder.swift in Sources */,
+				224554BD1D9C3F48004895A3 /* FavoritesContainerPresenter.swift in Sources */,
 				22CC2BAC1D78CC7700B8EA57 /* SearchViewInterface.swift in Sources */,
 				224554B11D9C3E21004895A3 /* FavoritesContainerViewController.swift in Sources */,
 				225FE9181D7C444100F1B5FE /* SearchResultsViewInterface.swift in Sources */,
 				223A317C1D83336B00E0A7F9 /* BusStopMapper.swift in Sources */,
 				2201266B1D65CFAE00B6884D /* FavoritesInteractor.swift in Sources */,
+				224554C71D9C4044004895A3 /* FavoritesContainerRouting.swift in Sources */,
 				220126691D65CFA300B6884D /* FavoritesPresenterInterface.swift in Sources */,
 				225FE9101D7C430700F1B5FE /* SearchResultsSearchController.swift in Sources */,
 				22CC2BB61D78CCCE00B8EA57 /* SearchRouting.swift in Sources */,
@@ -952,6 +1023,7 @@
 				2201266D1D65CFB700B6884D /* FavoritesInteractorIO.swift in Sources */,
 				22D1BE3D1D663CC400D567CC /* Resource.swift in Sources */,
 				22AB16D81D6AD6AD007C33E5 /* Loading.swift in Sources */,
+				224554B91D9C3F10004895A3 /* FavoritesContainerViewInterface.swift in Sources */,
 				225FE91A1D7C44ED00F1B5FE /* SearchResultsInteractor.swift in Sources */,
 				220126601D65CE5200B6884D /* FavoritesViewController.swift in Sources */,
 				22A4E8C51D7C7B660053EAC2 /* FavoritesDataSource.swift in Sources */,
@@ -961,6 +1033,7 @@
 				22CC2BAE1D78CC9500B8EA57 /* SearchPresenter.swift in Sources */,
 				223A31741D8211FD00E0A7F9 /* BusStopVM.swift in Sources */,
 				223A31811D83350200E0A7F9 /* BusStopTableViewCell.swift in Sources */,
+				224554C91D9C405E004895A3 /* FavoritesContainerFactory.swift in Sources */,
 				223A31771D82121200E0A7F9 /* BusStop.swift in Sources */,
 				22CC2BB21D78CCA800B8EA57 /* SearchInteractor.swift in Sources */,
 				225FE9141D7C43C700F1B5FE /* SearchResultsPresenterInterface.swift in Sources */,
@@ -970,13 +1043,16 @@
 				223A31711D8210E300E0A7F9 /* SearchResultsDataSource.swift in Sources */,
 				223A317E1D8333CF00E0A7F9 /* BusMapper.swift in Sources */,
 				221405EF1D944B9400514C4C /* LoadingView.swift in Sources */,
+				224554C21D9C3FF3004895A3 /* FavoritesContainerRoutingInterface.swift in Sources */,
 				220126311D65CD4E00B6884D /* AppDelegate.swift in Sources */,
 				225FE9121D7C43BD00F1B5FE /* SearchResultsPresenter.swift in Sources */,
 				22B47D3B1D79E20500B2CCF7 /* SearchFactory.swift in Sources */,
 				22B47D3D1D79E37F00B2CCF7 /* MainTabBarControllerFactory.swift in Sources */,
 				225FE9161D7C441800F1B5FE /* SearchResultsInteractorIO.swift in Sources */,
+				224554BB1D9C3F3B004895A3 /* FavoritesContainerPresenterInterface.swift in Sources */,
 				2201266F1D65D00700B6884D /* FavoritesViewInterface.swift in Sources */,
 				22B79E911D6AF441002D7954 /* Constraints+Utils.swift in Sources */,
+				224554C01D9C3FD8004895A3 /* FavoritesContainerInteractorIO.swift in Sources */,
 				225FE91D1D7C464000F1B5FE /* SearchResultsFactory.swift in Sources */,
 				22CC2BB81D78CCD700B8EA57 /* SearchRoutingInterface.swift in Sources */,
 				22D1BE411D663E0400D567CC /* BusAO.swift in Sources */,

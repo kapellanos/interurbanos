@@ -10,4 +10,13 @@ import UIKit
 
 class FavoritesContainerViewController: UIViewController
 {
+    override func viewDidLoad()
+    {
+        
+    }
+}
+
+extension FavoritesContainerViewController: FavoritesContainerViewInterface
+{
+    
 }
