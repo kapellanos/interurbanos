@@ -8,20 +8,25 @@
 
 import UIKit
 
-class SearchTableViewController: UITableViewController
+class SearchTableViewController: UIViewController
 {
     var eventHandler: SearchPresenterInterface?
+    
+    @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
         
+        edgesForExtendedLayout = []
+        extendedLayoutIncludesOpaqueBars = true
+        
         eventHandler?.viewLoaded()
     }
     
-    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        return 0
-    }
+//    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        return 0
+//    }
 }
 
 extension SearchTableViewController: SearchViewInterface
@@ -33,7 +38,6 @@ extension SearchTableViewController: SearchViewInterface
         searchViewController.delegate = self
         tableView.tableHeaderView = searchViewController.searchBar
         searchViewController.hidesNavigationBarDuringPresentation = true
-        searchViewController.dimsBackgroundDuringPresentation = true
     }
     
     func setupTitle(title: String)

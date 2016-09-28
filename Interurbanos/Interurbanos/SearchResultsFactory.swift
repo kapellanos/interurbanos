@@ -10,15 +10,11 @@ import UIKit
 
 struct SearchResultsFactory
 {
-    private let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
-    private let searchVCIdentifier = "SearchResultsSearchController"
-    
     func searchResultsController() -> UISearchController
     {
-        let searchInternalResultsVC = mainStoryboard.instantiateViewController(withIdentifier: searchVCIdentifier) as! SearchResultsSearchController
+//        let searchInternalResultsVC = mainStoryboard.instantiateViewController(withIdentifier: searchVCIdentifier) as! SearchResultsSearchController
         let searchController = UISearchController(searchResultsController: nil)
         
-        searchController.dimsBackgroundDuringPresentation = false
         
         searchController.searchBar.placeholder = NSLocalizedString("Número de la parada", comment: "")        
         searchController.dimsBackgroundDuringPresentation = false
@@ -27,12 +23,12 @@ struct SearchResultsFactory
         let interactor = SearchResultsInteractor()
         let routing = SearchResultsRouting()
         
-        searchInternalResultsVC.eventHandler = presenter
-        routing.presentedViewController = searchInternalResultsVC
-        presenter.view = searchInternalResultsVC
-        presenter.interactor = interactor
-        interactor.output = presenter
-        presenter.routing = routing
+//        searchInternalResultsVC.eventHandler = presenter
+//        routing.presentedViewController = searchInternalResultsVC
+//        presenter.view = searchInternalResultsVC
+//        presenter.interactor = interactor
+//        interactor.output = presenter
+//        presenter.routing = routing
         
         return searchController
     }

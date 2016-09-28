@@ -15,6 +15,8 @@ struct MainTabBarControllerFactory
         let tabBarController = UITabBarController()
         tabBarController.viewControllers = viewControllers
         
+        tabBarController.tabBar.isTranslucent = false
+        
         return tabBarController
     }
 }

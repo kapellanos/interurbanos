@@ -38,6 +38,10 @@
 		223A31871D84122000E0A7F9 /* CustomFonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223A31861D84122000E0A7F9 /* CustomFonts.swift */; };
 		223A318A1D87288E00E0A7F9 /* BusStopBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = 223A31891D87288E00E0A7F9 /* BusStopBuilder.swift */; };
 		22442FE41D6CCAF500879DD1 /* SearchTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22442FE31D6CCAF500879DD1 /* SearchTableViewController.swift */; };
+		224554A91D9C3BD3004895A3 /* SearchTableViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224554A81D9C3BD3004895A3 /* SearchTableViewController.xib */; };
+		224554AB1D9C3CCC004895A3 /* FavoritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224554AA1D9C3CCC004895A3 /* FavoritesViewController.xib */; };
+		224554B11D9C3E21004895A3 /* FavoritesContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224554AF1D9C3E21004895A3 /* FavoritesContainerViewController.swift */; };
+		224554B21D9C3E21004895A3 /* FavoritesContainerViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 224554B01D9C3E21004895A3 /* FavoritesContainerViewController.xib */; };
 		224AE2E41D7DEC460039BD14 /* BusStopsAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 224AE2E31D7DEC460039BD14 /* BusStopsAO.swift */; };
 		225FE9101D7C430700F1B5FE /* SearchResultsSearchController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225FE90F1D7C430700F1B5FE /* SearchResultsSearchController.swift */; };
 		225FE9121D7C43BD00F1B5FE /* SearchResultsPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225FE9111D7C43BD00F1B5FE /* SearchResultsPresenter.swift */; };
@@ -125,6 +129,10 @@
 		223A31861D84122000E0A7F9 /* CustomFonts.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomFonts.swift; sourceTree = "<group>"; };
 		223A31891D87288E00E0A7F9 /* BusStopBuilder.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStopBuilder.swift; sourceTree = "<group>"; };
 		22442FE31D6CCAF500879DD1 /* SearchTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTableViewController.swift; sourceTree = "<group>"; };
+		224554A81D9C3BD3004895A3 /* SearchTableViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchTableViewController.xib; sourceTree = "<group>"; };
+		224554AA1D9C3CCC004895A3 /* FavoritesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FavoritesViewController.xib; sourceTree = "<group>"; };
+		224554AF1D9C3E21004895A3 /* FavoritesContainerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesContainerViewController.swift; sourceTree = "<group>"; };
+		224554B01D9C3E21004895A3 /* FavoritesContainerViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FavoritesContainerViewController.xib; sourceTree = "<group>"; };
 		224AE2E31D7DEC460039BD14 /* BusStopsAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusStopsAO.swift; sourceTree = "<group>"; };
 		225FE90F1D7C430700F1B5FE /* SearchResultsSearchController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsSearchController.swift; sourceTree = "<group>"; };
 		225FE9111D7C43BD00F1B5FE /* SearchResultsPresenter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsPresenter.swift; sourceTree = "<group>"; };
@@ -251,6 +259,9 @@
 		2201265E1D65CE2D00B6884D /* Favorites */ = {
 			isa = PBXGroup;
 			children = (
+				224554AE1D9C3E05004895A3 /* No Favorites */,
+				224554AD1D9C3E00004895A3 /* Favorites */,
+				224554AC1D9C3DF0004895A3 /* Favorites Container */,
 				22A4E8C31D7C7B590053EAC2 /* Factory */,
 				22A4E8C21D7C7B4E0053EAC2 /* Data Source */,
 				220126611D65CF6A00B6884D /* View */,
@@ -266,6 +277,7 @@
 			children = (
 				2201265F1D65CE5200B6884D /* FavoritesViewController.swift */,
 				2201266E1D65D00700B6884D /* FavoritesViewInterface.swift */,
+				224554AA1D9C3CCC004895A3 /* FavoritesViewController.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -435,6 +447,7 @@
 			isa = PBXGroup;
 			children = (
 				22442FE31D6CCAF500879DD1 /* SearchTableViewController.swift */,
+				224554A81D9C3BD3004895A3 /* SearchTableViewController.xib */,
 				22CC2BAB1D78CC7700B8EA57 /* SearchViewInterface.swift */,
 			);
 			name = View;
@@ -446,6 +459,29 @@
 				22B47D3C1D79E37F00B2CCF7 /* MainTabBarControllerFactory.swift */,
 			);
 			name = "Tab Bar";
+			sourceTree = "<group>";
+		};
+		224554AC1D9C3DF0004895A3 /* Favorites Container */ = {
+			isa = PBXGroup;
+			children = (
+				224554AF1D9C3E21004895A3 /* FavoritesContainerViewController.swift */,
+				224554B01D9C3E21004895A3 /* FavoritesContainerViewController.xib */,
+			);
+			name = "Favorites Container";
+			sourceTree = "<group>";
+		};
+		224554AD1D9C3E00004895A3 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Favorites;
+			sourceTree = "<group>";
+		};
+		224554AE1D9C3E05004895A3 /* No Favorites */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "No Favorites";
 			sourceTree = "<group>";
 		};
 		225FE9091D7C41D100F1B5FE /* Main Controller */ = {
@@ -746,6 +782,9 @@
 				223A31831D83351400E0A7F9 /* BusStopTableViewCell.xib in Resources */,
 				2201263B1D65CD4E00B6884D /* LaunchScreen.storyboard in Resources */,
 				220126381D65CD4E00B6884D /* Assets.xcassets in Resources */,
+				224554AB1D9C3CCC004895A3 /* FavoritesViewController.xib in Resources */,
+				224554B21D9C3E21004895A3 /* FavoritesContainerViewController.xib in Resources */,
+				224554A91D9C3BD3004895A3 /* SearchTableViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -900,6 +939,7 @@
 				22AB16DB1D6AD824007C33E5 /* LoadingViewController.swift in Sources */,
 				223A318A1D87288E00E0A7F9 /* BusStopBuilder.swift in Sources */,
 				22CC2BAC1D78CC7700B8EA57 /* SearchViewInterface.swift in Sources */,
+				224554B11D9C3E21004895A3 /* FavoritesContainerViewController.swift in Sources */,
 				225FE9181D7C444100F1B5FE /* SearchResultsViewInterface.swift in Sources */,
 				223A317C1D83336B00E0A7F9 /* BusStopMapper.swift in Sources */,
 				2201266B1D65CFAE00B6884D /* FavoritesInteractor.swift in Sources */,

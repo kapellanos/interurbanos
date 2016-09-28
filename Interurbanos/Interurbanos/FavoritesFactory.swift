@@ -16,7 +16,7 @@ internal struct FavoritesFactory
     
     func favoritesVC() -> UIViewController
     {
-        let favoritesVC = FavoritesViewController()
+        let favoritesVC = FavoritesViewController(nibName: "FavoritesViewController", bundle: nil)
         favoritesVC.tabBarItem = tabBarItem
         
         let presenter = FavoritesPresenter()

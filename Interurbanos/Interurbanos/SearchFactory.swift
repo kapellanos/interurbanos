@@ -16,7 +16,7 @@ struct SearchFactory
     
     func searchVC() -> UIViewController
     {
-        let searchVC = SearchTableViewController()
+        let searchVC = SearchTableViewController(nibName: "SearchTableViewController", bundle: nil)
         
         let presenter = SearchPresenter()
         let interactor = SearchInteractor()
@@ -31,7 +31,7 @@ struct SearchFactory
         
         let navigationViewController = UINavigationController(rootViewController: searchVC)
         navigationViewController.tabBarItem = tabBarItem
-        navigationViewController.navigationBar.isTranslucent = false
+        navigationViewController.navigationBar.isTranslucent = true
         
         return navigationViewController
     }
