@@ -6,7 +6,7 @@
 //  Copyright © 2016 molmedo. All rights reserved.
 //
 
-protocol FavoritesContainerViewInterface
+protocol FavoritesContainerViewInterface: class
 {
     
 }

@@ -8,10 +8,11 @@
 
 protocol FavoritesContainerInteractorInput
 {
-    
+    func loadFavorites()
 }
 
-protocol FavoritesContainerInteractorOutput
+protocol FavoritesContainerInteractorOutput: class
 {
-    
+    func noFavorites()
+    func loadedFavorites(favorites: )
 }

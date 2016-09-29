@@ -58,6 +58,7 @@
 		225FE91A1D7C44ED00F1B5FE /* SearchResultsInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225FE9191D7C44ED00F1B5FE /* SearchResultsInteractor.swift */; };
 		225FE91D1D7C464000F1B5FE /* SearchResultsFactory.swift in Sources */ = {isa = PBXBuildFile; fileRef = 225FE91C1D7C464000F1B5FE /* SearchResultsFactory.swift */; };
 		226507B61D6CCE460017D3EB /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 226507B51D6CCE460017D3EB /* App.swift */; };
+		22A1D7D41D9D2EE1009ECA5B /* FavoriteBusStop.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A1D7D31D9D2EE1009ECA5B /* FavoriteBusStop.swift */; };
 		22A4E8C51D7C7B660053EAC2 /* FavoritesDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22A4E8C41D7C7B660053EAC2 /* FavoritesDataSource.swift */; };
 		22AB16D81D6AD6AD007C33E5 /* Loading.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AB16D71D6AD6AD007C33E5 /* Loading.swift */; };
 		22AB16DB1D6AD824007C33E5 /* LoadingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22AB16DA1D6AD824007C33E5 /* LoadingViewController.swift */; };
@@ -74,7 +75,9 @@
 		22D1BE3D1D663CC400D567CC /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D1BE3C1D663CC400D567CC /* Resource.swift */; };
 		22D1BE411D663E0400D567CC /* BusAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D1BE401D663E0400D567CC /* BusAO.swift */; };
 		22EDC1211D9D272300A827A2 /* FavoritesContainerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EDC1201D9D272300A827A2 /* FavoritesContainerInteractor.swift */; };
-		22EDC1241D9D29AC00A827A2 /* IDRealmDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EDC1231D9D29AC00A827A2 /* IDRealmDAO.swift */; };
+		22EDC1241D9D29AC00A827A2 /* RealmDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EDC1231D9D29AC00A827A2 /* RealmDAO.swift */; };
+		22EDC1271D9D2A4E00A827A2 /* FavoritesDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EDC1261D9D2A4E00A827A2 /* FavoritesDAO.swift */; };
+		22EDC1291D9D2A7C00A827A2 /* FavoritesEntity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EDC1281D9D2A7C00A827A2 /* FavoritesEntity.swift */; };
 		49962E9F8CAE59FB7EC2CF08 /* SearchResultsRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49962BA8164090366012FE74 /* SearchResultsRouting.swift */; };
 		49962F7786B6EA61F3FF18B5 /* SearchResultsRoutingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4996275B66A827E39BDE391D /* SearchResultsRoutingProtocol.swift */; };
 		B800E4D34CE998FFA061BA72 /* Pods_InterurbanosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD2A12E40F2E91A2A9C4B41F /* Pods_InterurbanosUITests.framework */; };
@@ -158,6 +161,7 @@
 		225FE9191D7C44ED00F1B5FE /* SearchResultsInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsInteractor.swift; sourceTree = "<group>"; };
 		225FE91C1D7C464000F1B5FE /* SearchResultsFactory.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsFactory.swift; sourceTree = "<group>"; };
 		226507B51D6CCE460017D3EB /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		22A1D7D31D9D2EE1009ECA5B /* FavoriteBusStop.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoriteBusStop.swift; sourceTree = "<group>"; };
 		22A4E8C41D7C7B660053EAC2 /* FavoritesDataSource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesDataSource.swift; sourceTree = "<group>"; };
 		22AB16D71D6AD6AD007C33E5 /* Loading.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Loading.swift; sourceTree = "<group>"; };
 		22AB16DA1D6AD824007C33E5 /* LoadingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingViewController.swift; sourceTree = "<group>"; };
@@ -174,7 +178,9 @@
 		22D1BE3C1D663CC400D567CC /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 		22D1BE401D663E0400D567CC /* BusAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusAO.swift; sourceTree = "<group>"; };
 		22EDC1201D9D272300A827A2 /* FavoritesContainerInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesContainerInteractor.swift; sourceTree = "<group>"; };
-		22EDC1231D9D29AC00A827A2 /* IDRealmDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDRealmDAO.swift; sourceTree = "<group>"; };
+		22EDC1231D9D29AC00A827A2 /* RealmDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmDAO.swift; sourceTree = "<group>"; };
+		22EDC1261D9D2A4E00A827A2 /* FavoritesDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesDAO.swift; sourceTree = "<group>"; };
+		22EDC1281D9D2A7C00A827A2 /* FavoritesEntity.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesEntity.swift; sourceTree = "<group>"; };
 		4996275B66A827E39BDE391D /* SearchResultsRoutingProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsRoutingProtocol.swift; sourceTree = "<group>"; };
 		49962BA8164090366012FE74 /* SearchResultsRouting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsRouting.swift; sourceTree = "<group>"; };
 		4CD246FDBEB99774D17BD46A /* Pods-InterurbanosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterurbanosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InterurbanosTests/Pods-InterurbanosTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -386,6 +392,7 @@
 				223A317A1D83335E00E0A7F9 /* Mappers */,
 				223A31761D82121200E0A7F9 /* BusStop.swift */,
 				223A31781D8332FC00E0A7F9 /* Bus.swift */,
+				22A1D7D31D9D2EE1009ECA5B /* FavoriteBusStop.swift */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -718,9 +725,19 @@
 		22EDC1221D9D28CD00A827A2 /* DB */ = {
 			isa = PBXGroup;
 			children = (
-				22EDC1231D9D29AC00A827A2 /* IDRealmDAO.swift */,
+				22EDC1251D9D2A3300A827A2 /* Favorites */,
+				22EDC1231D9D29AC00A827A2 /* RealmDAO.swift */,
 			);
 			name = DB;
+			sourceTree = "<group>";
+		};
+		22EDC1251D9D2A3300A827A2 /* Favorites */ = {
+			isa = PBXGroup;
+			children = (
+				22EDC1261D9D2A4E00A827A2 /* FavoritesDAO.swift */,
+				22EDC1281D9D2A7C00A827A2 /* FavoritesEntity.swift */,
+			);
+			name = Favorites;
 			sourceTree = "<group>";
 		};
 		D1215A618E74F4353F16905D /* Pods */ = {
@@ -1034,7 +1051,7 @@
 				223479CE1D69FFE20000FB2D /* WebService.swift in Sources */,
 				223A31791D8332FC00E0A7F9 /* Bus.swift in Sources */,
 				223479D41D6A05730000FB2D /* BusStopsProviders.swift in Sources */,
-				22EDC1241D9D29AC00A827A2 /* IDRealmDAO.swift in Sources */,
+				22EDC1241D9D29AC00A827A2 /* RealmDAO.swift in Sources */,
 				22CC2BB01D78CC9F00B8EA57 /* SearchPresenterInterface.swift in Sources */,
 				22AB16DB1D6AD824007C33E5 /* LoadingViewController.swift in Sources */,
 				223A318A1D87288E00E0A7F9 /* BusStopBuilder.swift in Sources */,
@@ -1044,6 +1061,7 @@
 				225FE9181D7C444100F1B5FE /* SearchResultsViewInterface.swift in Sources */,
 				223A317C1D83336B00E0A7F9 /* BusStopMapper.swift in Sources */,
 				2201266B1D65CFAE00B6884D /* FavoritesInteractor.swift in Sources */,
+				22A1D7D41D9D2EE1009ECA5B /* FavoriteBusStop.swift in Sources */,
 				224554C71D9C4044004895A3 /* FavoritesContainerRouting.swift in Sources */,
 				220126691D65CFA300B6884D /* FavoritesPresenterInterface.swift in Sources */,
 				22EDC1211D9D272300A827A2 /* FavoritesContainerInteractor.swift in Sources */,
@@ -1057,6 +1075,7 @@
 				22AB16D81D6AD6AD007C33E5 /* Loading.swift in Sources */,
 				224554B91D9C3F10004895A3 /* FavoritesContainerViewInterface.swift in Sources */,
 				225FE91A1D7C44ED00F1B5FE /* SearchResultsInteractor.swift in Sources */,
+				22EDC1271D9D2A4E00A827A2 /* FavoritesDAO.swift in Sources */,
 				220126601D65CE5200B6884D /* FavoritesViewController.swift in Sources */,
 				22A4E8C51D7C7B660053EAC2 /* FavoritesDataSource.swift in Sources */,
 				22CC2BB41D78CCAF00B8EA57 /* SearchInteractorIO.swift in Sources */,
@@ -1077,6 +1096,7 @@
 				221405EF1D944B9400514C4C /* LoadingView.swift in Sources */,
 				224554C21D9C3FF3004895A3 /* FavoritesContainerRoutingInterface.swift in Sources */,
 				220126311D65CD4E00B6884D /* AppDelegate.swift in Sources */,
+				22EDC1291D9D2A7C00A827A2 /* FavoritesEntity.swift in Sources */,
 				225FE9121D7C43BD00F1B5FE /* SearchResultsPresenter.swift in Sources */,
 				22B47D3B1D79E20500B2CCF7 /* SearchFactory.swift in Sources */,
 				22B47D3D1D79E37F00B2CCF7 /* MainTabBarControllerFactory.swift in Sources */,

@@ -16,7 +16,7 @@ extension FavoritesContainerPresenter: FavoritesContainerPresenterInterface
 {
     func viewLoaded()
     {
-        
+        interactor?.loadFavorites()
     }
 }
 

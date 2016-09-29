@@ -6,9 +6,27 @@
 //  Copyright © 2016 molmedo. All rights reserved.
 //
 
-class FavoritesContainerInteractor {}
+class FavoritesContainerInteractor
+{
+    weak var output: FavoritesContainerInteractorOutput?
+}
 
 extension FavoritesContainerInteractor: FavoritesContainerInteractorInput
 {
-    weak var output: FavoritesContainerInteractorOutput?
+    func loadFavorites()
+    {
+        let favoritesDAO = FavoritesDAO()
+        
+        do {
+            let allFavorites = try favoritesDAO.all()
+            
+            if allFavorites.isEmpty {
+                output?.noFavorites()
+            } else {
+                output?.loadedFavorites(
+            }
+        } catch {
+            
+        }
+    }
 }
