@@ -23,7 +23,7 @@ extension FavoritesContainerInteractor: FavoritesContainerInteractorInput
             if allFavorites.isEmpty {
                 output?.noFavorites()
             } else {
-                output?.loadedFavorites(
+                output?.loadedFavorites(favorites: allFavorites.map(FavoriteBusStopMapper().transform))
             }
         } catch {
             

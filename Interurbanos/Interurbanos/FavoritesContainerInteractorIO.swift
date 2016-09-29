@@ -14,5 +14,5 @@ protocol FavoritesContainerInteractorInput
 protocol FavoritesContainerInteractorOutput: class
 {
     func noFavorites()
-    func loadedFavorites(favorites: )
+    func loadedFavorites(favorites: [FavoriteBusStop])
 }
