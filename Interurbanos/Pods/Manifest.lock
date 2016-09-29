@@ -1,12 +1,20 @@
 PODS:
   - JASON (3.0)
+  - Realm (1.1.0):
+    - Realm/Headers (= 1.1.0)
+  - Realm/Headers (1.1.0)
+  - RealmSwift (1.1.0):
+    - Realm (= 1.1.0)
 
 DEPENDENCIES:
   - JASON
+  - RealmSwift
 
 SPEC CHECKSUMS:
   JASON: cf4d762e61428a20db8eaef2acb6a569a10c1801
+  Realm: ceecf1a4540c4ce9efe196fe73fa9855bce05bd8
+  RealmSwift: 838058b2db95b12cb86bd0cf209df642c33fb60a
 
-PODFILE CHECKSUM: 8376733b2d80360ffd19147575f315a2c05d2ca4
+PODFILE CHECKSUM: 972a4a3dc610d5327dada34340a714f19fbf8818
 
-COCOAPODS: 1.0.1
+COCOAPODS: 1.1.0.rc.2

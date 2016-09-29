@@ -10,9 +10,11 @@ import UIKit
 
 class FavoritesContainerViewController: UIViewController
 {
+    var eventHandler: FavoritesContainerPresenterInterface?
+    
     override func viewDidLoad()
     {
-        
+        eventHandler?.viewLoaded()
     }
 }
 

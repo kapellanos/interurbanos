@@ -8,5 +8,5 @@
 
 protocol FavoritesContainerPresenterInterface
 {
-    
+    func viewLoaded()
 }

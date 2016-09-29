@@ -8,10 +8,19 @@
 
 class FavoritesContainerPresenter
 {
-    
+    weak var view: FavoritesContainerViewInterface?
+    var interactor: FavoritesContainerInteractorInput?
 }
 
 extension FavoritesContainerPresenter: FavoritesContainerPresenterInterface
+{
+    func viewLoaded()
+    {
+        
+    }
+}
+
+extension FavoritesContainerPresenter: FavoritesContainerInteractorOutput
 {
     
 }

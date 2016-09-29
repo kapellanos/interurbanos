@@ -73,6 +73,8 @@
 		22CC2BB81D78CCD700B8EA57 /* SearchRoutingInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CC2BB71D78CCD700B8EA57 /* SearchRoutingInterface.swift */; };
 		22D1BE3D1D663CC400D567CC /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D1BE3C1D663CC400D567CC /* Resource.swift */; };
 		22D1BE411D663E0400D567CC /* BusAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D1BE401D663E0400D567CC /* BusAO.swift */; };
+		22EDC1211D9D272300A827A2 /* FavoritesContainerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EDC1201D9D272300A827A2 /* FavoritesContainerInteractor.swift */; };
+		22EDC1241D9D29AC00A827A2 /* IDRealmDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EDC1231D9D29AC00A827A2 /* IDRealmDAO.swift */; };
 		49962E9F8CAE59FB7EC2CF08 /* SearchResultsRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49962BA8164090366012FE74 /* SearchResultsRouting.swift */; };
 		49962F7786B6EA61F3FF18B5 /* SearchResultsRoutingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4996275B66A827E39BDE391D /* SearchResultsRoutingProtocol.swift */; };
 		B800E4D34CE998FFA061BA72 /* Pods_InterurbanosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD2A12E40F2E91A2A9C4B41F /* Pods_InterurbanosUITests.framework */; };
@@ -171,6 +173,8 @@
 		22CC2BB71D78CCD700B8EA57 /* SearchRoutingInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRoutingInterface.swift; sourceTree = "<group>"; };
 		22D1BE3C1D663CC400D567CC /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 		22D1BE401D663E0400D567CC /* BusAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusAO.swift; sourceTree = "<group>"; };
+		22EDC1201D9D272300A827A2 /* FavoritesContainerInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesContainerInteractor.swift; sourceTree = "<group>"; };
+		22EDC1231D9D29AC00A827A2 /* IDRealmDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = IDRealmDAO.swift; sourceTree = "<group>"; };
 		4996275B66A827E39BDE391D /* SearchResultsRoutingProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsRoutingProtocol.swift; sourceTree = "<group>"; };
 		49962BA8164090366012FE74 /* SearchResultsRouting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsRouting.swift; sourceTree = "<group>"; };
 		4CD246FDBEB99774D17BD46A /* Pods-InterurbanosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterurbanosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InterurbanosTests/Pods-InterurbanosTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -237,6 +241,7 @@
 			isa = PBXGroup;
 			children = (
 				221405ED1D940F7F00514C4C /* Assets */,
+				22EDC1221D9D28CD00A827A2 /* DB */,
 				223A31751D82120900E0A7F9 /* Model */,
 				223A31721D8211E200E0A7F9 /* View Models */,
 				226507B41D6CCE3C0017D3EB /* App */,
@@ -549,6 +554,7 @@
 			isa = PBXGroup;
 			children = (
 				224554BF1D9C3FD8004895A3 /* FavoritesContainerInteractorIO.swift */,
+				22EDC1201D9D272300A827A2 /* FavoritesContainerInteractor.swift */,
 			);
 			name = Interactor;
 			sourceTree = "<group>";
@@ -709,6 +715,14 @@
 			name = "Api Objects";
 			sourceTree = "<group>";
 		};
+		22EDC1221D9D28CD00A827A2 /* DB */ = {
+			isa = PBXGroup;
+			children = (
+				22EDC1231D9D29AC00A827A2 /* IDRealmDAO.swift */,
+			);
+			name = DB;
+			sourceTree = "<group>";
+		};
 		D1215A618E74F4353F16905D /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -785,6 +799,7 @@
 				220126491D65CD4F00B6884D /* Frameworks */,
 				2201264A1D65CD4F00B6884D /* Resources */,
 				F6994A358534941A7859F9CA /* [CP] Copy Pods Resources */,
+				B4F506B3944AF22779166500 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -916,7 +931,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		93BFEDAE57C2440C3018E947 /* [CP] Embed Pods Frameworks */ = {
@@ -932,6 +947,21 @@
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Interurbanos/Pods-Interurbanos-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B4F506B3944AF22779166500 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-InterurbanosUITests/Pods-InterurbanosUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		C114927076FB367AB9A24D1B /* [CP] Copy Pods Resources */ = {
@@ -961,7 +991,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 		F6994A358534941A7859F9CA /* [CP] Copy Pods Resources */ = {
@@ -991,7 +1021,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -1004,6 +1034,7 @@
 				223479CE1D69FFE20000FB2D /* WebService.swift in Sources */,
 				223A31791D8332FC00E0A7F9 /* Bus.swift in Sources */,
 				223479D41D6A05730000FB2D /* BusStopsProviders.swift in Sources */,
+				22EDC1241D9D29AC00A827A2 /* IDRealmDAO.swift in Sources */,
 				22CC2BB01D78CC9F00B8EA57 /* SearchPresenterInterface.swift in Sources */,
 				22AB16DB1D6AD824007C33E5 /* LoadingViewController.swift in Sources */,
 				223A318A1D87288E00E0A7F9 /* BusStopBuilder.swift in Sources */,
@@ -1015,6 +1046,7 @@
 				2201266B1D65CFAE00B6884D /* FavoritesInteractor.swift in Sources */,
 				224554C71D9C4044004895A3 /* FavoritesContainerRouting.swift in Sources */,
 				220126691D65CFA300B6884D /* FavoritesPresenterInterface.swift in Sources */,
+				22EDC1211D9D272300A827A2 /* FavoritesContainerInteractor.swift in Sources */,
 				225FE9101D7C430700F1B5FE /* SearchResultsSearchController.swift in Sources */,
 				22CC2BB61D78CCCE00B8EA57 /* SearchRouting.swift in Sources */,
 				22442FE41D6CCAF500879DD1 /* SearchTableViewController.swift in Sources */,

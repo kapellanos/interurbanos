@@ -6,6 +6,8 @@ target 'Interurbanos' do
   use_frameworks!
 
     pod 'JASON'
+    pod 'RealmSwift'
+
   target 'InterurbanosTests' do
     inherit! :search_paths
     # Pods for testing
