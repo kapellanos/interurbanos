@@ -8,5 +8,5 @@
 
 protocol FavoritesContainerViewInterface: class
 {
-    
+    func showNoFavoritesView()
 }

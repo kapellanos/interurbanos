@@ -10,6 +10,6 @@ import RealmSwift
 
 final internal class FavoritesEntity: Object
 {
-    dynamic var busStop: BusStopEntity?
+    dynamic var busStop: BusStopEntity = BusStopEntity()
     dynamic var favoriteName: String = ""
 }

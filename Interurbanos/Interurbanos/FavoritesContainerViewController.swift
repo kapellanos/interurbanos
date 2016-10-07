@@ -20,5 +20,8 @@ class FavoritesContainerViewController: UIViewController
 
 extension FavoritesContainerViewController: FavoritesContainerViewInterface
 {
-    
+    internal func showNoFavoritesView()
+    {
+        
+    }
 }

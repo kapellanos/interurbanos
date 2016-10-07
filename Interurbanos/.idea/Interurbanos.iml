@@ -5,62 +5,81 @@
       <sourceFolder url="file://$MODULE_DIR$/InterurbanosTests/InterurbanosTests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/InterurbanosTests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Podfile" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/MainTabBarControllerFactory.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchInteractorIO.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesPresenter.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusAO.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusMapper.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusStopBuilder.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchPresenterInterface.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchResultsRouting.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesInteractor.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/LoadingView.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesFactory.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchTableViewController.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchInteractor.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesRouting.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusStopTableViewCell.xib" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchRouting.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/Bus.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesPresenterInterface.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchTableViewController.xib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesContainerViewController.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesDataSource.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchPresenter.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/LoadingViewController.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesViewController.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesViewInterface.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchResultsInteractor.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/Constraints+Utils.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/Loading.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusStopsAO.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusStopsProviders.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchRoutingInterface.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/CustomColors.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/AppDelegate.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesInteractorIO.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchResultsDataSource.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchResultsInteractorIO.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusStopTableViewCell.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchViewInterface.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesRoutingProtocol.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/WebService.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusStop.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchResultsRoutingProtocol.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/CustomFonts.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchResultsFactory.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/LoadingViewImp.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/Resource.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SequenceType+Utils.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusStopMapper.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/Assets.xcassets" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchResultsPresenter.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchFactory.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchResultsViewInterface.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusStopVM.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchResultsPresenterInterface.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/App.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusStop.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusAO.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusStopsProviders.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/RealmDAO.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesRouting.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchViewInterface.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesEntity.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/CustomColors.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/Resource.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/CustomFonts.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchResultsSearchController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusStopEntity.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchRouting.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesContainerInteractor.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/LoadingView.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/LoadingViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchResultsRoutingProtocol.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchPresenter.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusStopTableViewCell.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesFactory.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesViewController.xib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusStopsAO.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/Loading.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesContainerViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/LoadingViewImp.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesPresenterInterface.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchFactory.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesInteractorIO.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusMapper.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchResultsDataSource.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchResultsPresenter.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/MainTabBarControllerFactory.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusStopTableViewCell.xib" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesContainerRoutingInterface.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchResultsInteractorIO.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesInteractor.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/Assets.xcassets" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchResultsRouting.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/AppDelegate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchRoutingInterface.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesViewInterface.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesContainerPresenterInterface.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/WebService.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/Constraints+Utils.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesContainerPresenter.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusStopMapper.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoriteBusStopMapper.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesContainerViewInterface.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesDAO.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchResultsFactory.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchInteractor.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoriteBusStop.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusEntity.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusStopBuilder.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesContainerFactory.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchInteractorIO.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesContainerInteractorIO.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchResultsViewInterface.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchPresenterInterface.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesPresenter.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusStopVM.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/Bus.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesRoutingProtocol.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchResultsPresenterInterface.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchResultsInteractor.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesContainerRouting.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/InterurbanosUITests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/InterurbanosUITests/InterurbanosUITests.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/JASON/Source/JSON.swift" isTestSource="false" />
@@ -70,34 +89,20 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/JASON/Source/Supporting Files/JASON.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/JASON/Source/LiteralConvertible.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/JASON/Source/JSONKey.swift" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Pods-InterurbanosUITests.release.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Pods-InterurbanosUITests-resources.sh" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Pods-InterurbanosUITests.debug.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Pods-InterurbanosUITests-frameworks.sh" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Pods-InterurbanosUITests-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Pods-InterurbanosUITests.modulemap" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Pods-InterurbanosUITests-acknowledgements.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Pods-InterurbanosUITests-umbrella.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Pods-InterurbanosUITests-acknowledgements.markdown" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/JASON/JASON-prefix.pch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/JASON/JASON-umbrella.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/JASON/JASON-dummy.m" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/JASON/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/JASON/JASON.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/JASON/JASON.modulemap" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosTests/Pods-InterurbanosTests-acknowledgements.markdown" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosTests/Pods-InterurbanosTests-acknowledgements.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosTests/Pods-InterurbanosTests.modulemap" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosTests/Pods-InterurbanosTests.release.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosTests/Pods-InterurbanosTests-frameworks.sh" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosTests/Info.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosTests/Pods-InterurbanosTests-umbrella.h" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosTests/Pods-InterurbanosTests-dummy.m" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosTests/Pods-InterurbanosTests.debug.xcconfig" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosTests/Pods-InterurbanosTests-resources.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RealmSwift/RealmSwift.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RealmSwift/RealmSwift-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RealmSwift/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RealmSwift/RealmSwift.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RealmSwift/RealmSwift-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/RealmSwift/RealmSwift-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Interurbanos/Pods-Interurbanos.modulemap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Interurbanos/Pods-Interurbanos-acknowledgements.plist" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Interurbanos/Pods-Interurbanos.release.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Interurbanos/Pods-Interurbanos-frameworks.sh" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Interurbanos/Pods-Interurbanos-resources.sh" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Interurbanos/Pods-Interurbanos-dummy.m" isTestSource="false" />
@@ -105,17 +110,130 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Interurbanos/Pods-Interurbanos-umbrella.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Interurbanos/Pods-Interurbanos.debug.xcconfig" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Interurbanos/Pods-Interurbanos-acknowledgements.markdown" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Interurbanos/Pods-Interurbanos.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Interurbanos/Pods-Interurbanos.release.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Realm/Realm.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Realm/Realm.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Realm/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Realm/Realm-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Realm/Realm-prefix.pch" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosTests/Pods-InterurbanosTests-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosTests/Pods-InterurbanosTests-acknowledgements.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosTests/Pods-InterurbanosTests.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosTests/Pods-InterurbanosTests-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosTests/Pods-InterurbanosTests-frameworks.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosTests/Pods-InterurbanosTests.release.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosTests/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosTests/Pods-InterurbanosTests-acknowledgements.markdown" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosTests/Pods-InterurbanosTests.debug.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosTests/Pods-InterurbanosTests-resources.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Pods-InterurbanosUITests-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Pods-InterurbanosUITests.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Pods-InterurbanosUITests-resources.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Pods-InterurbanosUITests.debug.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Pods-InterurbanosUITests-frameworks.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Pods-InterurbanosUITests-umbrella.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Pods-InterurbanosUITests-acknowledgements.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Pods-InterurbanosUITests.release.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Pods-InterurbanosUITests-acknowledgements.markdown" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RealmSwift/RealmSwift/SortDescriptor.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RealmSwift/RealmSwift/Schema.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RealmSwift/RealmSwift/Results.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RealmSwift/RealmSwift/Migration.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RealmSwift/RealmSwift/Object.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RealmSwift/RealmSwift/Property.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RealmSwift/RealmSwift/Aliases.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RealmSwift/RealmSwift/LinkingObjects.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RealmSwift/RealmSwift/Util.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RealmSwift/RealmSwift/SwiftVersion.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RealmSwift/RealmSwift/ObjectSchema.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RealmSwift/RealmSwift/List.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RealmSwift/RealmSwift/RealmConfiguration.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RealmSwift/RealmSwift/Realm.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RealmSwift/RealmSwift/Error.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RealmSwift/RealmSwift/Optional.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/RealmSwift/RealmSwift/RealmCollection.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/include/RLMAccessor.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/include/RLMSchema_Private.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/include/RLMObjectSchema.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/include/RLMResults_Private.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/include/RLMArray.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/include/Realm.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/include/RLMArray_Private.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/include/RLMObject.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/include/RLMCollection.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/include/RLMRealmConfiguration_Private.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/include/RLMProperty_Private.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/include/RLMResults.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/include/RLMProperty.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/include/RLMObjectBase_Dynamic.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/include/RLMMigration.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/include/RLMObject_Private.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/include/RLMSchema.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/include/RLMObjectStore.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/include/RLMPlatform.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/include/RLMRealmConfiguration.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/include/RLMMigration_Private.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/include/RLMRealm_Private.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/include/RLMRealm_Dynamic.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/include/RLMObjectSchema_Private.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/include/RLMObjectBase.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/include/RLMOptionalBase.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/include/RLMConstants.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/include/RLMRealm.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/include/RLMListBase.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/core/librealm-ios.a" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/RLMMigration.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/RLMRealm.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/ObjectStore/src/placeholder.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/ObjectStore/src/list.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/ObjectStore/src/shared_realm.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/ObjectStore/src/thread_confined.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/ObjectStore/src/impl/handover.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/ObjectStore/src/impl/results_notifier.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/ObjectStore/src/impl/list_notifier.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/ObjectStore/src/impl/apple/external_commit_helper.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/ObjectStore/src/impl/realm_coordinator.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/ObjectStore/src/impl/transact_log_handler.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/ObjectStore/src/impl/weak_realm_notifier.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/ObjectStore/src/impl/collection_change_builder.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/ObjectStore/src/impl/collection_notifier.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/ObjectStore/src/util/format.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/ObjectStore/src/schema.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/ObjectStore/src/collection_notifications.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/ObjectStore/src/object_schema.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/ObjectStore/src/results.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/ObjectStore/src/object_store.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/ObjectStore/src/index_set.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/RLMOptionalBase.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/RLMSchema.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/RLMUtil.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/RLMRealmUtil.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/RLMSwiftSupport.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/RLMObjectStore.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/RLMAnalytics.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/RLMAccessor.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/RLMObjectBase.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/RLMProperty.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/RLMCollection.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/RLMUpdateChecker.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/RLMPredicateUtil.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/RLMListBase.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/RLMArray.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/RLMRealmConfiguration.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/RLMObject.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/RLMResults.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/RLMQueryUtil.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/RLMObservation.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/RLMConstants.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/RLMClassInfo.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/RLMArrayLinkView.mm" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Realm/Realm/RLMObjectSchema.mm" isTestSource="false" />
     </content>
-    <content url="file://$USER_HOME$/Library/Caches/AppCode2016.2/DerivedData/Interurbanos-hlaldcmbdglcsrahaxehxsbrffsm/Build/Intermediates/Pods.build/Debug-iphoneos/JASON.build/DerivedSources" />
-    <content url="file://$USER_HOME$/Library/Caches/AppCode2016.2/DerivedData/Interurbanos-hlaldcmbdglcsrahaxehxsbrffsm/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-Interurbanos.build/DerivedSources" />
-    <content url="file://$USER_HOME$/Library/Caches/AppCode2016.2/DerivedData/Interurbanos-hlaldcmbdglcsrahaxehxsbrffsm/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-InterurbanosTests.build/DerivedSources" />
-    <content url="file://$USER_HOME$/Library/Caches/AppCode2016.2/DerivedData/Interurbanos-hlaldcmbdglcsrahaxehxsbrffsm/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-InterurbanosUITests.build/DerivedSources" />
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="module-library">
       <library name="Header Search Paths">
         <CLASSES>
-          <root url="file://$USER_HOME$/Library/Caches/AppCode2016.2/DerivedData/Interurbanos-hlaldcmbdglcsrahaxehxsbrffsm/Build/Products/Debug-iphoneos/JASON/JASON.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/XcodeKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/DTPerformanceSession.framework/Headers" />
@@ -217,7 +335,6 @@
           <root url="file:///Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include/c++/v1" />
         </CLASSES>
         <SOURCES>
-          <root url="file://$USER_HOME$/Library/Caches/AppCode2016.2/DerivedData/Interurbanos-hlaldcmbdglcsrahaxehxsbrffsm/Build/Products/Debug-iphoneos/JASON/JASON.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/XcodeKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/InterfaceBuilderKit.framework/Headers" />
           <root url="file:///Applications/Xcode.app/Contents/PlugIns/Xcode3Core.ideplugin/Contents/SharedSupport/Developer/Library/Frameworks/DTPerformanceSession.framework/Headers" />

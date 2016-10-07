@@ -23,7 +23,7 @@ extension SearchResultsInteractor: SearchResultsInteractorInput
                 return
             }
 
-            self.output?.stopObtained(busStop: BusStopMapper().transform(fromBusStopAO: stop))
+            self.output?.stopObtained(busStop: BusStopMapper().transform(from: stop))
         }
     }
 }

@@ -8,8 +8,13 @@
 
 struct BusMapper
 {
-    func transform(fromBusAO busAO: BusAO) -> Bus
+    func transform(from busAO: BusAO) -> Bus
     {
         return Bus(number: busAO.number, waitTime: busAO.waitTime, source: busAO.source, lineBound: busAO.lineBound, isNightLine: busAO.isNightLine)
+    }
+    
+    func transform(from entity: BusEntity) -> Bus
+    {
+        return Bus(number: entity.number, waitTime: entity.waitTime, source: entity.source, lineBound: entity.lineBound, isNightLine: entity.isNightLine)
     }
 }

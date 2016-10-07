@@ -22,5 +22,13 @@ extension FavoritesContainerPresenter: FavoritesContainerPresenterInterface
 
 extension FavoritesContainerPresenter: FavoritesContainerInteractorOutput
 {
+    func noFavorites()
+    {
+        view?.showNoFavoritesView()
+    }
     
+    func loadedFavorites(favorites: [FavoriteBusStop])
+    {
+        
+    }
 }

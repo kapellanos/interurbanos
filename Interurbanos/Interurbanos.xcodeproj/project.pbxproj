@@ -77,6 +77,8 @@
 		22CC2BB81D78CCD700B8EA57 /* SearchRoutingInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CC2BB71D78CCD700B8EA57 /* SearchRoutingInterface.swift */; };
 		22D1BE3D1D663CC400D567CC /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D1BE3C1D663CC400D567CC /* Resource.swift */; };
 		22D1BE411D663E0400D567CC /* BusAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D1BE401D663E0400D567CC /* BusAO.swift */; };
+		22DFCD0E1DA7797500863F7D /* NoFavoritesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22DFCD0D1DA7797500863F7D /* NoFavoritesViewController.swift */; };
+		22DFCD101DA7799200863F7D /* NoFavoritesViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22DFCD0F1DA7799200863F7D /* NoFavoritesViewController.xib */; };
 		22EDC1211D9D272300A827A2 /* FavoritesContainerInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EDC1201D9D272300A827A2 /* FavoritesContainerInteractor.swift */; };
 		22EDC1241D9D29AC00A827A2 /* RealmDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EDC1231D9D29AC00A827A2 /* RealmDAO.swift */; };
 		22EDC1271D9D2A4E00A827A2 /* FavoritesDAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22EDC1261D9D2A4E00A827A2 /* FavoritesDAO.swift */; };
@@ -183,6 +185,8 @@
 		22CC2BB71D78CCD700B8EA57 /* SearchRoutingInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRoutingInterface.swift; sourceTree = "<group>"; };
 		22D1BE3C1D663CC400D567CC /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 		22D1BE401D663E0400D567CC /* BusAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusAO.swift; sourceTree = "<group>"; };
+		22DFCD0D1DA7797500863F7D /* NoFavoritesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NoFavoritesViewController.swift; sourceTree = "<group>"; };
+		22DFCD0F1DA7799200863F7D /* NoFavoritesViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = NoFavoritesViewController.xib; sourceTree = "<group>"; };
 		22EDC1201D9D272300A827A2 /* FavoritesContainerInteractor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesContainerInteractor.swift; sourceTree = "<group>"; };
 		22EDC1231D9D29AC00A827A2 /* RealmDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RealmDAO.swift; sourceTree = "<group>"; };
 		22EDC1261D9D2A4E00A827A2 /* FavoritesDAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FavoritesDAO.swift; sourceTree = "<group>"; };
@@ -516,6 +520,10 @@
 		224554AE1D9C3E05004895A3 /* No Favorites */ = {
 			isa = PBXGroup;
 			children = (
+				22DFCD0C1DA7796100863F7D /* Routing */,
+				22DFCD0B1DA7795300863F7D /* Interactor */,
+				22DFCD0A1DA7794800863F7D /* View */,
+				22DFCD091DA7794500863F7D /* Presenter */,
 			);
 			name = "No Favorites";
 			sourceTree = "<group>";
@@ -745,6 +753,36 @@
 			name = "Api Objects";
 			sourceTree = "<group>";
 		};
+		22DFCD091DA7794500863F7D /* Presenter */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Presenter;
+			sourceTree = "<group>";
+		};
+		22DFCD0A1DA7794800863F7D /* View */ = {
+			isa = PBXGroup;
+			children = (
+				22DFCD0D1DA7797500863F7D /* NoFavoritesViewController.swift */,
+				22DFCD0F1DA7799200863F7D /* NoFavoritesViewController.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		22DFCD0B1DA7795300863F7D /* Interactor */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Interactor;
+			sourceTree = "<group>";
+		};
+		22DFCD0C1DA7796100863F7D /* Routing */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Routing;
+			sourceTree = "<group>";
+		};
 		22EDC1221D9D28CD00A827A2 /* DB */ = {
 			isa = PBXGroup;
 			children = (
@@ -909,6 +947,7 @@
 				2201263B1D65CD4E00B6884D /* LaunchScreen.storyboard in Resources */,
 				220126381D65CD4E00B6884D /* Assets.xcassets in Resources */,
 				224554AB1D9C3CCC004895A3 /* FavoritesViewController.xib in Resources */,
+				22DFCD101DA7799200863F7D /* NoFavoritesViewController.xib in Resources */,
 				224554B21D9C3E21004895A3 /* FavoritesContainerViewController.xib in Resources */,
 				224554A91D9C3BD3004895A3 /* SearchTableViewController.xib in Resources */,
 			);
@@ -1112,6 +1151,7 @@
 				223A31811D83350200E0A7F9 /* BusStopTableViewCell.swift in Sources */,
 				224554C91D9C405E004895A3 /* FavoritesContainerFactory.swift in Sources */,
 				223A31771D82121200E0A7F9 /* BusStop.swift in Sources */,
+				22DFCD0E1DA7797500863F7D /* NoFavoritesViewController.swift in Sources */,
 				22A1D7DC1D9D3881009ECA5B /* FavoriteBusStopMapper.swift in Sources */,
 				22CC2BB21D78CCA800B8EA57 /* SearchInteractor.swift in Sources */,
 				225FE9141D7C43C700F1B5FE /* SearchResultsPresenterInterface.swift in Sources */,
