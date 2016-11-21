@@ -35,6 +35,7 @@ class BusStopTableViewCell: UITableViewCell
         didSet {
             guard let viewModel = viewModel else { return }
             stopNumber.text = viewModel.leftLabel
+            
         }
     }
 }

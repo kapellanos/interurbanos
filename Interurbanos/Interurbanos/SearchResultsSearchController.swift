@@ -10,7 +10,11 @@ import UIKit
 
 class SearchResultsSearchController: UIViewController
 {
-    @IBOutlet var tableView: UITableView!
+    @IBOutlet var tableView: UITableView! {
+        didSet {
+            tableView.register(UINib(nibName: "BusStopTableViewCell", bundle: nil), forCellReuseIdentifier: "BusStopTableViewCell")
+        }
+    }
     
     var searchBar: UISearchBar?
     

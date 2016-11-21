@@ -11,6 +11,7 @@ import UIKit
 class SearchResultsDataSource: NSObject
 {
     fileprivate var results = [BusStopVM]()
+    fileprivate let cellIdentifier = "BusStopTableViewCell"
 
     // MARK: - Public
 
@@ -29,15 +30,11 @@ extension SearchResultsDataSource: UITableViewDataSource
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell
     {
-        var cell = tableView.dequeueReusableCell(withIdentifier: "BusStopTableViewCell") as? BusStopTableViewCell
+        guard let cell = tableView.dequeueReusableCell(withIdentifier: cellIdentifier, for: indexPath) as? BusStopTableViewCell else { return UITableViewCell() }
 
-        if cell == nil {
-            cell = Bundle.main.loadNibNamed("BusStopTableViewCell", owner: nil)?.first as? BusStopTableViewCell
-        }
+        cell.viewModel = results[indexPath.row]
 
-        cell!.viewModel = results[indexPath.row]
-
-        return cell!
+        return cell
     }
 }
 
