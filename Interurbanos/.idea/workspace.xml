@@ -1,7 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="9e5bbf24-8c65-4fe9-961c-d0e052f83bcd" name="Default" comment="Seguimos con la llamada de obtener una parada, aunque ya bastante avanzada" />
+=======
+    <list default="true" id="9e5bbf24-8c65-4fe9-961c-d0e052f83bcd" name="Default" comment="Seguimos con la llamada de obtener una parada, aunque ya bastante avanzada">
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interurbanos/FavoritesViewController.swift" afterPath="$PROJECT_DIR$/Interurbanos/FavoritesViewController.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interurbanos/MainTabBarControllerFactory.swift" afterPath="$PROJECT_DIR$/Interurbanos/MainTabBarControllerFactory.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interurbanos/SearchFactory.swift" afterPath="$PROJECT_DIR$/Interurbanos/SearchFactory.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interurbanos/SearchResultsFactory.swift" afterPath="$PROJECT_DIR$/Interurbanos/SearchResultsFactory.swift" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Interurbanos/SearchTableViewController.swift" afterPath="$PROJECT_DIR$/Interurbanos/SearchTableViewController.swift" />
+    </list>
+>>>>>>> 138a830328f9530c2d278aa7734aa7add3d593d5
     <ignored path="Interurbanos.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,7 +36,7 @@
             <entry file="file://$PROJECT_DIR$/Interurbanos/SearchResultsPresenter.swift">
               <provider selected="true" editor-type-id="text-editor">
                 <state relative-caret-position="150">
-                  <caret line="10" column="28" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="28" />
+                  <caret line="22" column="0" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="28" />
                   <folding />
                 </state>
               </provider>
@@ -35,9 +45,17 @@
           <file leaf-file-name="SearchResultsFactory.swift" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Interurbanos/SearchResultsFactory.swift">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
                 <state relative-caret-position="435">
                   <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
                   <folding />
+=======
+                <state relative-caret-position="405">
+                  <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+                  <folding>
+                    <marker date="1474899636000" expanded="true" signature="1113:1195" ph="{...}" />
+                  </folding>
+>>>>>>> 138a830328f9530c2d278aa7734aa7add3d593d5
                 </state>
               </provider>
             </entry>
@@ -45,8 +63,13 @@
           <file leaf-file-name="SearchResultsRouting.swift" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/Interurbanos/SearchResultsRouting.swift">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
                 <state relative-caret-position="210">
                   <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
+=======
+                <state relative-caret-position="270">
+                  <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+>>>>>>> 138a830328f9530c2d278aa7734aa7add3d593d5
                   <folding />
                 </state>
               </provider>
@@ -75,9 +98,16 @@
           <file leaf-file-name="SearchResultsDataSource.swift" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Interurbanos/SearchResultsDataSource.swift">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="705">
-                  <caret line="47" column="7" selection-start-line="47" selection-start-column="7" selection-end-line="47" selection-end-column="7" />
-                  <folding />
+                <state relative-caret-position="780">
+                  <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
+                  <folding>
+                    <marker date="1474720085000" expanded="true" signature="210:368" ph="{...}" />
+                    <marker date="1474720085000" expanded="true" signature="328:366" ph="{...}" />
+                    <marker date="1474720085000" expanded="true" signature="427:897" ph="{...}" />
+                    <marker date="1474720085000" expanded="true" signature="521:557" ph="{...}" />
+                    <marker date="1474720085000" expanded="true" signature="666:897" ph="{...}" />
+                    <marker date="1474720085000" expanded="true" signature="1294:1302" ph="{...}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -119,9 +149,16 @@
           <file leaf-file-name="SearchResultsDataSource.swift" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Interurbanos/SearchResultsDataSource.swift">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="510">
-                  <caret line="34" column="95" selection-start-line="34" selection-start-column="95" selection-end-line="34" selection-end-column="95" />
-                  <folding />
+                <state relative-caret-position="585">
+                  <caret line="39" column="20" selection-start-line="39" selection-start-column="20" selection-end-line="39" selection-end-column="20" />
+                  <folding>
+                    <marker date="1474720085000" expanded="true" signature="210:368" ph="{...}" />
+                    <marker date="1474720085000" expanded="true" signature="328:366" ph="{...}" />
+                    <marker date="1474720085000" expanded="true" signature="427:897" ph="{...}" />
+                    <marker date="1474720085000" expanded="true" signature="521:557" ph="{...}" />
+                    <marker date="1474720085000" expanded="true" signature="666:897" ph="{...}" />
+                    <marker date="1474720085000" expanded="true" signature="1294:1302" ph="{...}" />
+                  </folding>
                 </state>
               </provider>
             </entry>
@@ -139,6 +176,7 @@
           <file leaf-file-name="SearchResultsSearchController.swift" pinned="false" current-in-tab="false">
             <entry file="file://$PROJECT_DIR$/Interurbanos/SearchResultsSearchController.swift">
               <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
                 <state relative-caret-position="285">
                   <caret line="19" column="4" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
                   <folding />
@@ -152,6 +190,14 @@
                 <state relative-caret-position="328">
                   <caret line="26" column="22" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="22" />
                   <folding />
+=======
+                <state relative-caret-position="870">
+                  <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
+                  <folding>
+                    <marker date="1474568632000" expanded="true" signature="0:160" ph="//..." />
+                    <marker date="1474568632000" expanded="true" signature="230:371" ph="{...}" />
+                  </folding>
+>>>>>>> 138a830328f9530c2d278aa7734aa7add3d593d5
                 </state>
               </provider>
             </entry>
@@ -179,20 +225,25 @@
         <option value="$PROJECT_DIR$/Interurbanos/SearchResultsInteractorIO.swift" />
         <option value="$PROJECT_DIR$/Interurbanos/SearchResultsRoutingProtocol.h" />
         <option value="$PROJECT_DIR$/Interurbanos/SearchResultsRoutingProtocol.swift" />
-        <option value="$PROJECT_DIR$/Interurbanos/SearchResultsSearchController.swift" />
         <option value="$PROJECT_DIR$/Interurbanos/SearchResultsViewInterface.swift" />
         <option value="$PROJECT_DIR$/Interurbanos/SearchResultsPresenter.swift" />
         <option value="$PROJECT_DIR$/Interurbanos/SearchResultsFactory.swift" />
         <option value="$PROJECT_DIR$/Interurbanos/SearchResultsRouting.swift" />
+        <option value="$PROJECT_DIR$/Interurbanos/SearchResultsSearchController.swift" />
       </list>
     </option>
   </component>
   <component name="OCFindUsagesOptions" text="true" ivars="false" properties="true" derivedClasses="false" />
   <component name="ProjectFrameBounds">
+<<<<<<< HEAD
     <option name="x" value="46" />
     <option name="y" value="22" />
     <option name="width" value="1234" />
     <option name="height" value="778" />
+=======
+    <option name="width" value="1440" />
+    <option name="height" value="900" />
+>>>>>>> 138a830328f9530c2d278aa7734aa7add3d593d5
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
     <OptionsSetting value="true" id="Add" />
@@ -475,7 +526,11 @@
       <updated>1474125596044</updated>
       <workItem from="1474125599445" duration="5837000" />
       <workItem from="1474220209175" duration="1916000" />
+<<<<<<< HEAD
       <workItem from="1474874313539" duration="121000" />
+=======
+      <workItem from="1474964441153" duration="37000" />
+>>>>>>> 138a830328f9530c2d278aa7734aa7add3d593d5
     </task>
     <task id="LOCAL-00001" summary="Seguimos con la llamada de obtener una parada, aunque ya bastante avanzada">
       <created>1474221042588</created>
@@ -488,6 +543,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="7874000" />
   </component>
   <component name="ToolWindowManager">
@@ -496,6 +552,16 @@
     <layout>
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25202593" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+=======
+    <option name="totallyTimeSpent" value="7790000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="1440" height="900" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24236111" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+>>>>>>> 138a830328f9530c2d278aa7734aa7add3d593d5
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
@@ -572,7 +638,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="435">
           <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
+<<<<<<< HEAD
           <folding />
+=======
+          <folding>
+            <marker date="1474899636000" expanded="true" signature="1113:1195" ph="{...}" />
+          </folding>
+>>>>>>> 138a830328f9530c2d278aa7734aa7add3d593d5
         </state>
       </provider>
     </entry>
@@ -628,7 +700,18 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="510">
           <caret line="34" column="95" selection-start-line="34" selection-start-column="95" selection-end-line="34" selection-end-column="95" />
+<<<<<<< HEAD
           <folding />
+=======
+          <folding>
+            <marker date="1474720085000" expanded="true" signature="210:368" ph="{...}" />
+            <marker date="1474720085000" expanded="true" signature="328:366" ph="{...}" />
+            <marker date="1474720085000" expanded="true" signature="427:897" ph="{...}" />
+            <marker date="1474720085000" expanded="true" signature="521:557" ph="{...}" />
+            <marker date="1474720085000" expanded="true" signature="666:897" ph="{...}" />
+            <marker date="1474720085000" expanded="true" signature="1294:1302" ph="{...}" />
+          </folding>
+>>>>>>> 138a830328f9530c2d278aa7734aa7add3d593d5
         </state>
       </provider>
     </entry>
@@ -641,10 +724,23 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Interurbanos/SearchResultsSearchController.swift">
+<<<<<<< HEAD
+=======
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
+          <folding>
+            <marker date="1474568632000" expanded="true" signature="0:160" ph="//..." />
+            <marker date="1474568632000" expanded="true" signature="230:371" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Interurbanos/BusStopTableViewCell.swift">
+>>>>>>> 138a830328f9530c2d278aa7734aa7add3d593d5
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
         </state>
       </provider>
     </entry>
@@ -775,9 +871,22 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/Interurbanos/SearchResultsDataSource.swift">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="510">
           <caret line="34" column="95" selection-start-line="34" selection-start-column="95" selection-end-line="34" selection-end-column="95" />
           <folding />
+=======
+        <state relative-caret-position="780">
+          <caret line="52" column="7" selection-start-line="52" selection-start-column="7" selection-end-line="52" selection-end-column="7" />
+          <folding>
+            <marker date="1474720085000" expanded="true" signature="210:368" ph="{...}" />
+            <marker date="1474720085000" expanded="true" signature="328:366" ph="{...}" />
+            <marker date="1474720085000" expanded="true" signature="427:897" ph="{...}" />
+            <marker date="1474720085000" expanded="true" signature="521:557" ph="{...}" />
+            <marker date="1474720085000" expanded="true" signature="666:897" ph="{...}" />
+            <marker date="1474720085000" expanded="true" signature="1294:1302" ph="{...}" />
+          </folding>
+>>>>>>> 138a830328f9530c2d278aa7734aa7add3d593d5
         </state>
       </provider>
     </entry>
@@ -790,6 +899,20 @@
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
+=======
+    <entry file="file://$PROJECT_DIR$/Interurbanos/SearchResultsSearchController.swift">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="870">
+          <caret line="58" column="30" selection-start-line="58" selection-start-column="30" selection-end-line="58" selection-end-column="30" />
+          <folding>
+            <marker date="1474568632000" expanded="true" signature="0:160" ph="//..." />
+            <marker date="1474568632000" expanded="true" signature="230:371" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+>>>>>>> 138a830328f9530c2d278aa7734aa7add3d593d5
     <entry file="file://$PROJECT_DIR$/Interurbanos/SearchResultsViewInterface.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -800,21 +923,30 @@
     <entry file="file://$PROJECT_DIR$/Interurbanos/SearchResultsPresenter.swift">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
-          <caret line="10" column="28" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="28" />
+          <caret line="22" column="0" selection-start-line="10" selection-start-column="6" selection-end-line="10" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Interurbanos/SearchResultsFactory.swift">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="435">
           <caret line="29" column="65" selection-start-line="29" selection-start-column="65" selection-end-line="29" selection-end-column="65" />
           <folding />
+=======
+        <state relative-caret-position="405">
+          <caret line="27" column="50" selection-start-line="27" selection-start-column="50" selection-end-line="27" selection-end-column="50" />
+          <folding>
+            <marker date="1474899636000" expanded="true" signature="1113:1195" ph="{...}" />
+          </folding>
+>>>>>>> 138a830328f9530c2d278aa7734aa7add3d593d5
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Interurbanos/SearchResultsRouting.swift">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="210">
           <caret line="14" column="36" selection-start-line="14" selection-start-column="36" selection-end-line="14" selection-end-column="36" />
           <folding />
@@ -833,6 +965,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="328">
           <caret line="26" column="22" selection-start-line="26" selection-start-column="8" selection-end-line="26" selection-end-column="22" />
+=======
+        <state relative-caret-position="270">
+          <caret line="18" column="0" selection-start-line="18" selection-start-column="0" selection-end-line="18" selection-end-column="0" />
+>>>>>>> 138a830328f9530c2d278aa7734aa7add3d593d5
           <folding />
         </state>
       </provider>

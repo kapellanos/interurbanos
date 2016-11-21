@@ -44,4 +44,9 @@ extension SearchResultsDataSource: UITableViewDelegate
     {
         
     }
+    
+    func tableView(_ tableView: UITableView, heightForRowAt indexPath: IndexPath) -> CGFloat
+    {
+        return 44.0
+    }
 }

@@ -10,13 +10,12 @@ import UIKit
 
 struct MainTabBarControllerFactory
 {
-    private let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
-    private let mainTabBarIdentifier = "MainTabBarController"
-    
     func mainTabBarController(viewControllers: [UIViewController]) -> UITabBarController
     {
-        let tabBarController = mainStoryboard.instantiateViewController(withIdentifier: mainTabBarIdentifier) as! UITabBarController
+        let tabBarController = UITabBarController()
         tabBarController.viewControllers = viewControllers
+        
+        tabBarController.tabBar.isTranslucent = false
         
         return tabBarController
     }

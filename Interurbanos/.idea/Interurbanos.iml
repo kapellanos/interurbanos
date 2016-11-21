@@ -8,7 +8,9 @@
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/MainTabBarControllerFactory.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchInteractorIO.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesPresenter.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusAO.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/Info.plist" isTestSource="false" />
+<<<<<<< HEAD
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesInteractorIO.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchPresenterInterface.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchPresenter.swift" isTestSource="false" />
@@ -19,20 +21,38 @@
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesViewController.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchTableViewController.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/CustomColors.swift" isTestSource="false" />
+=======
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusMapper.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusStopBuilder.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchPresenterInterface.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchResultsRouting.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesInteractor.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/LoadingView.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesFactory.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchTableViewController.swift" isTestSource="false" />
+>>>>>>> 138a830328f9530c2d278aa7734aa7add3d593d5
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchInteractor.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusStopTableViewCell.xib" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchRouting.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/Bus.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesPresenterInterface.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesDataSource.swift" isTestSource="false" />
+<<<<<<< HEAD
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesFactory.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/WebService.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/LoadingViewController.swift" isTestSource="false" />
+=======
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchPresenter.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/LoadingViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesViewController.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesViewInterface.swift" isTestSource="false" />
+>>>>>>> 138a830328f9530c2d278aa7734aa7add3d593d5
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchResultsInteractor.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/Constraints+Utils.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/Loading.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusStopsAO.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/Base.lproj/LaunchScreen.storyboard" isTestSource="false" />
+<<<<<<< HEAD
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/Base.lproj/Main.storyboard" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusStopsProviders.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchRoutingInterface.swift" isTestSource="false" />
@@ -42,18 +62,34 @@
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusMapper.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusStopBuilder.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesRouting.swift" isTestSource="false" />
+=======
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusStopsProviders.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchRoutingInterface.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/CustomColors.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/AppDelegate.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesInteractorIO.swift" isTestSource="false" />
+>>>>>>> 138a830328f9530c2d278aa7734aa7add3d593d5
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchResultsDataSource.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchResultsInteractorIO.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusStopTableViewCell.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchViewInterface.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/FavoritesRoutingProtocol.swift" isTestSource="false" />
+<<<<<<< HEAD
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/MainTabBarController.swift" isTestSource="false" />
+=======
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/WebService.swift" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusStop.swift" isTestSource="false" />
+>>>>>>> 138a830328f9530c2d278aa7734aa7add3d593d5
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchResultsRoutingProtocol.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/CustomFonts.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchResultsFactory.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/LoadingViewImp.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/Resource.swift" isTestSource="false" />
+<<<<<<< HEAD
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusAO.swift" isTestSource="false" />
+=======
+      <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SequenceType+Utils.swift" isTestSource="false" />
+>>>>>>> 138a830328f9530c2d278aa7734aa7add3d593d5
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/BusStopMapper.swift" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/Assets.xcassets" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Interurbanos/SearchResultsPresenter.swift" isTestSource="false" />
@@ -79,8 +115,18 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Pods-InterurbanosUITests-umbrella.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Info.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Pods-InterurbanosUITests-resources.sh" isTestSource="false" />
+<<<<<<< HEAD
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Pods-InterurbanosUITests-acknowledgements.plist" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Pods-InterurbanosUITests.debug.xcconfig" isTestSource="false" />
+=======
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Pods-InterurbanosUITests.debug.xcconfig" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Pods-InterurbanosUITests-frameworks.sh" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Info.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Pods-InterurbanosUITests-dummy.m" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Pods-InterurbanosUITests.modulemap" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Pods-InterurbanosUITests-acknowledgements.plist" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Pods-InterurbanosUITests-umbrella.h" isTestSource="false" />
+>>>>>>> 138a830328f9530c2d278aa7734aa7add3d593d5
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosUITests/Pods-InterurbanosUITests-acknowledgements.markdown" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/JASON/JASON-prefix.pch" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/JASON/JASON-umbrella.h" isTestSource="false" />
@@ -100,6 +146,10 @@
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-InterurbanosTests/Pods-InterurbanosTests-resources.sh" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Interurbanos/Pods-Interurbanos.modulemap" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Interurbanos/Pods-Interurbanos-acknowledgements.plist" isTestSource="false" />
+<<<<<<< HEAD
+=======
+      <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Interurbanos/Pods-Interurbanos.release.xcconfig" isTestSource="false" />
+>>>>>>> 138a830328f9530c2d278aa7734aa7add3d593d5
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Interurbanos/Pods-Interurbanos-frameworks.sh" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Interurbanos/Pods-Interurbanos-resources.sh" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Pods/Target Support Files/Pods-Interurbanos/Pods-Interurbanos-dummy.m" isTestSource="false" />

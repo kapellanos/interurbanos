@@ -10,16 +10,13 @@ import UIKit
 
 struct SearchFactory
 {
-    private let mainStoryboard = UIStoryboard(name: "Main", bundle: nil)
-    private let searchVCIdentifier = "SearchTableViewController"
-    
     var tabBarItem: UITabBarItem {
         return UITabBarItem(title: NSLocalizedString("Búsqueda", comment: ""), image: nil, selectedImage: nil)
     }
     
     func searchVC() -> UIViewController
     {
-        let searchVC = mainStoryboard.instantiateViewController(withIdentifier: searchVCIdentifier) as! SearchTableViewController
+        let searchVC = SearchTableViewController(nibName: "SearchTableViewController", bundle: nil)
         
         let presenter = SearchPresenter()
         let interactor = SearchInteractor()
@@ -34,6 +31,7 @@ struct SearchFactory
         
         let navigationViewController = UINavigationController(rootViewController: searchVC)
         navigationViewController.tabBarItem = tabBarItem
+        navigationViewController.navigationBar.isTranslucent = true
         
         return navigationViewController
     }

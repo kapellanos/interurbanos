@@ -24,10 +24,10 @@ extension UIView
     
     public func constrainEdges(toMarginOf view: UIView)
     {
-        constrainEqual(.top, to: view, .topMargin)
-        constrainEqual(.leading, to: view, .leadingMargin)
-        constrainEqual(.trailing, to: view, .trailingMargin)
-        constrainEqual(.bottom, to: view, .bottomMargin)
+        constrainEqual(.top, to: view, .top)
+        constrainEqual(.leading, to: view, .leading)
+        constrainEqual(.trailing, to: view, .trailing)
+        constrainEqual(.bottom, to: view, .bottom)
     }
     
     public func center(inView view: UIView)
