@@ -66,6 +66,7 @@
 		22CC2BB81D78CCD700B8EA57 /* SearchRoutingInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22CC2BB71D78CCD700B8EA57 /* SearchRoutingInterface.swift */; };
 		22D1BE3D1D663CC400D567CC /* Resource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D1BE3C1D663CC400D567CC /* Resource.swift */; };
 		22D1BE411D663E0400D567CC /* BusAO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 22D1BE401D663E0400D567CC /* BusAO.swift */; };
+		22DFCD331DE4CDF2002604CB /* SearchResultsSearchController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 22DFCD321DE4CDF2002604CB /* SearchResultsSearchController.xib */; };
 		49962E9F8CAE59FB7EC2CF08 /* SearchResultsRouting.swift in Sources */ = {isa = PBXBuildFile; fileRef = 49962BA8164090366012FE74 /* SearchResultsRouting.swift */; };
 		49962F7786B6EA61F3FF18B5 /* SearchResultsRoutingProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4996275B66A827E39BDE391D /* SearchResultsRoutingProtocol.swift */; };
 		B800E4D34CE998FFA061BA72 /* Pods_InterurbanosUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD2A12E40F2E91A2A9C4B41F /* Pods_InterurbanosUITests.framework */; };
@@ -157,6 +158,7 @@
 		22CC2BB71D78CCD700B8EA57 /* SearchRoutingInterface.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchRoutingInterface.swift; sourceTree = "<group>"; };
 		22D1BE3C1D663CC400D567CC /* Resource.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Resource.swift; sourceTree = "<group>"; };
 		22D1BE401D663E0400D567CC /* BusAO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BusAO.swift; sourceTree = "<group>"; };
+		22DFCD321DE4CDF2002604CB /* SearchResultsSearchController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SearchResultsSearchController.xib; sourceTree = "<group>"; };
 		4996275B66A827E39BDE391D /* SearchResultsRoutingProtocol.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsRoutingProtocol.swift; sourceTree = "<group>"; };
 		49962BA8164090366012FE74 /* SearchResultsRouting.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchResultsRouting.swift; sourceTree = "<group>"; };
 		4CD246FDBEB99774D17BD46A /* Pods-InterurbanosTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-InterurbanosTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-InterurbanosTests/Pods-InterurbanosTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -513,6 +515,7 @@
 			children = (
 				225FE90F1D7C430700F1B5FE /* SearchResultsSearchController.swift */,
 				225FE9171D7C444100F1B5FE /* SearchResultsViewInterface.swift */,
+				22DFCD321DE4CDF2002604CB /* SearchResultsSearchController.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -781,6 +784,7 @@
 			files = (
 				223A31831D83351400E0A7F9 /* BusStopTableViewCell.xib in Resources */,
 				2201263B1D65CD4E00B6884D /* LaunchScreen.storyboard in Resources */,
+				22DFCD331DE4CDF2002604CB /* SearchResultsSearchController.xib in Resources */,
 				220126381D65CD4E00B6884D /* Assets.xcassets in Resources */,
 				224554AB1D9C3CCC004895A3 /* FavoritesViewController.xib in Resources */,
 				224554B21D9C3E21004895A3 /* FavoritesContainerViewController.xib in Resources */,

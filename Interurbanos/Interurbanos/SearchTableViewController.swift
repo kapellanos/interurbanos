@@ -12,32 +12,25 @@ class SearchTableViewController: UIViewController
 {
     var eventHandler: SearchPresenterInterface?
     
+    var searchController: UISearchController?
+    
     @IBOutlet weak var tableView: UITableView!
     
     override func viewDidLoad()
     {
         super.viewDidLoad()
         
-        edgesForExtendedLayout = []
-        extendedLayoutIncludesOpaqueBars = true
-        
         eventHandler?.viewLoaded()
     }
-    
-//    override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-//        return 0
-//    }
 }
 
 extension SearchTableViewController: SearchViewInterface
 {
     func addSearchController(searchViewController: UISearchController)
     {
-        searchViewController.searchBar.delegate = self
-        definesPresentationContext = true
+        searchController = searchViewController
         searchViewController.delegate = self
-        tableView.tableHeaderView = searchViewController.searchBar
-        searchViewController.hidesNavigationBarDuringPresentation = true
+        tableView.tableHeaderView = searchController?.searchBar
     }
     
     func setupTitle(title: String)
@@ -48,40 +41,5 @@ extension SearchTableViewController: SearchViewInterface
 
 extension SearchTableViewController: UISearchControllerDelegate
 {
-    func willPresentSearchController(_ searchController: UISearchController)
-    {
-        navigationController?.navigationBar.isTranslucent = true
-    }
     
-    func willDismissSearchController(_ searchController: UISearchController)
-    {
-        navigationController?.navigationBar.isTranslucent = false
-    }
-}
-
-extension SearchTableViewController: UISearchBarDelegate
-{
-    
-    func searchBarTextDidBeginEditing(_ searchBar: UISearchBar)
-    {
-        //        eventHandler?.searchBeginEditing()
-    }
-    
-    func searchBar(_ searchBar: UISearchBar, textDidChange searchText: String)
-    {
-        //        showStatus()
-        //        changeNoResultsText()
-    }
-    
-    func searchBarCancelButtonClicked(_ searchBar: UISearchBar)
-    {
-        //        eventHandler?.didCancelSearch()
-    }
-    
-    func searchBarSearchButtonClicked(_ searchBar: UISearchBar)
-    {
-        guard let text = searchBar.text, !text.isEmpty else { return }
-        
-//        eventHandler?.searchStop(stop: text)
-    }
 }
